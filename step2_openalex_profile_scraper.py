@@ -118,7 +118,7 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
         
         # Add delay to respect API rate limits
         print("Waiting 1 second before next request...")
-        time.sleep(1)
+        time.sleep(.2)
 
     # Create new DataFrame with all columns
     result_df = pd.DataFrame(new_data)
