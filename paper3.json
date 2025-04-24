@@ -1,0 +1,417 @@
+{
+    "id": "https://openalex.org/W4396815229",
+    "doi": "https://doi.org/10.48550/arxiv.2405.04434",
+    "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts\n  Language Model",
+    "display_name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts\n  Language Model",
+    "publication_year": 2024,
+    "publication_date": "2024-05-07",
+    "ids": {
+      "openalex": "https://openalex.org/W4396815229",
+      "doi": "https://doi.org/10.48550/arxiv.2405.04434"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2405.04434",
+      "pdf_url": "https://arxiv.org/pdf/2405.04434",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    "type": "preprint",
+    "type_crossref": "posted-content",
+    "indexed_in": [
+      "arxiv"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2405.04434",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5097335917",
+          "display_name": "DeepSeek-AI",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "DeepSeek-AI",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5097335917"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.912403,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13274",
+      "display_name": "Expert finding and Q&A systems",
+      "score": 0.9864,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13274",
+        "display_name": "Expert finding and Q&A systems",
+        "score": 0.9864,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.9842,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12031",
+        "display_name": "Speech and dialogue systems",
+        "score": 0.9322,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.47294092
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.3730734
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.3687504
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.14141917
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/abs/2405.04434",
+        "pdf_url": "https://arxiv.org/pdf/2405.04434",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [
+            "Cornell University"
+          ],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false
+      }
+    ],
+    "best_oa_location": {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2405.04434",
+      "pdf_url": "https://arxiv.org/pdf/2405.04434",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    "sustainable_development_goals": [],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W4396696052",
+      "https://openalex.org/W4395014643",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2382290278",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W2001405890"
+    ],
+    "abstract_inverted_index": {
+      "We": [0, 107],
+      "present": [1],
+      "DeepSeek-V2,": [2],
+      "a": [3, 31, 60, 111],
+      "strong": [4, 67],
+      "Mixture-of-Experts": [5],
+      "(MoE)": [6],
+      "language": [7],
+      "model": [8],
+      "characterized": [9],
+      "by": [10, 96],
+      "economical": [11, 71],
+      "training": [12, 66, 90],
+      "and": [13, 29, 46, 85, 98, 113, 120, 126, 146],
+      "efficient": [14, 50],
+      "inference.": [15],
+      "It": [16],
+      "comprises": [17],
+      "236B": [18],
+      "total": [19],
+      "parameters,": [20, 144],
+      "of": [21, 34, 89, 117],
+      "which": [22],
+      "21B": [23, 142],
+      "are": [24],
+      "activated": [25, 143],
+      "for": [26],
+      "each": [27],
+      "token,": [28],
+      "supports": [30],
+      "context": [32],
+      "length": [33],
+      "128K": [35],
+      "tokens.": [36],
+      "DeepSeek-V2": [37, 80, 109, 145],
+      "adopts": [38],
+      "innovative": [39],
+      "architectures": [40],
+      "including": [41],
+      "Multi-head": [42],
+      "Latent": [43],
+      "Attention": [44],
+      "(MLA)": [45],
+      "DeepSeekMoE.": [47],
+      "MLA": [48],
+      "guarantees": [49],
+      "inference": [51],
+      "through": [52, 73],
+      "significantly": [53, 82],
+      "compressing": [54],
+      "the": [55, 93, 100],
+      "Key-Value": [56],
+      "(KV)": [57],
+      "cache": [58, 95],
+      "into": [59],
+      "latent": [61],
+      "vector,": [62],
+      "while": [63],
+      "DeepSeekMoE": [64],
+      "enables": [65],
+      "models": [68],
+      "at": [69],
+      "an": [70],
+      "cost": [72],
+      "sparse": [74],
+      "computation.": [75],
+      "Compared": [76],
+      "with": [77, 140],
+      "DeepSeek": [78],
+      "67B,": [79],
+      "achieves": [81],
+      "stronger": [83],
+      "performance,": [84],
+      "meanwhile": [86],
+      "saves": [87],
+      "42.5%": [88],
+      "costs,": [91],
+      "reduces": [92],
+      "KV": [94],
+      "93.3%,": [97],
+      "boosts": [99],
+      "maximum": [101],
+      "generation": [102],
+      "throughput": [103],
+      "to": [104, 130],
+      "5.76": [105],
+      "times.": [106],
+      "pretrain": [108],
+      "on": [110],
+      "high-quality": [112],
+      "multi-source": [114],
+      "corpus": [115],
+      "consisting": [116],
+      "8.1T": [118],
+      "tokens,": [119],
+      "further": [121],
+      "perform": [122],
+      "Supervised": [123],
+      "Fine-Tuning": [124],
+      "(SFT)": [125],
+      "Reinforcement": [127],
+      "Learning": [128],
+      "(RL)": [129],
+      "fully": [131],
+      "unlock": [132],
+      "its": [133, 147],
+      "potential.": [134],
+      "Evaluation": [135],
+      "results": [136],
+      "show": [137],
+      "that,": [138],
+      "even": [139],
+      "only": [141],
+      "chat": [148],
+      "versions": [149],
+      "still": [150],
+      "achieve": [151],
+      "top-tier": [152],
+      "performance": [153],
+      "among": [154],
+      "open-source": [155],
+      "models.": [156]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4396815229",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-02-12T19:03:41.086875",
+    "created_date": "2024-05-11"
+  }
