@@ -2,14 +2,14 @@ import json
 import csv
 
 # Load JSON data from a file
-json_file = "openai.json"
+json_file = "paper4.json"
 with open(json_file, "r", encoding="utf-8") as file:
     data = json.load(file)  # Load the JSON data
 
 authors = data.get("authorships", [])  # Get the list of authors
 
 # Prepare the CSV file
-csv_file = "openai_authors_metadata.csv"
+csv_file = "paper4_metadata.csv"
 
 # Extract the data and write it to a CSV
 with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
