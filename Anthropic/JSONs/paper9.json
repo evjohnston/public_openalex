@@ -1,0 +1,717 @@
+{
+  "id": "https://openalex.org/W4405626355",
+  "doi": "https://doi.org/10.48550/arxiv.2412.13678",
+  "title": "Clio: Privacy-Preserving Insights into Real-World AI Use",
+  "display_name": "Clio: Privacy-Preserving Insights into Real-World AI Use",
+  "publication_year": 2024,
+  "publication_date": "2024-12-18",
+  "ids": {
+    "openalex": "https://openalex.org/W4405626355",
+    "doi": "https://doi.org/10.48550/arxiv.2412.13678"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2412.13678",
+    "pdf_url": "http://arxiv.org/pdf/2412.13678",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "arxiv"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://arxiv.org/pdf/2412.13678",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5081558429",
+        "display_name": "Alex Tamkin",
+        "orcid": "https://orcid.org/0009-0006-0007-3746"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tamkin, Alex",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029616530",
+        "display_name": "Miles McCain",
+        "orcid": "https://orcid.org/0000-0001-5326-9212"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "McCain, Miles",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036181983",
+        "display_name": "Kunal Handa",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Handa, Kunal",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001994692",
+        "display_name": "Esin Durmus",
+        "orcid": "https://orcid.org/0009-0009-7331-8160"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Durmus, Esin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026784501",
+        "display_name": "Liane Lovitt",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lovitt, Liane",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113184302",
+        "display_name": "A K Rathi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rathi, Ankur",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040949100",
+        "display_name": "Saffron Huang",
+        "orcid": "https://orcid.org/0009-0008-2654-5961"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Huang, Saffron",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5115560627",
+        "display_name": "Alfred Mountfield",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mountfield, Alfred",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059202228",
+        "display_name": "Jing Hong",
+        "orcid": "https://orcid.org/0000-0002-8079-2073"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hong, Jerry",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049097607",
+        "display_name": "Stuart J. Ritchie",
+        "orcid": "https://orcid.org/0000-0001-8512-7825"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ritchie, Stuart",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024092541",
+        "display_name": "Michael E. Stern",
+        "orcid": "https://orcid.org/0000-0001-7466-1184"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Stern, Michael",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5075321113",
+        "display_name": "Brian Clarke",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Clarke, Brian",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015730722",
+        "display_name": "Landon Goldberg",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Goldberg, Landon",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5115560625",
+        "display_name": "Theodore R. Sumers",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sumers, Theodore R.",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070762421",
+        "display_name": "Jared Mueller",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mueller, Jared",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5115560626",
+        "display_name": "William McEachen",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "McEachen, William",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036342509",
+        "display_name": "Wendy G. Mitchell",
+        "orcid": "https://orcid.org/0000-0001-8082-1383"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mitchell, Wes",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087762412",
+        "display_name": "Shan Carter",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Carter, Shan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067800460",
+        "display_name": "Jack Clark",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Clark, Jack",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053213601",
+        "display_name": "Jared Kaplan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kaplan, Jared",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5006294201",
+        "display_name": "Deep Ganguli",
+        "orcid": "https://orcid.org/0009-0007-9435-3817"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ganguli, Deep",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+    "value": 0.869698,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 92
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10764",
+    "display_name": "Privacy-Preserving Technologies in Data",
+    "score": 0.9803,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9803,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C108827166",
+      "wikidata": "https://www.wikidata.org/wiki/Q175975",
+      "display_name": "Internet privacy",
+      "level": 1,
+      "score": 0.5028064
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.44564664
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.37271613
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.3481357
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.3274631
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2412.13678",
+      "pdf_url": "http://arxiv.org/pdf/2412.13678",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2412.13678",
+    "pdf_url": "http://arxiv.org/pdf/2412.13678",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4396701345",
+    "https://openalex.org/W4396696052",
+    "https://openalex.org/W4391913857",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W2001405890"
+  ],
+  "abstract_inverted_index": {
+    "How": [0],
+    "are": [1, 110],
+    "AI": [2, 53, 235, 245],
+    "assistants": [3, 54],
+    "being": [4, 111],
+    "used": [5, 112],
+    "in": [6, 13, 99, 113, 165],
+    "the": [7, 68, 114, 142, 218],
+    "real": [8, 115],
+    "world?": [9],
+    "While": [10],
+    "model": [11],
+    "providers": [12],
+    "theory": [14],
+    "have": [15, 31],
+    "a": [16, 48, 84, 239],
+    "window": [17],
+    "into": [18],
+    "this": [19, 34, 79],
+    "impact": [20],
+    "via": [21],
+    "their": [22],
+    "users'": [23],
+    "data,": [24],
+    "both": [25],
+    "privacy": [26, 90],
+    "concerns": [27],
+    "and": [28, 46, 58, 89, 122, 137, 152, 170, 209, 227, 247],
+    "practical": [29],
+    "challenges": [30],
+    "made": [32],
+    "analyzing": [33],
+    "data": [35],
+    "difficult.": [36],
+    "To": [37],
+    "address": [38],
+    "these": [39],
+    "issues,": [40],
+    "we": [41, 104, 177],
+    "present": [42],
+    "Clio": [43, 179, 237],
+    "(Claude": [44],
+    "insights": [45, 106],
+    "observations),": [47],
+    "privacy-preserving": [49],
+    "platform": [50, 241],
+    "that": [51, 159],
+    "uses": [52],
+    "themselves": [55],
+    "to": [56, 73, 131, 180, 189],
+    "analyze": [57],
+    "surface": [59],
+    "aggregated": [60],
+    "usage": [61],
+    "patterns": [62, 158],
+    "across": [63, 161],
+    "millions": [64],
+    "of": [65, 87, 202, 220, 233],
+    "conversations,": [66, 124],
+    "without": [67],
+    "need": [69],
+    "for": [70, 194, 242],
+    "human": [71],
+    "reviewers": [72],
+    "read": [74],
+    "raw": [75],
+    "conversations.": [76],
+    "We": [77, 95, 139, 215],
+    "validate": [78],
+    "can": [80],
+    "be": [81],
+    "done": [82],
+    "with": [83],
+    "high": [85],
+    "degree": [86],
+    "accuracy": [88],
+    "by": [91, 185],
+    "conducting": [92],
+    "extensive": [93],
+    "evaluations.": [94],
+    "demonstrate": [96],
+    "Clio's": [97],
+    "usefulness": [98],
+    "two": [100],
+    "broad": [101],
+    "ways.": [102],
+    "First,": [103],
+    "share": [105],
+    "about": [107],
+    "how": [108],
+    "models": [109],
+    "world": [116, 207],
+    "from": [117, 126],
+    "one": [118],
+    "million": [119],
+    "Claude.ai": [120, 149],
+    "Free": [121],
+    "Pro": [123],
+    "ranging": [125],
+    "providing": [127, 132],
+    "advice": [128],
+    "on": [129, 134, 148],
+    "hairstyles": [130],
+    "guidance": [133],
+    "Git": [135],
+    "operations": [136],
+    "concepts.": [138],
+    "also": [140, 216],
+    "identify": [141],
+    "most": [143],
+    "common": [144],
+    "high-level": [145],
+    "use": [146, 178],
+    "cases": [147],
+    "(coding,": [150],
+    "writing,": [151],
+    "research": [153],
+    "tasks)": [154],
+    "as": [155, 157, 223, 225],
+    "well": [156, 224],
+    "differ": [160],
+    "languages": [162],
+    "(e.g.,": [163],
+    "conversations": [164],
+    "Japanese": [166],
+    "discuss": [167, 217],
+    "elder": [168],
+    "care": [169],
+    "aging": [171],
+    "populations": [172],
+    "at": [173],
+    "higher-than-typical": [174],
+    "rates).": [175],
+    "Second,": [176],
+    "make": [181],
+    "our": [182, 191, 211, 221],
+    "systems": [183],
+    "safer": [184],
+    "identifying": [186],
+    "coordinated": [187],
+    "attempts": [188],
+    "abuse": [190],
+    "systems,": [192],
+    "monitoring": [193, 213],
+    "unknown": [195],
+    "unknowns": [196],
+    "during": [197],
+    "critical": [198],
+    "periods": [199],
+    "like": [200],
+    "launches": [201],
+    "new": [203],
+    "capabilities": [204],
+    "or": [205],
+    "major": [206],
+    "events,": [208],
+    "improving": [210],
+    "existing": [212],
+    "systems.": [214],
+    "limitations": [219],
+    "approach,": [222],
+    "risks": [226],
+    "ethical": [228],
+    "concerns.": [229],
+    "By": [230],
+    "enabling": [231],
+    "analysis": [232],
+    "real-world": [234],
+    "usage,": [236],
+    "provides": [238],
+    "scalable": [240],
+    "empirically": [243],
+    "grounded": [244],
+    "safety": [246],
+    "governance.": [248]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4405626355",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-07-31T00:07:51.500823",
+  "created_date": "2024-12-21"
+}

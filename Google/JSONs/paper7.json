@@ -1,0 +1,441 @@
+{
+  "id": "https://openalex.org/W4406603682",
+  "doi": "https://doi.org/10.48550/arxiv.2501.09891",
+  "title": "Evolving Deeper LLM Thinking",
+  "display_name": "Evolving Deeper LLM Thinking",
+  "publication_year": 2025,
+  "publication_date": "2025-01-16",
+  "ids": {
+    "openalex": "https://openalex.org/W4406603682",
+    "doi": "https://doi.org/10.48550/arxiv.2501.09891"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2501.09891",
+    "pdf_url": "http://arxiv.org/pdf/2501.09891",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "arxiv"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://arxiv.org/pdf/2501.09891",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5030702181",
+        "display_name": "Kuang-Huei Lee",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lee, Kuang-Huei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051461147",
+        "display_name": "Ian Fischer",
+        "orcid": "https://orcid.org/0000-0003-3886-5619"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fischer, Ian",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051852804",
+        "display_name": "Yingju Wu",
+        "orcid": "https://orcid.org/0000-0002-1845-6984"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Yueh-Hua",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073005062",
+        "display_name": "Dave Marwood",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Marwood, Dave",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085643229",
+        "display_name": "Shumeet Baluja",
+        "orcid": "https://orcid.org/0000-0002-8696-8711"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Baluja, Shumeet",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5115944506",
+        "display_name": "Dale Schuurmans",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Schuurmans, Dale",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5101977007",
+        "display_name": "Xinyun Chen",
+        "orcid": "https://orcid.org/0000-0003-4414-0964"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Xinyun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 0,
+    "max": 91
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13999",
+    "display_name": "Digital Rights Management and Security",
+    "score": 0.7933,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1710",
+      "display_name": "Information Systems"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13999",
+      "display_name": "Digital Rights Management and Security",
+      "score": 0.7933,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13643",
+      "display_name": "Artificial Intelligence in Law",
+      "score": 0.7811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13851",
+      "display_name": "Law, AI, and Intellectual Property",
+      "score": 0.7316,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.34985828
+    },
+    {
+      "id": "https://openalex.org/C55587333",
+      "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+      "display_name": "Engineering ethics",
+      "level": 1,
+      "score": 0.328162
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.204305
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2501.09891",
+      "pdf_url": "http://arxiv.org/pdf/2501.09891",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2501.09891",
+    "pdf_url": "http://arxiv.org/pdf/2501.09891",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4401768695",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W3006817050",
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2134894512",
+    "https://openalex.org/W2083375246",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W2067108088"
+  ],
+  "abstract_inverted_index": {
+    "We": [0],
+    "explore": [1],
+    "an": [2],
+    "evolutionary": [3],
+    "search": [4],
+    "strategy": [5],
+    "for": [6, 50],
+    "scaling": [7],
+    "inference": [8, 41, 51, 61],
+    "time": [9],
+    "compute": [10],
+    "in": [11, 69],
+    "Large": [12],
+    "Language": [13],
+    "Models.": [14],
+    "The": [15, 31],
+    "proposed": [16, 32],
+    "approach,": [17],
+    "Mind": [18, 56, 81],
+    "Evolution,": [19],
+    "uses": [20],
+    "a": [21, 44, 99],
+    "language": [22, 71],
+    "model": [23],
+    "to": [24, 37],
+    "generate,": [25],
+    "recombine": [26],
+    "and": [27, 66, 77],
+    "refine": [28],
+    "candidate": [29],
+    "responses.": [30],
+    "approach": [33],
+    "avoids": [34],
+    "the": [35, 39, 75, 88, 96],
+    "need": [36],
+    "formalize": [38],
+    "underlying": [40],
+    "problem": [42, 89],
+    "whenever": [43],
+    "solution": [45],
+    "evaluator": [46],
+    "is": [47],
+    "available.": [48],
+    "Controlling": [49],
+    "cost,": [52],
+    "we": [53],
+    "find": [54],
+    "that": [55],
+    "Evolution": [57, 82],
+    "significantly": [58],
+    "outperforms": [59],
+    "other": [60],
+    "strategies": [62],
+    "such": [63],
+    "as": [64],
+    "Best-of-N": [65],
+    "Sequential": [67],
+    "Revision": [68],
+    "natural": [70],
+    "planning": [72],
+    "tasks.": [73],
+    "In": [74],
+    "TravelPlanner": [76],
+    "Natural": [78],
+    "Plan": [79],
+    "benchmarks,": [80],
+    "solves": [83],
+    "more": [84],
+    "than": [85],
+    "98%": [86],
+    "of": [87, 98],
+    "instances": [90],
+    "using": [91],
+    "Gemini": [92],
+    "1.5": [93],
+    "Pro": [94],
+    "without": [95],
+    "use": [97],
+    "formal": [100],
+    "solver.": [101]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4406603682",
+  "counts_by_year": [],
+  "updated_date": "2025-07-25T19:11:02.067111",
+  "created_date": "2025-01-21"
+}

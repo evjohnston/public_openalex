@@ -1,0 +1,565 @@
+{
+  "id": "https://openalex.org/W2903697572",
+  "doi": "https://doi.org/10.48550/arxiv.1812.06162",
+  "title": "An Empirical Model of Large-Batch Training",
+  "display_name": "An Empirical Model of Large-Batch Training",
+  "publication_year": 2018,
+  "publication_date": "2018-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2903697572",
+    "doi": "https://doi.org/10.48550/arxiv.1812.06162",
+    "mag": "2903697572"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/1812.06162",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/abs/1812.06162",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054887773",
+        "display_name": "Sam McCandlish",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sam McCandlish",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053213601",
+        "display_name": "Jared Kaplan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jared Kaplan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066197394",
+        "display_name": "Dario Amodei",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dario Amodei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5076527945",
+        "display_name": "OpenAI Dota Team",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "OpenAI Dota Team",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 143,
+  "citation_normalized_percentile": {
+    "value": 0.999706,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12288",
+    "display_name": "Optimization and Search Problems",
+    "score": 0.9936,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1705",
+      "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12288",
+      "display_name": "Optimization and Search Problems",
+      "score": 0.9936,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12072",
+      "display_name": "Machine Learning and Algorithms",
+      "score": 0.9918,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10462",
+      "display_name": "Reinforcement Learning in Robotics",
+      "score": 0.9783,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777211547",
+      "wikidata": "https://www.wikidata.org/wiki/Q17141490",
+      "display_name": "Training (meteorology)",
+      "level": 2,
+      "score": 0.6629324
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.46497986
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.321225
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.09905782
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/1812.06162",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://api.datacite.org/dois/10.48550/arxiv.1812.06162",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4393179698",
+        "display_name": "DataCite API",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210145204",
+        "host_organization_name": "DataCite",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210145204"
+        ],
+        "host_organization_lineage_names": [
+          "DataCite"
+        ],
+        "type": "metadata"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/1812.06162",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 36,
+  "referenced_works": [
+    "https://openalex.org/W104184427",
+    "https://openalex.org/W1522301498",
+    "https://openalex.org/W1816313093",
+    "https://openalex.org/W1850240193",
+    "https://openalex.org/W2108598243",
+    "https://openalex.org/W2120420045",
+    "https://openalex.org/W2263490141",
+    "https://openalex.org/W2335728318",
+    "https://openalex.org/W2436219157",
+    "https://openalex.org/W2532439643",
+    "https://openalex.org/W2574140004",
+    "https://openalex.org/W2593634001",
+    "https://openalex.org/W2604744755",
+    "https://openalex.org/W2617242334",
+    "https://openalex.org/W2755682530",
+    "https://openalex.org/W2757910899",
+    "https://openalex.org/W2765733029",
+    "https://openalex.org/W2766164908",
+    "https://openalex.org/W2769856846",
+    "https://openalex.org/W2773689216",
+    "https://openalex.org/W2776610675",
+    "https://openalex.org/W2785533664",
+    "https://openalex.org/W2786615446",
+    "https://openalex.org/W2786899637",
+    "https://openalex.org/W2786928559",
+    "https://openalex.org/W2793035934",
+    "https://openalex.org/W2893749619",
+    "https://openalex.org/W2900167092",
+    "https://openalex.org/W2904243021",
+    "https://openalex.org/W2949650786",
+    "https://openalex.org/W2951004968",
+    "https://openalex.org/W2951714314",
+    "https://openalex.org/W2952754453",
+    "https://openalex.org/W2962915600",
+    "https://openalex.org/W3103780890",
+    "https://openalex.org/W3118608800"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2810751659",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W258997015",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W230091440",
+    "https://openalex.org/W2233261550",
+    "https://openalex.org/W2001405890"
+  ],
+  "abstract_inverted_index": {
+    "In": [0, 92],
+    "an": [1],
+    "increasing": [2],
+    "number": [3, 121],
+    "of": [4, 29, 44, 46, 52, 71, 122, 188, 191],
+    "domains": [5, 116, 134],
+    "it": [6],
+    "has": [7],
+    "been": [8],
+    "demonstrated": [9],
+    "that": [10, 57, 97, 148],
+    "deep": [11],
+    "learning": [12, 124, 133],
+    "models": [13],
+    "can": [14],
+    "be": [15],
+    "trained": [16],
+    "using": [17],
+    "relatively": [18],
+    "large": [19],
+    "batch": [20, 76, 86, 112],
+    "sizes": [21],
+    "without": [22],
+    "sacrificing": [23],
+    "data": [24, 32],
+    "efficiency.": [25],
+    "However": [26],
+    "the": [27, 59, 84, 104, 109, 149, 154, 164, 177, 189],
+    "limits": [28, 74],
+    "this": [30, 93],
+    "massive": [31],
+    "parallelism": [33],
+    "seem": [34],
+    "to": [35, 39, 50, 75],
+    "differ": [36, 78],
+    "from": [37, 42],
+    "domain": [38],
+    "domain,": [40],
+    "ranging": [41],
+    "batches": [43, 51],
+    "tens": [45],
+    "thousands": [47],
+    "in": [48, 54, 88],
+    "ImageNet": [49],
+    "millions": [53],
+    "RL": [55],
+    "agents": [56],
+    "play": [58],
+    "game": [60],
+    "Dota": [61],
+    "2.": [62],
+    "To": [63],
+    "our": [64],
+    "knowledge": [65],
+    "there": [66],
+    "is": [67],
+    "limited": [68],
+    "conceptual": [69],
+    "understanding": [70],
+    "why": [72],
+    "these": [73],
+    "size": [77, 87, 113, 166],
+    "or": [79],
+    "how": [80],
+    "we": [81, 95],
+    "might": [82],
+    "choose": [83],
+    "correct": [85],
+    "a": [89, 98, 120, 158, 185],
+    "new": [90],
+    "domain.": [91],
+    "paper,": [94],
+    "demonstrate": [96],
+    "simple": [99],
+    "and": [100, 117, 136, 138, 161, 181, 183],
+    "easy-to-measure": [101],
+    "statistic": [102],
+    "called": [103],
+    "gradient": [105],
+    "noise": [106, 150],
+    "scale": [107, 151],
+    "predicts": [108],
+    "largest": [110],
+    "useful": [111],
+    "across": [114],
+    "many": [115],
+    "applications,": [118],
+    "including": [119],
+    "supervised": [123],
+    "datasets": [125],
+    "(MNIST,": [126],
+    "SVHN,": [127],
+    "CIFAR-10,": [128],
+    "ImageNet,": [129],
+    "Billion": [130],
+    "Word),": [131],
+    "reinforcement": [132],
+    "(Atari": [135],
+    "Dota),": [137],
+    "even": [139],
+    "generative": [140],
+    "model": [141, 165, 170, 187],
+    "training": [142, 159],
+    "(autoencoders": [143],
+    "on": [144, 163],
+    "SVHN).": [145],
+    "We": [146],
+    "find": [147],
+    "increases": [152],
+    "as": [153],
+    "loss": [155],
+    "decreases": [156],
+    "over": [157],
+    "run": [160],
+    "depends": [162],
+    "primarily": [167],
+    "through": [168],
+    "improved": [169],
+    "performance.": [171],
+    "Our": [172],
+    "empirically-motivated": [173],
+    "theory": [174],
+    "also": [175],
+    "describes": [176],
+    "tradeoff": [178],
+    "between": [179],
+    "compute-efficiency": [180],
+    "time-efficiency,": [182],
+    "provides": [184],
+    "rough": [186],
+    "benefits": [190],
+    "adaptive": [192],
+    "batch-size": [193],
+    "training.": [194]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2903697572",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-07-17T21:12:18.665516",
+  "created_date": "2018-12-22"
+}

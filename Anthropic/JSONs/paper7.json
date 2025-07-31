@@ -1,0 +1,567 @@
+{
+  "id": "https://openalex.org/W4399795554",
+  "doi": "https://doi.org/10.48550/arxiv.2406.10162",
+  "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large\n  Language Models",
+  "display_name": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large\n  Language Models",
+  "publication_year": 2024,
+  "publication_date": "2024-06-14",
+  "ids": {
+    "openalex": "https://openalex.org/W4399795554",
+    "doi": "https://doi.org/10.48550/arxiv.2406.10162"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/2406.10162",
+    "pdf_url": "https://arxiv.org/pdf/2406.10162",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "arxiv"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2406.10162",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5079864698",
+        "display_name": "Carson Denison",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Denison, Carson",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084608104",
+        "display_name": "Monte MacDiarmid",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "MacDiarmid, Monte",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050436152",
+        "display_name": "Fazl Barez",
+        "orcid": "https://orcid.org/0009-0008-1889-6577"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Barez, Fazl",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030409494",
+        "display_name": "David Duvenaud",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duvenaud, David",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009112681",
+        "display_name": "Shauna Kravec",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kravec, Shauna",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032071922",
+        "display_name": "Samuel Marks",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Marks, Samuel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050348824",
+        "display_name": "Nicholas Schiefer",
+        "orcid": "https://orcid.org/0000-0002-3065-6399"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Schiefer, Nicholas",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5099241628",
+        "display_name": "Ryan Soklaski",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Soklaski, Ryan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081558429",
+        "display_name": "Alex Tamkin",
+        "orcid": "https://orcid.org/0009-0006-0007-3746"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tamkin, Alex",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053213601",
+        "display_name": "Jared Kaplan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kaplan, Jared",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050408969",
+        "display_name": "Buck Shlegeris",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shlegeris, Buck",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112713734",
+        "display_name": "Samuel R. Bowman",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Bowman, Samuel R.",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091112967",
+        "display_name": "Ethan Perez",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Perez, Ethan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5025461840",
+        "display_name": "Evan Hubinger",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hubinger, Evan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 0,
+    "max": 72
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13560",
+    "display_name": "Socioeconomic Development in MENA",
+    "score": 0.0993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3312",
+      "display_name": "Sociology and Political Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13560",
+      "display_name": "Socioeconomic Development in MENA",
+      "score": 0.0993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13634",
+      "display_name": "Middle East and Rwanda Conflicts",
+      "score": 0.0895,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5245681
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.35539553
+    },
+    {
+      "id": "https://openalex.org/C108827166",
+      "wikidata": "https://www.wikidata.org/wiki/Q175975",
+      "display_name": "Internet privacy",
+      "level": 1,
+      "score": 0.33005774
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2406.10162",
+      "pdf_url": "https://arxiv.org/pdf/2406.10162",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/2406.10162",
+    "pdf_url": "https://arxiv.org/pdf/2406.10162",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4396701345",
+    "https://openalex.org/W4396696052",
+    "https://openalex.org/W4395014643",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2382290278",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W2001405890"
+  ],
+  "abstract_inverted_index": {
+    "In": [0, 60],
+    "reinforcement": [1],
+    "learning,": [2],
+    "specification": [3, 77, 112, 182],
+    "gaming": [4, 22, 78, 113, 183],
+    "occurs": [5],
+    "when": [6],
+    "AI": [7],
+    "systems": [8],
+    "learn": [9],
+    "undesired": [10],
+    "behaviors": [11, 27, 34, 50],
+    "that": [12, 104, 174, 190],
+    "are": [13],
+    "highly": [14],
+    "rewarded": [15],
+    "due": [16],
+    "to": [17, 30, 55, 81, 89, 110, 135, 146, 163, 184, 196],
+    "misspecified": [18],
+    "training": [19, 105, 162],
+    "goals.": [20],
+    "Specification": [21],
+    "can": [23, 176],
+    "range": [24],
+    "from": [25, 178],
+    "simple": [26],
+    "like": [28, 35],
+    "sycophancy": [29],
+    "sophisticated": [31, 99],
+    "and": [32, 84, 90, 102, 189],
+    "pernicious": [33, 49, 186],
+    "reward-tampering,": [36],
+    "where": [37],
+    "a": [38, 95, 118],
+    "model": [39],
+    "directly": [40, 136],
+    "modifies": [41],
+    "its": [42],
+    "own": [43, 139],
+    "reward": [44, 140, 187],
+    "mechanism.": [45],
+    "However,": [46],
+    "these": [47],
+    "more": [48, 85, 111, 185],
+    "may": [51, 193],
+    "be": [52, 56, 194],
+    "too": [53],
+    "complex": [54],
+    "discovered": [57, 74],
+    "via": [58],
+    "exploration.": [59],
+    "this": [61],
+    "paper,": [62],
+    "we": [63],
+    "study": [64],
+    "whether": [65],
+    "Large": [66],
+    "Language": [67],
+    "Model": [68],
+    "(LLM)": [69],
+    "assistants": [70, 127],
+    "which": [71],
+    "find": [72, 103],
+    "easily": [73],
+    "forms": [75, 180],
+    "of": [76, 97, 123, 181],
+    "will": [79],
+    "generalize": [80, 133, 177],
+    "perform": [82],
+    "rarer": [83],
+    "blatant": [86],
+    "forms,": [87],
+    "up": [88],
+    "including": [91],
+    "reward-tampering.": [92, 170],
+    "We": [93],
+    "construct": [94],
+    "curriculum": [96, 132],
+    "increasingly": [98],
+    "gameable": [100, 165],
+    "environments": [101, 108, 149, 166],
+    "on": [106, 114, 129],
+    "early-curriculum": [107, 148],
+    "leads": [109],
+    "remaining": [115],
+    "environments.": [116, 158],
+    "Strikingly,": [117],
+    "small": [119],
+    "but": [120, 151],
+    "non-negligible": [121],
+    "proportion": [122],
+    "the": [124, 130],
+    "time,": [125],
+    "LLM": [126, 144],
+    "trained": [128],
+    "full": [131],
+    "zero-shot": [134],
+    "rewriting": [137],
+    "their": [138],
+    "function.": [141],
+    "Retraining": [142],
+    "an": [143],
+    "not": [145, 153, 168],
+    "game": [147],
+    "mitigates,": [150],
+    "does": [152, 167],
+    "eliminate,": [154],
+    "reward-tampering": [155],
+    "in": [156],
+    "later": [157],
+    "Moreover,": [159],
+    "adding": [160],
+    "harmlessness": [161],
+    "our": [164],
+    "prevent": [169],
+    "These": [171],
+    "results": [172],
+    "demonstrate": [173],
+    "LLMs": [175],
+    "common": [179],
+    "tampering": [188],
+    "such": [191],
+    "behavior": [192],
+    "nontrivial": [195],
+    "remove.": [197]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4399795554",
+  "counts_by_year": [],
+  "updated_date": "2025-07-27T09:24:33.224000",
+  "created_date": "2024-06-19"
+}

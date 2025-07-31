@@ -1,0 +1,1060 @@
+{
+  "id": "https://openalex.org/W3120327542",
+  "doi": "https://doi.org/10.48550/arxiv.2101.04882",
+  "title": "Asymmetric self-play for automatic goal discovery in robotic manipulation",
+  "display_name": "Asymmetric self-play for automatic goal discovery in robotic manipulation",
+  "publication_year": 2021,
+  "publication_date": "2021-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W3120327542",
+    "doi": "https://doi.org/10.48550/arxiv.2101.04882",
+    "mag": "3120327542"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/2101.04882",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/abs/2101.04882",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5048350993",
+        "display_name": "OpenAI OpenAI",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "OpenAI OpenAI",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037117755",
+        "display_name": "Matthias Plappert",
+        "orcid": "https://orcid.org/0000-0002-0751-8094"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Matthias Plappert",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078100000",
+        "display_name": "Raul Sampedro",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Raul Sampedro",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035394666",
+        "display_name": "Tao Xu",
+        "orcid": "https://orcid.org/0000-0002-0834-2211"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tao Xu",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046491870",
+        "display_name": "Ilge Akkaya",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ilge Akkaya",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065338363",
+        "display_name": "Vineet Kosaraju",
+        "orcid": "https://orcid.org/0000-0001-5258-7673"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vineet Kosaraju",
+      "raw_affiliation_strings": [
+        "Stanford University ()"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stanford University ()",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010674841",
+        "display_name": "Peter Welinder",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Welinder",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068437964",
+        "display_name": "Ruben D'Sa",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruben D'Sa",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022175131",
+        "display_name": "Arthur J Petron",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arthur Petron",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028891032",
+        "display_name": "Henrique Pondé de Oliveira Pinto",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henrique Ponde de Oliveira Pinto",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080211309",
+        "display_name": "Alex Paino",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alex Paino",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084673940",
+        "display_name": "Hyeonwoo Noh",
+        "orcid": "https://orcid.org/0000-0003-0349-4301"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799891827",
+          "display_name": "Korea Post",
+          "ror": "https://ror.org/00p45d091",
+          "country_code": "KR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2799891827",
+            "https://openalex.org/I2801339556",
+            "https://openalex.org/I4387152098"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hyeonwoo Noh",
+      "raw_affiliation_strings": [
+        "Postech"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Postech",
+          "institution_ids": [
+            "https://openalex.org/I2799891827"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103810699",
+        "display_name": "Lilian Weng",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lilian Weng",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002281342",
+        "display_name": "Qiming Yuan",
+        "orcid": "https://orcid.org/0000-0003-0621-1338"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161460",
+          "display_name": "OpenAI (United States)",
+          "ror": "https://ror.org/05wx9n238",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiming Yuan",
+      "raw_affiliation_strings": [
+        "[OpenAI.]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[OpenAI.]",
+          "institution_ids": [
+            "https://openalex.org/I4210161460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112527526",
+        "display_name": "Casey Chu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Casey Chu",
+      "raw_affiliation_strings": [
+        "Stanford University ()"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stanford University ()",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5076651586",
+        "display_name": "Wojciech Zaremba",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wojciech Zaremba",
+      "raw_affiliation_strings": [
+        " New York University\u003Csup\u003E**\u003C/sup\u003E"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " New York University\u003Csup\u003E**\u003C/sup\u003E",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 21,
+  "citation_normalized_percentile": {
+    "value": 0.949872,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10462",
+    "display_name": "Reinforcement Learning in Robotics",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10462",
+      "display_name": "Reinforcement Learning in Robotics",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10653",
+      "display_name": "Robot Manipulation and Learning",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10586",
+      "display_name": "Robotic Path Planning Algorithms",
+      "score": 0.9972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4569654
+    },
+    {
+      "id": "https://openalex.org/C107457646",
+      "wikidata": "https://www.wikidata.org/wiki/Q207434",
+      "display_name": "Human–computer interaction",
+      "level": 1,
+      "score": 0.43430033
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.42296147
+    },
+    {
+      "id": "https://openalex.org/C188147891",
+      "wikidata": "https://www.wikidata.org/wiki/Q147638",
+      "display_name": "Cognitive science",
+      "level": 1,
+      "score": 0.39915687
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3584283
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.34787932
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2101.04882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://api.datacite.org/dois/10.48550/arxiv.2101.04882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4393179698",
+        "display_name": "DataCite API",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210145204",
+        "host_organization_name": "DataCite",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210145204"
+        ],
+        "host_organization_lineage_names": [
+          "DataCite"
+        ],
+        "type": "metadata"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/2101.04882",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 57,
+  "referenced_works": [
+    "https://openalex.org/W1520597402",
+    "https://openalex.org/W1522301498",
+    "https://openalex.org/W1594201624",
+    "https://openalex.org/W2004303440",
+    "https://openalex.org/W2046578104",
+    "https://openalex.org/W2101524054",
+    "https://openalex.org/W2131600418",
+    "https://openalex.org/W2158782408",
+    "https://openalex.org/W2190691619",
+    "https://openalex.org/W2257979135",
+    "https://openalex.org/W2534269850",
+    "https://openalex.org/W2550182557",
+    "https://openalex.org/W2575705757",
+    "https://openalex.org/W2578206533",
+    "https://openalex.org/W2594829461",
+    "https://openalex.org/W2605102758",
+    "https://openalex.org/W2610395436",
+    "https://openalex.org/W2736601468",
+    "https://openalex.org/W2741122588",
+    "https://openalex.org/W2751973545",
+    "https://openalex.org/W2772709170",
+    "https://openalex.org/W2785342287",
+    "https://openalex.org/W2803281228",
+    "https://openalex.org/W2900926445",
+    "https://openalex.org/W2904157920",
+    "https://openalex.org/W2908460759",
+    "https://openalex.org/W2911087563",
+    "https://openalex.org/W2914261249",
+    "https://openalex.org/W2920215304",
+    "https://openalex.org/W2962957005",
+    "https://openalex.org/W2963094133",
+    "https://openalex.org/W2963099939",
+    "https://openalex.org/W2963293881",
+    "https://openalex.org/W2963311874",
+    "https://openalex.org/W2963390419",
+    "https://openalex.org/W2963577640",
+    "https://openalex.org/W2963637944",
+    "https://openalex.org/W2963985863",
+    "https://openalex.org/W2964001908",
+    "https://openalex.org/W2964053353",
+    "https://openalex.org/W2964062135",
+    "https://openalex.org/W2964067469",
+    "https://openalex.org/W2964161785",
+    "https://openalex.org/W2964342357",
+    "https://openalex.org/W2972758308",
+    "https://openalex.org/W2981030070",
+    "https://openalex.org/W2982316857",
+    "https://openalex.org/W2990747716",
+    "https://openalex.org/W2994847258",
+    "https://openalex.org/W2996006200",
+    "https://openalex.org/W2996037775",
+    "https://openalex.org/W3010756906",
+    "https://openalex.org/W3028830971",
+    "https://openalex.org/W3031840745",
+    "https://openalex.org/W3032377877",
+    "https://openalex.org/W3035847478",
+    "https://openalex.org/W3129322645"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W4391301621",
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2134894512",
+    "https://openalex.org/W2085372204",
+    "https://openalex.org/W2083375246",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W2067108088"
+  ],
+  "abstract_inverted_index": {
+    "We": [0, 21, 51],
+    "train": [1],
+    "a": [2, 36, 84, 97, 106, 119, 129],
+    "single,": [3],
+    "goal-conditioned": [4, 98],
+    "policy": [5, 108, 131],
+    "that": [6, 53, 109],
+    "can": [7, 56, 68, 89, 110],
+    "solve": [8, 49],
+    "many": [9, 113],
+    "robotic": [10],
+    "manipulation": [11],
+    "tasks,": [12],
+    "including": [13],
+    "tasks": [14, 115],
+    "with": [15, 71],
+    "previously": [16],
+    "unseen": [17, 114],
+    "goals": [18, 44, 62],
+    "and": [19, 33, 45, 60, 80, 87, 123],
+    "objects.": [20],
+    "rely": [22],
+    "on": [23],
+    "asymmetric": [24],
+    "self-play": [25],
+    "for": [26],
+    "goal": [27],
+    "discovery,": [28],
+    "where": [29],
+    "two": [30],
+    "agents,": [31],
+    "Alice": [32, 38, 79],
+    "Bob,": [34],
+    "play": [35],
+    "game.": [37],
+    "is": [39, 132],
+    "asked": [40],
+    "to": [41, 48, 112],
+    "propose": [42],
+    "challenging": [43],
+    "Bob": [46, 67, 81, 88],
+    "aims": [47],
+    "them.": [50],
+    "show": [52],
+    "this": [54],
+    "method": [55, 102],
+    "discover": [57],
+    "highly": [58],
+    "diverse": [59],
+    "complex": [61],
+    "without": [63],
+    "any": [64],
+    "human": [65],
+    "priors.": [66],
+    "be": [69],
+    "trained": [70],
+    "only": [72],
+    "sparse": [73],
+    "rewards,": [74],
+    "because": [75],
+    "the": [76],
+    "interaction": [77],
+    "between": [78],
+    "results": [82],
+    "in": [83, 105],
+    "natural": [85],
+    "curriculum": [86],
+    "learn": [90],
+    "from": [91],
+    "Alice's": [92],
+    "trajectory": [93],
+    "when": [94],
+    "relabeled": [95],
+    "as": [96, 117],
+    "demonstration.": [99],
+    "Finally,": [100],
+    "our": [101],
+    "scales,": [103],
+    "resulting": [104],
+    "single": [107],
+    "generalize": [111],
+    "such": [116],
+    "setting": [118],
+    "table,": [120],
+    "stacking": [121],
+    "blocks,": [122],
+    "solving": [124],
+    "simple": [125],
+    "puzzles.": [126],
+    "Videos": [127],
+    "of": [128],
+    "learned": [130],
+    "available": [133],
+    "at": [134],
+    "https://robotics-self-play.github.io.": [135]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3120327542",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-07-17T05:20:13.231373",
+  "created_date": "2021-01-18"
+}

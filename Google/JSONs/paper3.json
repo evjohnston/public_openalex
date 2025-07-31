@@ -1,0 +1,423 @@
+{
+  "id": "https://openalex.org/W4405172794",
+  "doi": "https://doi.org/10.48550/arxiv.2412.05196",
+  "title": "Exponential Speedups by Rerooting Levin Tree Search",
+  "display_name": "Exponential Speedups by Rerooting Levin Tree Search",
+  "publication_year": 2024,
+  "publication_date": "2024-12-06",
+  "ids": {
+    "openalex": "https://openalex.org/W4405172794",
+    "doi": "https://doi.org/10.48550/arxiv.2412.05196"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2412.05196",
+    "pdf_url": "http://arxiv.org/pdf/2412.05196",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "preprint",
+  "type_crossref": "posted-content",
+  "indexed_in": [
+    "arxiv"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://arxiv.org/pdf/2412.05196",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110938957",
+        "display_name": "Laurent Orseau",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Orseau, Laurent",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073944062",
+        "display_name": "Marcus Hütter",
+        "orcid": "https://orcid.org/0000-0002-3263-4097"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hutter, Marcus",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012035228",
+        "display_name": "Levi H. S. Lelis",
+        "orcid": "https://orcid.org/0000-0003-3560-9345"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lelis, Levi H. S.",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 0,
+    "max": 72
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10181",
+    "display_name": "Natural Language Processing Techniques",
+    "score": 0.9823,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "score": 0.9823,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/tree",
+      "display_name": "Tree (set theory)",
+      "score": 0.5468809
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C113174947",
+      "wikidata": "https://www.wikidata.org/wiki/Q2859736",
+      "display_name": "Tree (set theory)",
+      "level": 2,
+      "score": 0.5468809
+    },
+    {
+      "id": "https://openalex.org/C151376022",
+      "wikidata": "https://www.wikidata.org/wiki/Q168698",
+      "display_name": "Exponential function",
+      "level": 2,
+      "score": 0.49415115
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.47241703
+    },
+    {
+      "id": "https://openalex.org/C173608175",
+      "wikidata": "https://www.wikidata.org/wiki/Q232661",
+      "display_name": "Parallel computing",
+      "level": 1,
+      "score": 0.36125386
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.30594474
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.2665418
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2412.05196",
+      "pdf_url": "http://arxiv.org/pdf/2412.05196",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2412.05196",
+    "pdf_url": "http://arxiv.org/pdf/2412.05196",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W3002753104",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2142036596",
+    "https://openalex.org/W2077600819",
+    "https://openalex.org/W2072657027",
+    "https://openalex.org/W2061531152",
+    "https://openalex.org/W2007980826",
+    "https://openalex.org/W1979597421"
+  ],
+  "abstract_inverted_index": {
+    "Levin": [0],
+    "Tree": [1],
+    "Search": [2],
+    "(LTS)": [3],
+    "(Orseau": [4],
+    "et": [5],
+    "al.,": [6],
+    "2018)": [7],
+    "is": [8, 78, 93, 128],
+    "a": [9, 17, 27, 38, 54, 80, 84, 140, 186],
+    "search": [10, 34, 66, 73, 77, 91, 109, 123],
+    "algorithm": [11],
+    "for": [12, 36],
+    "deterministic": [13],
+    "environments": [14],
+    "that": [15, 41, 119, 125, 142],
+    "uses": [16],
+    "user-specified": [18],
+    "policy": [19],
+    "to": [20, 100, 114, 144, 182, 185],
+    "guide": [21],
+    "the": [22, 31, 44, 47, 72, 90, 108, 120, 131, 137, 145, 148, 156, 169, 171],
+    "search.": [23],
+    "It": [24],
+    "comes": [25],
+    "with": [26, 130, 159],
+    "formal": [28],
+    "guarantee": [29],
+    "on": [30, 43],
+    "number": [32, 121],
+    "of": [33, 46, 71, 122, 139, 147, 189],
+    "steps": [35, 124],
+    "finding": [37],
+    "solution": [39],
+    "node": [40, 70],
+    "depends": [42],
+    "quality": [45],
+    "policy.": [48],
+    "In": [49],
+    "this": [50],
+    "paper,": [51],
+    "we": [52, 179],
+    "introduce": [53],
+    "new": [55],
+    "algorithm,": [56],
+    "called": [57],
+    "$\\sqrt{\\text{LTS}}$": [58, 126, 163, 181],
+    "(pronounce": [59],
+    "root-LTS),": [60],
+    "which": [61],
+    "implicitly": [62, 106],
+    "starts": [63],
+    "an": [64],
+    "LTS": [65, 76, 97, 151],
+    "rooted": [67],
+    "at": [68, 136],
+    "every": [69],
+    "tree.": [74],
+    "Each": [75],
+    "assigned": [79],
+    "rerooting": [81, 104, 161],
+    "weight": [82],
+    "by": [83],
+    "(user-defined": [85],
+    "or": [86],
+    "learnt)": [87],
+    "rerooter,": [88],
+    "and": [89, 178],
+    "effort": [92],
+    "shared": [94],
+    "between": [95],
+    "all": [96],
+    "searches": [98],
+    "proportionally": [99],
+    "their": [101],
+    "weights.": [102],
+    "The": [103],
+    "mechanism": [105],
+    "decomposes": [107],
+    "space": [110],
+    "into": [111, 134],
+    "subtasks,": [112, 135],
+    "leading": [113],
+    "significant": [115],
+    "speedups.": [116],
+    "We": [117],
+    "prove": [118],
+    "takes": [127, 152, 165],
+    "competitive": [129],
+    "best": [132, 157],
+    "decomposition": [133],
+    "price": [138],
+    "factor": [141],
+    "relates": [143],
+    "uncertainty": [146],
+    "rerooter.": [149],
+    "If": [150],
+    "time": [153, 166],
+    "$T$,": [154],
+    "in": [155],
+    "case": [158],
+    "$q$": [160],
+    "points,": [162],
+    "only": [164],
+    "$O(q\\sqrt[q]{T})$.": [167],
+    "Like": [168],
+    "policy,": [170],
+    "rerooter": [172],
+    "can": [173],
+    "be": [174, 183],
+    "learnt": [175],
+    "from": [176],
+    "data,": [177],
+    "expect": [180],
+    "applicable": [184],
+    "wide": [187],
+    "range": [188],
+    "domains.": [190]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4405172794",
+  "counts_by_year": [],
+  "updated_date": "2025-07-30T00:19:44.840189",
+  "created_date": "2024-12-10"
+}
