@@ -2,13 +2,18 @@ import pandas as pd
 import requests
 import time
 from typing import Dict, List, Any, Optional
+from pathlib import Path
+
+# 🔹 Change this one line to set the base folder
+base_folder = "Anthropic"
+
+# Define file paths based on the base folder
+input_file = Path(base_folder) / "CSVs" / "all_institutions.csv"
+output_file = Path(base_folder) / "CSVs" / "enriched_institutions.csv"
 
 def get_institution_data(institution_id: str) -> Optional[Dict[str, Any]]:
-    """
-    Fetch institution data from OpenAlex API
-    """
+    """Fetch institution data from OpenAlex API"""
     try:
-        # Transform OpenAlex ID to API URL
         api_id = institution_id.replace('https://openalex.org/', '')
         url = f'https://api.openalex.org/institutions/{api_id}'
         
@@ -24,14 +29,9 @@ def get_institution_data(institution_id: str) -> Optional[Dict[str, Any]]:
         return None
 
 def process_associated_institutions(associated_institutions: List[Dict[str, Any]]) -> Dict[str, List[str]]:
-    """
-    Process associated institutions and separate them by relationship type
-    """
-    children = []
-    children_ids = []
-    parents = []
-    parents_ids = []
-    
+    """Process associated institutions and separate them by relationship type"""
+    children, children_ids, parents, parents_ids = [], [], [], []
+
     if associated_institutions:
         for inst in associated_institutions:
             if inst.get('relationship') == 'child':
@@ -48,27 +48,22 @@ def process_associated_institutions(associated_institutions: List[Dict[str, Any]
         'parents_ids': '; '.join(parents_ids) if parents_ids else ''
     }
 
-def enrich_institutions_data(input_file: str, output_file: str):
-    """
-    Enrich institutions data with additional metadata from OpenAlex
-    """
-    print(f"Reading input file: {input_file}")
-    df = pd.read_csv(input_file)
+def enrich_institutions_data(input_path: Path, output_path: Path):
+    """Enrich institutions data with additional metadata from OpenAlex"""
+    print(f"Reading input file: {input_path}")
+    df = pd.read_csv(input_path)
     
-    # Initialize lists to store new data
     enriched_data = []
-    
     total_institutions = len(df)
     print(f"\nProcessing {total_institutions} institutions...")
-    
+
     for idx, row in df.iterrows():
         print(f"\nProcessing institution {idx + 1}/{total_institutions}")
         institution_data = get_institution_data(row['id'])
         
         if not institution_data:
             continue
-            
-        # Extract base institution data
+        
         institution_info = {
             'id': row['id'],
             'author_count': row['author_count'],
@@ -82,7 +77,6 @@ def enrich_institutions_data(input_file: str, output_file: str):
             'cited_by_count': institution_data.get('cited_by_count', 0)
         }
         
-        # Extract summary statistics
         summary_stats = institution_data.get('summary_stats', {})
         institution_info.update({
             '2yr_mean_citedness': summary_stats.get('2yr_mean_citedness', 0),
@@ -90,14 +84,10 @@ def enrich_institutions_data(input_file: str, output_file: str):
             'i10_index': summary_stats.get('i10_index', 0)
         })
         
-        # Extract Wikipedia URL
         ids = institution_data.get('ids', {})
         institution_info['wikipedia'] = ids.get('wikipedia', '')
-        
-        # Process associated institutions
-        associated = process_associated_institutions(
-            institution_data.get('associated_institutions', [])
-        )
+
+        associated = process_associated_institutions(institution_data.get('associated_institutions', []))
         institution_info.update({
             'associated_institutions_children': associated['children'],
             'children_ids': associated['children_ids'],
@@ -107,29 +97,23 @@ def enrich_institutions_data(input_file: str, output_file: str):
         
         enriched_data.append(institution_info)
         
-        # Add delay to respect API rate limits
         print("Waiting 1 second before next request...")
-        time.sleep(.005)
-    
-    # Create new DataFrame with enriched data
+        time.sleep(0.2)
+
     enriched_df = pd.DataFrame(enriched_data)
-    
-    # Save to CSV
-    print(f"\nSaving enriched data to {output_file}...")
-    enriched_df.to_csv(output_file, index=False)
+
+    print(f"\nSaving enriched data to {output_path}...")
+    enriched_df.to_csv(output_path, index=False)
     print("Done!")
-    
+
     return enriched_df
 
 def main():
-    input_file = 'all_institutions.csv'
-    output_file = 'enriched_institutions.csv'
-    
     print("Starting OpenAlex Institutions Enrichment")
     print("=" * 50)
-    
+
     enriched_df = enrich_institutions_data(input_file, output_file)
-    
+
     print("\nSummary statistics:")
     print(f"Total institutions processed: {len(enriched_df)}")
     print(f"Total works: {enriched_df['works_count'].sum():,}")

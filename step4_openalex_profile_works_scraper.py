@@ -1,10 +1,14 @@
 import requests
 import csv
 import time
+from pathlib import Path
 
-# Input and output CSV files
-input_csv = "authors_enriched.csv"
-output_csv = "authors_and_works.csv"
+# 🔹 Change this one line to set the base folder
+base_folder = "Anthropic"
+
+# Define input and output CSV paths
+input_csv = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"
+output_csv = Path(base_folder) / "CSVs" / "authors_and_works.csv"
 
 # Read author data from the CSV
 authors_data = []
@@ -13,8 +17,10 @@ with open(input_csv, mode="r", encoding="utf-8") as file:
     for row in reader:
         authors_data.append(row)
 
-# Function to fetch all works from OpenAlex with pagination
 def fetch_all_works(author_id):
+    """
+    Fetch all works from OpenAlex API with pagination
+    """
     base_url = f"https://api.openalex.org/works?filter=author.id:{author_id}&per_page=50"
     works = []
     cursor = "*"
@@ -33,11 +39,10 @@ def fetch_all_works(author_id):
         data = response.json()
         works.extend(data.get("results", []))
 
-        # Check if there's another page
+        # Next page cursor
         cursor = data.get("meta", {}).get("next_cursor")
 
-        # Delay to avoid rate limiting
-        time.sleep(.2)
+        time.sleep(0.2)  # Delay to avoid rate limiting
 
     return works
 
@@ -51,8 +56,8 @@ with open(output_csv, mode="w", newline="", encoding="utf-8") as file:
     writer.writeheader()
 
     for index, author in enumerate(authors_data, start=1):
-        author_id = author.get("Author ID", "").strip()
-        author_name = author.get("Author Name", "Unknown")
+        author_id = author.get("OA_Profile", "").strip()  # Use OA_Profile (full URL)
+        author_name = author.get("Author", "Unknown")
 
         if not author_id.startswith("https://openalex.org/"):
             print(f"⏭️ Skipping {author_name} (Invalid Author ID)")
@@ -61,36 +66,23 @@ with open(output_csv, mode="w", newline="", encoding="utf-8") as file:
         works = fetch_all_works(author_id)
 
         for work in works:
-            work_id = work.get("id", "N/A")
-            title = work.get("title", "N/A")
-            doi = work.get("doi", "N/A")
-            year = work.get("publication_year", "N/A")
-            pub_date = work.get("publication_date", "N/A")
-            work_type = work.get("type", "N/A")
-            language = work.get("language", "N/A")
-            citations = work.get("cited_by_count", 0)
-
-            # Extract topics
-            topics = [t["display_name"] for t in work.get("topics", [])]
-            topics_str = ", ".join(topics) if topics else "N/A"
-
-            # Extract co-authors
-            co_authors = [a["author"]["display_name"] for a in work.get("authorships", []) if a["author"]["id"] != author_id]
-            co_authors_str = ", ".join(co_authors) if co_authors else "N/A"
-
             writer.writerow({
                 "Author ID": author_id,
                 "Author Name": author_name,
-                "Work ID": work_id,
-                "Title": title,
-                "DOI": doi,
-                "Year": year,
-                "Publication Date": pub_date,
-                "Type": work_type,
-                "Language": language,
-                "Citations": citations,
-                "Topics": topics_str,
-                "Co-Authors": co_authors_str,
+                "Work ID": work.get("id", "N/A"),
+                "Title": work.get("title", "N/A"),
+                "DOI": work.get("doi", "N/A"),
+                "Year": work.get("publication_year", "N/A"),
+                "Publication Date": work.get("publication_date", "N/A"),
+                "Type": work.get("type", "N/A"),
+                "Language": work.get("language", "N/A"),
+                "Citations": work.get("cited_by_count", 0),
+                "Topics": ", ".join([t["display_name"] for t in work.get("topics", [])]) or "N/A",
+                "Co-Authors": ", ".join([
+                    a["author"]["display_name"]
+                    for a in work.get("authorships", [])
+                    if a["author"]["id"] != author_id
+                ]) or "N/A",
             })
 
         print(f"✅ Fetched {len(works)} works for {author_name}")

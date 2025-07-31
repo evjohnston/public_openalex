@@ -3,6 +3,13 @@ import requests
 import time
 from typing import Dict, List, Any, Optional
 from collections import defaultdict
+from pathlib import Path
+
+# 🔹 Change this one line to set the base folder
+base_folder = "Anthropic"
+
+input_csv = Path(base_folder) / "CSVs" / "authors_metadata.csv"
+output_csv = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"
 
 def get_author_data(oa_id: str) -> Optional[Dict[str, Any]]:
     """
@@ -10,7 +17,6 @@ def get_author_data(oa_id: str) -> Optional[Dict[str, Any]]:
     """
     print("Fetching data from OpenAlex API...")
     try:
-        # Remove any 'https://openalex.org/authors/' prefix if present
         oa_id = oa_id.replace('https://openalex.org/authors/', '')
         url = f'https://api.openalex.org/people/{oa_id}'
         response = requests.get(url)
@@ -55,7 +61,6 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     Enrich the input DataFrame with additional OpenAlex data
     """
-    # Initialize lists to store new data
     new_data = []
     all_years = set()
     
@@ -63,7 +68,6 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
     print(f"\nProcessing {total_authors} authors...")
     print("-" * 50)
 
-    # Process each author
     for index, row in df.iterrows():
         print(f"\nProcessing author {index + 1}/{total_authors}")
         print(f"Author: {row['Author']}")
@@ -74,7 +78,6 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
         if not author_data:
             continue
 
-        # Extract basic author information
         author_info = {
             'Author': row['Author'],
             'No. Papers': row['No. Papers'],
@@ -88,7 +91,6 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
             'cited_by_count': author_data.get('cited_by_count', 0)
         }
 
-        # Extract summary statistics
         summary_stats = author_data.get('summary_stats', {})
         author_info.update({
             '2yr_mean_citedness': summary_stats.get('2yr_mean_citedness', 0),
@@ -96,16 +98,13 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
             'i10_index': summary_stats.get('i10_index', 0)
         })
 
-        # Process affiliations
         affiliations_data = process_affiliations(author_data.get('affiliations', []))
         
-        # Add affiliations by year
         for year, affiliation in affiliations_data['by_year'].items():
             all_years.add(year)
             author_info[f'affiliation-{year}'] = affiliation['display_name']
             author_info[f'ID-{year}'] = affiliation['id']
 
-        # Add affiliations with no year
         if affiliations_data['no_year']:
             author_info['affiliation-noyear'] = '; '.join(
                 [aff['display_name'] for aff in affiliations_data['no_year']]
@@ -116,32 +115,30 @@ def enrich_author_data(df: pd.DataFrame) -> pd.DataFrame:
 
         new_data.append(author_info)
         
-        # Add delay to respect API rate limits
         print("Waiting 1 second before next request...")
-        time.sleep(.2)
+        time.sleep(0.2)
 
-    # Create new DataFrame with all columns
     result_df = pd.DataFrame(new_data)
     
-    # Ensure all year columns exist (fill with empty strings if missing)
     for year in all_years:
         if f'affiliation-{year}' not in result_df.columns:
             result_df[f'affiliation-{year}'] = ''
         if f'ID-{year}' not in result_df.columns:
             result_df[f'ID-{year}'] = ''
 
-    # Sort columns
-    static_columns = ['Author', 'No. Papers', 'Notes', 'OA_Profile', 'OA_ID', 
-                     'ORCID', 'Display_name', 'Display_name_alternatives',
-                     'works_count', 'cited_by_count', '2yr_mean_citedness',
-                     'h_index', 'i10_index']
+    static_columns = [
+        'Author', 'No. Papers', 'Notes', 'OA_Profile', 'OA_ID', 
+        'ORCID', 'Display_name', 'Display_name_alternatives',
+        'works_count', 'cited_by_count', '2yr_mean_citedness',
+        'h_index', 'i10_index'
+    ]
     
-    year_columns = sorted([col for col in result_df.columns 
-                          if col.startswith(('affiliation-', 'ID-'))],
-                         key=lambda x: ('noyear' in x, x))
+    year_columns = sorted(
+        [col for col in result_df.columns if col.startswith(('affiliation-', 'ID-'))],
+        key=lambda x: ('noyear' in x, x)
+    )
     
     result_df = result_df[static_columns + year_columns]
-    
     return result_df
 
 def main():
@@ -149,21 +146,17 @@ def main():
     print("=" * 50)
     
     print("\nReading input CSV file...")
-    # Read input CSV
-    input_df = pd.read_csv('authors_metadata.csv')
+    input_df = pd.read_csv(input_csv)
     print(f"Found {len(input_df)} authors in the input file")
     
-    # Process the data
     enriched_df = enrich_author_data(input_df)
     
-    # Save to new CSV
-    output_filename = 'enriched_authors_metadata.csv'
-    print(f"\nSaving results to {output_filename}...")
-    enriched_df.to_csv(output_filename, index=False)
+    print(f"\nSaving results to {output_csv}...")
+    enriched_df.to_csv(output_csv, index=False)
     print("\nData processing completed successfully!")
     print(f"- Input records processed: {len(input_df)}")
     print(f"- Output records created: {len(enriched_df)}")
-    print(f"- Results saved to: {output_filename}")
+    print(f"- Results saved to: {output_csv}")
     print("\nDone!")
 
 if __name__ == "__main__":

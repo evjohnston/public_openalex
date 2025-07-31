@@ -1,20 +1,20 @@
 import pandas as pd
 from pathlib import Path
 
-# Define the data directory
-# data_dir = Path("CSVs")
+# 🔹 Change this one line to set the base folder
+base_folder = "Anthropic"
 
-# Associate each CSV with its corresponding paper number
-paper_files = {
-    "paper1_metadata.csv": 1,
-    "paper2_metadata.csv": 2,
-    "paper3_metadata.csv": 3,
-    "paper4_metadata.csv": 4
-}
+# Define the input folder where CSVs are stored
+csv_dir = Path(base_folder) / "CSVs"
 
-# Load all data with paper number tagging
+# Find all metadata CSV files automatically
+csv_files = sorted(csv_dir.glob("*_metadata.csv"))
+
 records = []
-for file_path, paper_number in paper_files.items():
+for file_path in csv_files:
+    # Extract paper number from filename (assumes 'paperX_metadata.csv' format)
+    paper_number = int(file_path.stem.split("_")[0].replace("paper", ""))
+
     df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
     df["paper_number"] = paper_number
@@ -42,5 +42,8 @@ grouped["Notes"] = ""
 # Select final column structure
 final_df = grouped[["Author", "No. Papers", "Notes", "OA_Profile", "OA_ID", "Papers"]]
 
-# Export to CSV
-final_df.to_csv("authors_metadata.csv", index=False)
+# Export to CSV inside the same folder
+output_file = csv_dir / "authors_metadata.csv"
+final_df.to_csv(output_file, index=False)
+
+print(f"Combined CSV created: {output_file}")
