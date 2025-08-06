@@ -69,6 +69,7 @@ def process_author_row(row, year_country_cols):
 
     return pd.Series({
         "Author": row["Author"],
+        "OA_Profile" : row["OA_Profile"],
         "Geographic Trajectory": full_trajectory,
         "Years in the US": years_in_us,
         "Geographic Trajectory (simplified)": simplified,

@@ -44,7 +44,7 @@ for org in ORG_DIRS:
     meta_df = pd.read_csv(metadata_path)
     meta_df.columns = meta_df.columns.str.strip()
 
-    df = pd.merge(traj_df, meta_df[['Author', 'No. Papers', 'Most Recent Affiliation Country']], on='Author', how='left')
+    df = pd.merge(traj_df, meta_df[['Author', 'No. Papers', 'Most Recent Affiliation Country', 'OA_Profile']], on='Author', how='left')
     df['Org'] = org
     dfs.append(df)
     
@@ -63,6 +63,8 @@ if not dfs:
     raise ValueError("\u274c No data loaded. Ensure your file structure and names are correct.")
 
 combined_df = pd.concat(dfs, ignore_index=True)
+
+
 
 # Utility
 
@@ -152,7 +154,7 @@ mega_retention = []
 for org in ORG_DIRS + ['All']:
     df = combined_df if org == 'All' else combined_df[combined_df['Org'] == org]
     retention = round(calculate_retention(df) * 100, 2)
-    unique_authors = df['Author'].nunique()
+    unique_authors = df['OA_Profile'].nunique()
     foreign_mean = round(df['Foreign Experience Years'].mean(), 2)
     foreign_median = round(df['Foreign Experience Years'].median(), 2)
 
