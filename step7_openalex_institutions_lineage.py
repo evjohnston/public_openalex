@@ -4,11 +4,11 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 # 🔹 Change this one line to set the base folder
-base_folder = "Anthropic"
+base_folder = "Combined"
 
 # Define file paths
-input_file = Path(base_folder) / "CSVs" / "enriched_institutions.csv"
-output_file = Path(base_folder) / "CSVs" / "institutions_lineage.csv"
+input_file = Path(base_folder) / "CSVs" / "mega_institutions.csv"
+output_file = Path(base_folder) / "CSVs" / "mega_institutions_lineage.csv"
 
 class InstitutionLineageAnalyzer:
     def __init__(self, input_path: Path):
@@ -57,6 +57,7 @@ class InstitutionLineageAnalyzer:
 
         return {
             'institution_name': inst_data['display_name'],
+            'country': inst_data['country'],
             'direct_author_count': inst_data['author_count'],
             'total_author_count': inst_data['author_count'] + children_data['author_count'].sum(),
             'direct_works_count': inst_data['works_count'],
@@ -78,6 +79,7 @@ class InstitutionLineageAnalyzer:
             lineage_data.append({
                 'id': row['id'],
                 'institution_name': metrics['institution_name'],
+                'country': metrics['country'],
                 'direct_author_count': metrics['direct_author_count'],
                 'total_author_count': metrics['total_author_count'],
                 'direct_works_count': metrics['direct_works_count'],

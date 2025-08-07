@@ -57,7 +57,18 @@ def combine_datasets(companies: list) -> pd.DataFrame:
         .agg(lambda x: x.iloc[0] if x.name not in ['openai_authors', 'anthropic_authors', 'google_authors'] else x.sum())
     )
 
+    print("➕ Updating 'author_count' to reflect total authors from all sources")
+    combined_df['author_count'] = (
+        combined_df['openai_authors'] +
+        combined_df['anthropic_authors'] +
+        combined_df['google_authors']
+    )
+
+    print("🔽 Sorting institutions by total author count descending")
+    combined_df = combined_df.sort_values(by='author_count', ascending=False).reset_index(drop=True)
+
     return combined_df
+
 
 def main():
     print("🚀 Building combined mega institution dataset...\n")
