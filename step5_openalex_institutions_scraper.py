@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 
 # 🔹 Change this one line to set the base folder
-base_folder = "Anthropic"
+base_folder = "KimiK2"
 
 # Define file paths based on base folder
 input_file = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"

@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # 🔹 Change this one line to set the base folder
-base_folder = "Anthropic"
+base_folder = "KimiK2"
 
 # Define the input folder where CSVs are stored
 csv_dir = Path(base_folder) / "CSVs"

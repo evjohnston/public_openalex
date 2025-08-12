@@ -4,11 +4,11 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 # 🔹 Change this one line to set the base folder
-base_folder = "Combined"
+base_folder = "KimiK2"
 
 # Define file paths
-input_file = Path(base_folder) / "CSVs" / "mega_institutions.csv"
-output_file = Path(base_folder) / "CSVs" / "mega_institutions_lineage.csv"
+input_file = Path(base_folder) / "CSVs" / "enriched_institutions.csv"
+output_file = Path(base_folder) / "CSVs" / "institutions_lineage.csv"
 
 class InstitutionLineageAnalyzer:
     def __init__(self, input_path: Path):
