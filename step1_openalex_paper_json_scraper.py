@@ -3,7 +3,7 @@ import csv
 import os
 
 # 🔹 Change this one line to set the base folder
-base_folder = "KimiK2"
+base_folder = "DeepSeek"
 
 # Define the input and output folders
 input_folder = os.path.join(base_folder, "JSONs")
