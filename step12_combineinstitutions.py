@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # List of companies whose enriched institution data should be combined
-companies = ["OpenAI", "Anthropic", "Google"]
+companies = ["DeepSeek"]
 
 # Output path for the combined mega dataset
 combined_output_path = Path("combined") / "mega_institutions.csv"

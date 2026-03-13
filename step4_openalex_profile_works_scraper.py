@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 
 # 🔹 Change this one line to set the base folder
-base_folder = "KimiK2"
+base_folder = "DeepSeek"
 
 # Define input and output CSV paths
 input_csv = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"

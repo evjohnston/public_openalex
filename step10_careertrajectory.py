@@ -3,7 +3,7 @@ import os
 import re
 
 # Directories to process
-main_dirs = ['Anthropic', 'Google', 'OpenAI']
+main_dirs = ['DeepSeek']
 csv_subdir = 'CSVs'
 authors_filename = 'enriched_authors_metadata.csv'
 output_filename = 'author_career_trajectory.csv'

@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 # 🔹 Change this one line to set the base folder
-base_folder = "KimiK2"
+base_folder = "DeepSeek"
 
 # Define file paths
 input_file = Path(base_folder) / "CSVs" / "enriched_institutions.csv"

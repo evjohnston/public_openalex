@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # Configuration
-main_dirs = ['KimiK2']
+main_dirs = ['DeepSeek']
 csv_subdir = 'CSVs'
 authors_filename = 'enriched_authors_metadata.csv'
 institutions_filename = 'enriched_institutions.csv'

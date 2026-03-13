@@ -15,7 +15,7 @@ sns.set(style="whitegrid")
 plt.rcParams['figure.dpi'] = 150
 
 # Directories and Filenames
-ORG_DIRS = ['Anthropic', 'Google', 'OpenAI']
+ORG_DIRS = ['DeepSeek']
 CSV_SUBDIR = 'CSVs'
 METADATA_FILE = 'enriched_authors_metadata.csv'
 TRAJECTORY_FILE = 'author_career_trajectory.csv'
