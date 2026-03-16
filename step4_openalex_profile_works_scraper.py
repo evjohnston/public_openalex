@@ -2,9 +2,7 @@ import requests
 import csv
 import time
 from pathlib import Path
-
-# 🔹 Change this one line to set the base folder
-base_folder = "DeepSeek"
+from config import base_folder
 
 # Define input and output CSV paths
 input_csv = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"

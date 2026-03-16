@@ -1,8 +1,6 @@
 import pandas as pd
 from pathlib import Path
-
-# 🔹 Change this one line to set the base folder
-base_folder = "deepseek"
+from config import base_folder
 
 # Define the input folder where CSVs are stored
 csv_dir = Path(base_folder) / "CSVs"

@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 import re
+from config import base_folder
 
 # Directories to process
-main_dirs = ['DeepSeek']
 csv_subdir = 'CSVs'
 authors_filename = 'enriched_authors_metadata.csv'
 output_filename = 'author_career_trajectory.csv'
@@ -106,6 +106,5 @@ def process_file(folder):
     trajectory_df.to_csv(output_path, index=False)
     print(f"Saved: {output_path}")
 
-# Run for each org
-for folder in main_dirs:
-    process_file(folder)
+# Run
+process_file(base_folder)

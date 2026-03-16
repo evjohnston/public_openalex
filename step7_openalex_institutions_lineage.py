@@ -2,9 +2,7 @@ import pandas as pd
 import networkx as nx
 from pathlib import Path
 from typing import Dict, List, Any
-
-# 🔹 Change this one line to set the base folder
-base_folder = "DeepSeek"
+from config import base_folder
 
 # Define file paths
 input_file = Path(base_folder) / "CSVs" / "enriched_institutions.csv"

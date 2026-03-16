@@ -1,9 +1,7 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-
-# 🔹 Change this one line to set the base folder
-base_folder = "DeepSeek"
+from config import base_folder
 
 # Define file paths based on base folder
 input_file = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"

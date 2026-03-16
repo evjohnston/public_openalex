@@ -1,16 +1,7 @@
 import json
 import csv
 import os
-
-# 🔹 Change this one line to set the base folder
-base_folder = "DeepSeek"
-
-# Define the input and output folders
-input_folder = os.path.join(base_folder, "JSONs")
-output_folder = os.path.join(base_folder, "CSVs")
-
-# Create output folder if it doesn't exist
-os.makedirs(output_folder, exist_ok=True)
+from config import base_folder, input_folder, output_folder
 
 # Iterate over all JSON files in the input folder
 for filename in os.listdir(input_folder):

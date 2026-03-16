@@ -2,9 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from typing import Dict, List, Set
-
-# 🔹 Change this one line to set the base folder
-base_folder = "DeepSeek"
+from config import base_folder
 
 # Define all file paths dynamically
 author_file = Path(base_folder) / "CSVs" / "authors_affiliations.csv"

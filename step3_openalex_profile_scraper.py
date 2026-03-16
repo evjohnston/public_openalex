@@ -4,9 +4,7 @@ import time
 from typing import Dict, List, Any, Optional
 from collections import defaultdict
 from pathlib import Path
-
-# 🔹 Change this one line to set the base folder
-base_folder = "Deepseek"
+from config import base_folder
 
 input_csv = Path(base_folder) / "CSVs" / "authors_metadata.csv"
 output_csv = Path(base_folder) / "CSVs" / "enriched_authors_metadata.csv"
