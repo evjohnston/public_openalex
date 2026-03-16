@@ -1,0 +1,1761 @@
+{
+  "id": "https://openalex.org/W4415330695",
+  "doi": "https://doi.org/10.48550/arxiv.2509.20354",
+  "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+  "display_name": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+  "publication_year": 2025,
+  "publication_date": "2025-09-24",
+  "ids": {
+    "openalex": "https://openalex.org/W4415330695",
+    "doi": "https://doi.org/10.48550/arxiv.2509.20354"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:arXiv.org:2509.20354",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2509.20354",
+    "pdf_url": "https://arxiv.org/pdf/2509.20354",
+    "source": {
+      "id": "https://openalex.org/S4393918464",
+      "display_name": "ArXiv.org",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "arxiv",
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2509.20354",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5119748841",
+        "display_name": "Henrique Schechter Vera",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Vera, Henrique Schechter",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005885438",
+        "display_name": "Sahil Dua",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dua, Sahil",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100363719",
+        "display_name": "Biao Zhang",
+        "orcid": "https://orcid.org/0000-0002-4865-7090"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Biao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065353057",
+        "display_name": "Daniel Salz",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Salz, Daniel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060942165",
+        "display_name": "Ryan Mullins",
+        "orcid": "https://orcid.org/0000-0002-7991-7975"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mullins, Ryan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056011",
+        "display_name": "Sindhu Raghuram Panyam",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Panyam, Sindhu Raghuram",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056013",
+        "display_name": "Sara Smoot",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Smoot, Sara",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033760431",
+        "display_name": "Iftekhar Naim",
+        "orcid": "https://orcid.org/0000-0002-2119-3273"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Naim, Iftekhar",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003746258",
+        "display_name": "Jin Zou",
+        "orcid": "https://orcid.org/0000-0001-9435-8043"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zou, Joe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050239112",
+        "display_name": "Feiyang Chen",
+        "orcid": "https://orcid.org/0000-0001-8994-4187"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Feiyang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073726152",
+        "display_name": "Daniel Cer",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Cer, Daniel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056003",
+        "display_name": "Alice Lisak",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lisak, Alice",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112299625",
+        "display_name": "Min Soo Choi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Choi, Min",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113077275",
+        "display_name": "Lucas Gonzalez",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gonzalez, Lucas",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5119790513",
+        "display_name": "Omar Sanseviero",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sanseviero, Omar",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5114202942",
+        "display_name": "Glenn Cameron",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Cameron, Glenn",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091786513",
+        "display_name": "I. A. Ballantyne",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ballantyne, Ian",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106300982",
+        "display_name": "Kat Black",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Black, Kat",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046787262",
+        "display_name": "Kaifeng Chen",
+        "orcid": "https://orcid.org/0009-0007-0921-0927"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Kaifeng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100656086",
+        "display_name": "Weiyi Wang",
+        "orcid": "https://orcid.org/0000-0001-6981-2611"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Weiyi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100356710",
+        "display_name": "Zhe Li",
+        "orcid": "https://orcid.org/0000-0003-3547-3193"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Zhe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113319893",
+        "display_name": "Gus Martins",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Martins, Gus",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101413439",
+        "display_name": "Jinhyuk Lee",
+        "orcid": "https://orcid.org/0000-0002-7437-1846"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lee, Jinhyuk",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056004",
+        "display_name": "Mark Sherwood",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sherwood, Mark",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077849966",
+        "display_name": "Junjie Ji",
+        "orcid": "https://orcid.org/0000-0002-5106-8094"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ji, Juyeong",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067062697",
+        "display_name": "Renjie Wu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Renjie",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051489928",
+        "display_name": "J. Zheng",
+        "orcid": "https://orcid.org/0000-0002-9748-3074"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zheng, Jingxiao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110556013",
+        "display_name": "Jasmeet Singh",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Singh, Jyotinder",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112620294",
+        "display_name": "Abheesht Sharma",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sharma, Abheesht",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056005",
+        "display_name": "Divyashree Sreepathihalli",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sreepathihalli, Divyashree",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013725226",
+        "display_name": "Aashi Jain",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jain, Aashi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056006",
+        "display_name": "Adham Elarabawy",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Elarabawy, Adham",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056007",
+        "display_name": "AJ Co",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Co, AJ",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064058456",
+        "display_name": "Andreas Doumanoglou",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Doumanoglou, Andreas",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052565533",
+        "display_name": "Babak Samari",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Samari, Babak",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056008",
+        "display_name": "Ben Hora",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hora, Ben",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056009",
+        "display_name": "Brian Potetz",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Potetz, Brian",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084688455",
+        "display_name": "Dahun Kim",
+        "orcid": "https://orcid.org/0000-0003-1776-6195"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kim, Dahun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091708404",
+        "display_name": "Enrique Alfonseca",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Alfonseca, Enrique",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055241858",
+        "display_name": "Fédor Moiseev",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Moiseev, Fedor",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003099565",
+        "display_name": "Feng Han",
+        "orcid": "https://orcid.org/0000-0002-6664-0516"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Han, Feng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058042352",
+        "display_name": "Frank Palma Gomez",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gomez, Frank Palma",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013110024",
+        "display_name": "Gustavo Hernández Ábrego",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ábrego, Gustavo Hernández",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024254692",
+        "display_name": "Hesen Zhang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Hesen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112375674",
+        "display_name": "Hui Hui",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hui, Hui",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026362916",
+        "display_name": "Jay Han",
+        "orcid": "https://orcid.org/0000-0003-1842-1666"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Han, Jay",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109602315",
+        "display_name": "Karan Gill",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gill, Karan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100452002",
+        "display_name": "Ke Chen",
+        "orcid": "https://orcid.org/0000-0002-4453-6937"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Ke",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022123903",
+        "display_name": "Koert Chen",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Koert",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021062067",
+        "display_name": "Madhuri Shanbhogue",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shanbhogue, Madhuri",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062977994",
+        "display_name": "Michael Boratko",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Boratko, Michael",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104217740",
+        "display_name": "Paul Suganthan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Suganthan, Paul",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000713013",
+        "display_name": "Sai Meher Karthik Duddu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duddu, Sai Meher Karthik",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5119748842",
+        "display_name": "Sandeep Mariserla",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mariserla, Sandeep",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056010",
+        "display_name": "Setareh Ariafar",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ariafar, Setareh",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045569652",
+        "display_name": "Shanfeng Zhang",
+        "orcid": "https://orcid.org/0000-0002-6211-3436"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Shanfeng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100669780",
+        "display_name": "Shijie Zhang",
+        "orcid": "https://orcid.org/0000-0001-5394-3991"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Shijie",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106425585",
+        "display_name": "Simon Baumgartner",
+        "orcid": "https://orcid.org/0009-0005-8746-5787"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Baumgartner, Simon",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027066139",
+        "display_name": "Sonam Goenka",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Goenka, Sonam",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089738575",
+        "display_name": "Sheng‐Xiang Qiu",
+        "orcid": "https://orcid.org/0000-0001-8832-041X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiu, Steve",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031406817",
+        "display_name": "Tanmaya Dabral",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dabral, Tanmaya",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004317848",
+        "display_name": "Trevor Walker",
+        "orcid": "https://orcid.org/0000-0002-7073-7898"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Walker, Trevor",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017216339",
+        "display_name": "Vikram R. Rao",
+        "orcid": "https://orcid.org/0000-0002-6389-2638"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rao, Vikram",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5120056012",
+        "display_name": "Waleed Khawaja",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Khawaja, Waleed",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058224708",
+        "display_name": "Wenlei Zhou",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhou, Wenlei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011112944",
+        "display_name": "Xiaoqi Ren",
+        "orcid": "https://orcid.org/0000-0002-1121-9046"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ren, Xiaoqi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053743638",
+        "display_name": "Ye Xia",
+        "orcid": "https://orcid.org/0000-0002-2313-0102"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xia, Ye",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066724519",
+        "display_name": "Yichang Chen",
+        "orcid": "https://orcid.org/0000-0002-8782-439X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Yichang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100348259",
+        "display_name": "Yi‐Ting Chen",
+        "orcid": "https://orcid.org/0000-0001-7924-5649"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Yi-Ting",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101842429",
+        "display_name": "Zhe Dong",
+        "orcid": "https://orcid.org/0000-0001-8993-1386"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dong, Zhe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101154677",
+        "display_name": "Zhongli Ding",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ding, Zhongli",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072811055",
+        "display_name": "Francesco Visin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Visin, Francesco",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038633290",
+        "display_name": "G M Liu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Gaël",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032151259",
+        "display_name": "Jiageng Zhang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Jiageng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009962014",
+        "display_name": "Kathleen Kenealy",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kenealy, Kathleen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106276485",
+        "display_name": "Michelle Casbon",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Casbon, Michelle",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029766994",
+        "display_name": "Ravin Kumar",
+        "orcid": "https://orcid.org/0000-0002-3416-2679"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kumar, Ravin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082334070",
+        "display_name": "Thomas Mesnard",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mesnard, Thomas",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093547791",
+        "display_name": "Zach Gleicher",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gleicher, Zach",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032173284",
+        "display_name": "Chad Brick",
+        "orcid": "https://orcid.org/0000-0002-4814-9838"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Brick, Cormac",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010285605",
+        "display_name": "Olivier Lacombe",
+        "orcid": "https://orcid.org/0009-0001-9238-7702"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lacombe, Olivier",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076243636",
+        "display_name": "Adam Charles Roberts",
+        "orcid": "https://orcid.org/0000-0001-6497-0717"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Roberts, Adam",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101888648",
+        "display_name": "Qin Yin",
+        "orcid": "https://orcid.org/0000-0003-4709-5812"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yin, Qin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113807382",
+        "display_name": "Yun-Hsuan Sung",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sung, Yunhsuan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060819264",
+        "display_name": "Raphael Hoffmann",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hoffmann, Raphael",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093219820",
+        "display_name": "Tris Warkentin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Warkentin, Tris",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107859338",
+        "display_name": "Armand Joulin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Joulin, Armand",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032382472",
+        "display_name": "Tom Duerig",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duerig, Tom",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5053494387",
+        "display_name": "Mojtaba Seyedhosseini",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Seyedhosseini, Mojtaba",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 89,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5119748841"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10028",
+    "display_name": "Topic Modeling",
+    "score": 0.495700001716614,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "score": 0.495700001716614,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "score": 0.453700006008148,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/embedding",
+      "display_name": "Embedding",
+      "score": 0.804400026798248
+    },
+    {
+      "id": "https://openalex.org/keywords/robustness",
+      "display_name": "Robustness (evolution)",
+      "score": 0.784099996089935
+    },
+    {
+      "id": "https://openalex.org/keywords/generalizability-theory",
+      "display_name": "Generalizability theory",
+      "score": 0.691999971866608
+    },
+    {
+      "id": "https://openalex.org/keywords/initialization",
+      "display_name": "Initialization",
+      "score": 0.6807000041008
+    },
+    {
+      "id": "https://openalex.org/keywords/code",
+      "display_name": "Code (set theory)",
+      "score": 0.528900027275085
+    },
+    {
+      "id": "https://openalex.org/keywords/key",
+      "display_name": "Key (lock)",
+      "score": 0.496800005435944
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41608201",
+      "wikidata": "https://www.wikidata.org/wiki/Q980509",
+      "display_name": "Embedding",
+      "level": 2,
+      "score": 0.804400026798248
+    },
+    {
+      "id": "https://openalex.org/C63479239",
+      "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+      "display_name": "Robustness (evolution)",
+      "level": 3,
+      "score": 0.784099996089935
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.749499976634979
+    },
+    {
+      "id": "https://openalex.org/C27158222",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532422",
+      "display_name": "Generalizability theory",
+      "level": 2,
+      "score": 0.691999971866608
+    },
+    {
+      "id": "https://openalex.org/C114466953",
+      "wikidata": "https://www.wikidata.org/wiki/Q6034165",
+      "display_name": "Initialization",
+      "level": 2,
+      "score": 0.6807000041008
+    },
+    {
+      "id": "https://openalex.org/C2776760102",
+      "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+      "display_name": "Code (set theory)",
+      "level": 3,
+      "score": 0.528900027275085
+    },
+    {
+      "id": "https://openalex.org/C26517878",
+      "wikidata": "https://www.wikidata.org/wiki/Q228039",
+      "display_name": "Key (lock)",
+      "level": 2,
+      "score": 0.496800005435944
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.483700007200241
+    },
+    {
+      "id": "https://openalex.org/C185798385",
+      "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+      "display_name": "Benchmark (surveying)",
+      "level": 2,
+      "score": 0.451400011777878
+    },
+    {
+      "id": "https://openalex.org/C137293760",
+      "wikidata": "https://www.wikidata.org/wiki/Q3621696",
+      "display_name": "Language model",
+      "level": 2,
+      "score": 0.446599990129471
+    },
+    {
+      "id": "https://openalex.org/C63000827",
+      "wikidata": "https://www.wikidata.org/wiki/Q3080428",
+      "display_name": "Software portability",
+      "level": 2,
+      "score": 0.409900009632111
+    },
+    {
+      "id": "https://openalex.org/C204321447",
+      "wikidata": "https://www.wikidata.org/wiki/Q30642",
+      "display_name": "Natural language processing",
+      "level": 1,
+      "score": 0.390100002288818
+    },
+    {
+      "id": "https://openalex.org/C80444323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+      "display_name": "Theoretical computer science",
+      "level": 1,
+      "score": 0.358500003814697
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.318800002336502
+    },
+    {
+      "id": "https://openalex.org/C100980136",
+      "wikidata": "https://www.wikidata.org/wiki/Q4668956",
+      "display_name": "Malleability",
+      "level": 4,
+      "score": 0.311599999666214
+    },
+    {
+      "id": "https://openalex.org/C51632099",
+      "wikidata": "https://www.wikidata.org/wiki/Q3985153",
+      "display_name": "Training set",
+      "level": 2,
+      "score": 0.30460000038147
+    },
+    {
+      "id": "https://openalex.org/C165696696",
+      "wikidata": "https://www.wikidata.org/wiki/Q11287",
+      "display_name": "Exploit",
+      "level": 2,
+      "score": 0.28439998626709
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "pmh:oai:arXiv.org:2509.20354",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2509.20354",
+      "pdf_url": "https://arxiv.org/pdf/2509.20354",
+      "source": {
+        "id": "https://openalex.org/S4393918464",
+        "display_name": "ArXiv.org",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2509.20354",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2509.20354",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2509.20354",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2509.20354",
+    "pdf_url": "https://arxiv.org/pdf/2509.20354",
+    "source": {
+      "id": "https://openalex.org/S4393918464",
+      "display_name": "ArXiv.org",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "We": [0, 35, 130, 139],
+    "introduce": [1],
+    "EmbeddingGemma,": [2],
+    "a": [3, 42],
+    "new": [4],
+    "lightweight,": [5],
+    "open": [6],
+    "text": [7],
+    "embedding": [8, 33, 113],
+    "model": [9, 16, 37, 109],
+    "based": [10],
+    "on": [11, 56],
+    "the": [12, 57, 143],
+    "Gemma": [13],
+    "3": [14],
+    "language": [15],
+    "family.": [17],
+    "Our": [18],
+    "innovative": [19],
+    "training": [20],
+    "recipe": [21],
+    "strategically": [22],
+    "captures": [23],
+    "knowledge": [24],
+    "from": [25, 51],
+    "larger": [26],
+    "models": [27, 94],
+    "via": [28],
+    "encoder-decoder": [29],
+    "initialization": [30],
+    "and": [31, 39, 45, 66, 82, 89, 122],
+    "geometric": [32],
+    "distillation.": [34],
+    "improve": [36],
+    "robustness": [38],
+    "expressiveness": [40],
+    "with": [41, 84],
+    "spread-out": [43],
+    "regularizer,": [44],
+    "ensure": [46],
+    "generalizability": [47],
+    "by": [48],
+    "merging": [49],
+    "checkpoints": [50],
+    "varied,": [52],
+    "optimized": [53],
+    "mixtures.": [54],
+    "Evaluated": [55],
+    "Massive": [58],
+    "Text": [59],
+    "Embedding": [60],
+    "Benchmark": [61],
+    "(MTEB)": [62],
+    "across": [63],
+    "multilingual,": [64],
+    "English,": [65],
+    "code": [67],
+    "domains,": [68],
+    "EmbeddingGemma": [69, 117, 141],
+    "(300M)": [70],
+    "achieves": [71],
+    "state-of-the-art": [72],
+    "results.": [73],
+    "Notably,": [74],
+    "it": [75],
+    "outperforms": [76],
+    "prior": [77],
+    "top": [78],
+    "models,": [79],
+    "both": [80],
+    "proprietary": [81],
+    "open,": [83],
+    "fewer": [85],
+    "than": [86],
+    "500M": [87],
+    "parameters,": [88],
+    "provides": [90],
+    "performance": [91],
+    "comparable": [92],
+    "to": [93, 142, 145],
+    "double": [95],
+    "its": [96],
+    "size,": [97],
+    "offering": [98],
+    "an": [99],
+    "exceptional": [100],
+    "performance-to-cost": [101],
+    "ratio.": [102],
+    "Remarkably,": [103],
+    "this": [104],
+    "lead": [105],
+    "persists": [106],
+    "when": [107],
+    "quantizing": [108],
+    "weights": [110],
+    "or": [111],
+    "truncating": [112],
+    "outputs.": [114],
+    "This": [115],
+    "makes": [116],
+    "particularly": [118],
+    "well-suited": [119],
+    "for": [120],
+    "low-latency": [121],
+    "high-throughput": [123],
+    "use": [124],
+    "cases": [125],
+    "such": [126],
+    "as": [127],
+    "on-device": [128],
+    "applications.": [129],
+    "provide": [131],
+    "ablation": [132],
+    "studies": [133],
+    "exploring": [134],
+    "our": [135],
+    "key": [136],
+    "design": [137],
+    "choices.": [138],
+    "release": [140],
+    "community": [144],
+    "promote": [146],
+    "further": [147],
+    "research.": [148]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-03-07T16:01:11.037858",
+  "created_date": "2025-10-19T00:00:00"
+}

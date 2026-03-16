@@ -6,11 +6,11 @@ from config import base_folder
 csv_dir = Path(base_folder) / "CSVs"
 
 # Find all metadata CSV files automatically
-csv_files = sorted(csv_dir.glob("DS*_metadata.csv"))
+csv_files = sorted(csv_dir.glob("*_metadata.csv"))
 
 records = []
 for file_path in csv_files:
-    paper_number = int(file_path.stem.split("_")[0].replace("DS000", ""))
+    paper_number = int(file_path.stem.split("_")[0].split("000", 1)[-1])
 
     df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")

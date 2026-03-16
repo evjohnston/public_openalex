@@ -1,0 +1,778 @@
+{
+  "id": "https://openalex.org/W4327810158",
+  "doi": "https://doi.org/10.4230/lipics.cosit.2024.11",
+  "title": "GPT-4 Technical Report",
+  "display_name": "GPT-4 Technical Report",
+  "publication_year": 2023,
+  "publication_date": "2023-03-15",
+  "ids": {
+    "openalex": "https://openalex.org/W4327810158",
+    "doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:arXiv.org:2303.08774",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2303.08774",
+    "pdf_url": "https://arxiv.org/pdf/2303.08774",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": null
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "arxiv",
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2303.08774",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054034251",
+        "display_name": "OpenAI",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I51158804",
+          "display_name": "Massey University",
+          "ror": "https://ror.org/052czxv31",
+          "country_code": "NZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51158804"
+          ]
+        }
+      ],
+      "countries": [
+        "NZ"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Wijegunarathna, Kalana",
+      "raw_affiliation_strings": [
+        "School of Mathematical and Computational Sciences, Massey University, Auckland, New Zealand"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Mathematical and Computational Sciences, Massey University, Auckland, New Zealand",
+          "institution_ids": [
+            "https://openalex.org/I51158804"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Stock, Kristin",
+        "orcid": "https://orcid.org/0000-0002-5828-6430"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I51158804",
+          "display_name": "Massey University",
+          "ror": "https://ror.org/052czxv31",
+          "country_code": "NZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51158804"
+          ]
+        }
+      ],
+      "countries": [
+        "NZ"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stock, Kristin",
+      "raw_affiliation_strings": [
+        "School of Mathematical and Computational Sciences, Massey University, Auckland, New Zealand"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Mathematical and Computational Sciences, Massey University, Auckland, New Zealand",
+          "institution_ids": [
+            "https://openalex.org/I51158804"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Jones, Christopher B.",
+        "orcid": "https://orcid.org/0000-0001-6847-7575"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79510175",
+          "display_name": "Cardiff University",
+          "ror": "https://ror.org/03kk7td41",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jones, Christopher B.",
+      "raw_affiliation_strings": [
+        "School of Computer Science and Informatics, Cardiff University, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer Science and Informatics, Cardiff University, UK",
+          "institution_ids": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5054034251"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I51158804"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 394.3617,
+  "has_fulltext": true,
+  "cited_by_count": 2239,
+  "citation_normalized_percentile": {
+    "value": 0.99997685,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10028",
+    "display_name": "Topic Modeling",
+    "score": 0.975499987602234,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "score": 0.975499987602234,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/transformer",
+      "display_name": "Transformer",
+      "score": 0.692252814769745
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.663068175315857
+    },
+    {
+      "id": "https://openalex.org/keywords/security-token",
+      "display_name": "Security token",
+      "score": 0.602057456970215
+    },
+    {
+      "id": "https://openalex.org/keywords/process",
+      "display_name": "Process (computing)",
+      "score": 0.475005507469177
+    },
+    {
+      "id": "https://openalex.org/keywords/scale",
+      "display_name": "Scale (ratio)",
+      "score": 0.428455948829651
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.40934231877327
+    },
+    {
+      "id": "https://openalex.org/keywords/machine-learning",
+      "display_name": "Machine learning",
+      "score": 0.348382920026779
+    },
+    {
+      "id": "https://openalex.org/keywords/cartography",
+      "display_name": "Cartography",
+      "score": 0.118361800909042
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.114837825298309
+    },
+    {
+      "id": "https://openalex.org/keywords/electrical-engineering",
+      "display_name": "Electrical engineering",
+      "score": 0.0813685059547424
+    },
+    {
+      "id": "https://openalex.org/keywords/operating-system",
+      "display_name": "Operating system",
+      "score": 0.0760194957256317
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C66322947",
+      "wikidata": "https://www.wikidata.org/wiki/Q11658",
+      "display_name": "Transformer",
+      "level": 3,
+      "score": 0.692252814769745
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.663068175315857
+    },
+    {
+      "id": "https://openalex.org/C48145219",
+      "wikidata": "https://www.wikidata.org/wiki/Q1335365",
+      "display_name": "Security token",
+      "level": 2,
+      "score": 0.602057456970215
+    },
+    {
+      "id": "https://openalex.org/C98045186",
+      "wikidata": "https://www.wikidata.org/wiki/Q205663",
+      "display_name": "Process (computing)",
+      "level": 2,
+      "score": 0.475005507469177
+    },
+    {
+      "id": "https://openalex.org/C2778755073",
+      "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+      "display_name": "Scale (ratio)",
+      "level": 2,
+      "score": 0.428455948829651
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.40934231877327
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.348382920026779
+    },
+    {
+      "id": "https://openalex.org/C58640448",
+      "wikidata": "https://www.wikidata.org/wiki/Q42515",
+      "display_name": "Cartography",
+      "level": 1,
+      "score": 0.118361800909042
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.114837825298309
+    },
+    {
+      "id": "https://openalex.org/C119599485",
+      "wikidata": "https://www.wikidata.org/wiki/Q43035",
+      "display_name": "Electrical engineering",
+      "level": 1,
+      "score": 0.0813685059547424
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0760194957256317
+    },
+    {
+      "id": "https://openalex.org/C165801399",
+      "wikidata": "https://www.wikidata.org/wiki/Q25428",
+      "display_name": "Voltage",
+      "level": 2,
+      "score": 0
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 7,
+  "locations": [
+    {
+      "id": "pmh:oai:arXiv.org:2303.08774",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2303.08774",
+      "pdf_url": "https://arxiv.org/pdf/2303.08774",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:drops-oai.dagstuhl.de:20826",
+      "is_oa": true,
+      "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.COSIT.2024.11",
+      "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol315-cosit2024/LIPIcs.COSIT.2024.11/LIPIcs.COSIT.2024.11.pdf",
+      "source": {
+        "id": "https://openalex.org/S4377196569",
+        "display_name": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2799853480",
+        "host_organization_name": "Schloss Dagstuhl – Leibniz Center for Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I2799853480"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "InProceedings"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2303.08774",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2303.08774",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    },
+    {
+      "id": "doi:10.4230/lipics.cosit.2024.11",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4230/lipics.cosit.2024.11",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407052059",
+        "display_name": "Dagstuhl Research Online Publication Server",
+        "issn_l": null,
+        "issn": [],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": ""
+    },
+    {
+      "id": "doi:10.4230/lipics.giscience.2025.12",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4230/lipics.giscience.2025.12",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407052059",
+        "display_name": "Dagstuhl Research Online Publication Server",
+        "issn_l": null,
+        "issn": [],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": ""
+    },
+    {
+      "id": "doi:10.5281/zenodo.17924468",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5281/zenodo.17924468",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400562",
+        "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    },
+    {
+      "id": "doi:10.5281/zenodo.17924469",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5281/zenodo.17924469",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400562",
+        "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2303.08774",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2303.08774",
+    "pdf_url": "https://arxiv.org/pdf/2303.08774",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": null
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.639999985694885,
+      "id": "https://metadata.un.org/sdg/9",
+      "display_name": "Industry, innovation and infrastructure"
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G6509167838",
+      "display_name": null,
+      "funder_award_id": "ES/W003473/1",
+      "funder_id": "https://openalex.org/F4320334630",
+      "funder_display_name": "Economic and Social Research Council"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334630",
+      "display_name": "Economic and Social Research Council",
+      "ror": "https://ror.org/03n0ht308"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4388335561",
+    "https://openalex.org/W2970530566",
+    "https://openalex.org/W4288261899",
+    "https://openalex.org/W4307309205",
+    "https://openalex.org/W2967478618",
+    "https://openalex.org/W4385009901",
+    "https://openalex.org/W4385572700",
+    "https://openalex.org/W2997152889",
+    "https://openalex.org/W4387768015",
+    "https://openalex.org/W3016124757"
+  ],
+  "abstract_inverted_index": {
+    "Abstract—Large": [0],
+    "Language": [1],
+    "Models": [2],
+    "(LLMs)": [3],
+    "suffer": [4],
+    "from": [5],
+    "inherent": [6],
+    "stochasticity,": [7],
+    "limiting": [8],
+    "their": [9],
+    "utility": [10],
+    "in": [11],
+    "high-stakes": [12],
+    "enterprise": [13],
+    "environments": [14],
+    "where": [15],
+    "determinism": [16],
+    "and": [17, 58, 87, 100],
+    "auditability": [18],
+    "are": [19, 97],
+    "required.": [20],
+    "This": [21, 81],
+    "paper": [22],
+    "introduces": [23],
+    "the": [24, 49, 59, 75, 84],
+    "MFOUR": [25],
+    "Vibe": [26, 66],
+    "Framework": [27],
+    "(MVF),": [28],
+    "a": [29, 45, 70],
+    "platform-agnostic": [30],
+    "architectural": [31],
+    "standard": [32],
+    "that": [33, 96],
+    "transforms": [34],
+    "probabilistic": [35],
+    "natural": [36],
+    "language": [37],
+    "intent": [38],
+    "into": [39],
+    "deterministic": [40],
+    "software": [41],
+    "artifacts.": [42],
+    "We": [43],
+    "define": [44],
+    "five-layer": [46],
+    "topology,": [47],
+    "comprising": [48],
+    "Kernel": [50],
+    "Identity,": [51],
+    "Synaptic": [52],
+    "Routing,": [53],
+    "Interface": [54],
+    "Contracts,": [55],
+    "Context": [56],
+    "Anchoring,": [57],
+    "Mirror": [60],
+    "Test.": [61],
+    "Furthermore,": [62],
+    "we": [63],
+    "introduce": [64],
+    "The": [65],
+    "Integrity": [67],
+    "Score": [68],
+    "(VIS),": [69],
+    "quantitative": [71],
+    "metric": [72],
+    "for": [73, 90],
+    "evaluating": [74],
+    "structural": [76],
+    "adherence": [77],
+    "of": [78],
+    "generative": [79],
+    "outputs.": [80],
+    "specification": [82],
+    "provides": [83],
+    "foundational": [85],
+    "schema": [86],
+    "logic": [88],
+    "protocols": [89],
+    "building": [91],
+    "\"Glass": [92],
+    "Box\"": [93],
+    "AI": [94],
+    "systems": [95],
+    "observable,": [98],
+    "secure,": [99],
+    "commercially": [101],
+    "viable.": [102]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 105
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 717
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 807
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 604
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-03-15T09:29:46.208133",
+  "created_date": "2023-03-19T00:00:00"
+}

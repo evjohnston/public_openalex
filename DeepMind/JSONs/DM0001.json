@@ -1,0 +1,772 @@
+{
+  "id": "https://openalex.org/W4403713491",
+  "doi": "https://doi.org/10.48550/arxiv.2409.12640",
+  "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries",
+  "display_name": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries",
+  "publication_year": 2024,
+  "publication_date": "2024-09-19",
+  "ids": {
+    "openalex": "https://openalex.org/W4403713491",
+    "doi": "https://doi.org/10.48550/arxiv.2409.12640"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:arXiv.org:2409.12640",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2409.12640",
+    "pdf_url": "https://arxiv.org/pdf/2409.12640",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "text"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "arxiv",
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2409.12640",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007053674",
+        "display_name": "Kiran Vodrahalli",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Vodrahalli, Kiran",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038686010",
+        "display_name": "Santiago Ontañón",
+        "orcid": "https://orcid.org/0000-0002-9616-2981"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ontanon, Santiago",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026221871",
+        "display_name": "Nilesh Tripuraneni",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tripuraneni, Nilesh",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060717631",
+        "display_name": "Kelvin Xu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xu, Kelvin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068218873",
+        "display_name": "Sanil Jain",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jain, Sanil",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080937560",
+        "display_name": "Rakesh Shivanna",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shivanna, Rakesh",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111940210",
+        "display_name": "Jeffrey Hui",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hui, Jeffrey",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000758286",
+        "display_name": "Nishanth Dikkala",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dikkala, Nishanth",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061716911",
+        "display_name": "Mehran Kazemi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kazemi, Mehran",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063661444",
+        "display_name": "Bahare Fatemi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fatemi, Bahare",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104083306",
+        "display_name": "Rohan Anil",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Anil, Rohan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010086803",
+        "display_name": "Ethan Dyer",
+        "orcid": "https://orcid.org/0000-0001-5391-3100"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dyer, Ethan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034084374",
+        "display_name": "Siamak Shakeri",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shakeri, Siamak",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5114389191",
+        "display_name": "Roopali Vij",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Vij, Roopali",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112461374",
+        "display_name": "Harsh Mehta",
+        "orcid": "https://orcid.org/0000-0002-3428-3008"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mehta, Harsh",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059753414",
+        "display_name": "Vinay Ramasesh",
+        "orcid": "https://orcid.org/0000-0003-0625-3327"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ramasesh, Vinay",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088551093",
+        "display_name": "Quoc V. Le",
+        "orcid": "https://orcid.org/0000-0002-1087-2844"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Le, Quoc",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061612396",
+        "display_name": "Ed Chi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chi, Ed",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069653714",
+        "display_name": "Yifeng Lu",
+        "orcid": "https://orcid.org/0000-0003-1973-818X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lu, Yifeng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035914396",
+        "display_name": "Orhan Fırat",
+        "orcid": "https://orcid.org/0000-0001-5775-2420"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Firat, Orhan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042659302",
+        "display_name": "Angeliki Lazaridou",
+        "orcid": "https://orcid.org/0000-0002-5857-474X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lazaridou, Angeliki",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058299981",
+        "display_name": "Jean-Baptiste Lespiau",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lespiau, Jean-Baptiste",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002701525",
+        "display_name": "Nithya Attaluri",
+        "orcid": "https://orcid.org/0000-0001-9683-914X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Attaluri, Nithya",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5093547771",
+        "display_name": "Kate Olszewska",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Olszewska, Kate",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 24,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5007053674"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10215",
+    "display_name": "Semantic Web and Ontologies",
+    "score": 0.984099984169006,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10215",
+      "display_name": "Semantic Web and Ontologies",
+      "score": 0.984099984169006,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10824",
+      "display_name": "Image Retrieval and Classification Techniques",
+      "score": 0.982500016689301,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "score": 0.981899976730347,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/context",
+      "display_name": "Context (archaeology)",
+      "score": 0.661656498908997
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.528639614582062
+    },
+    {
+      "id": "https://openalex.org/keywords/information-retrieval",
+      "display_name": "Information retrieval",
+      "score": 0.388057380914688
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.170574098825455
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779343474",
+      "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+      "display_name": "Context (archaeology)",
+      "level": 2,
+      "score": 0.661656498908997
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.528639614582062
+    },
+    {
+      "id": "https://openalex.org/C23123220",
+      "wikidata": "https://www.wikidata.org/wiki/Q816826",
+      "display_name": "Information retrieval",
+      "level": 1,
+      "score": 0.388057380914688
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.170574098825455
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "pmh:oai:arXiv.org:2409.12640",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2409.12640",
+      "pdf_url": "https://arxiv.org/pdf/2409.12640",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2409.12640",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2409.12640",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2409.12640",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2409.12640",
+    "pdf_url": "https://arxiv.org/pdf/2409.12640",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4403713491.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4403713491.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W4391913857",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W4396701345",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2001405890",
+    "https://openalex.org/W4396696052"
+  ],
+  "abstract_inverted_index": {
+    "We": [0, 131],
+    "introduce": [1],
+    "Michelangelo:": [2],
+    "a": [3, 27, 47, 71, 83, 91, 123],
+    "minimal,": [4],
+    "synthetic,": [5],
+    "and": [6, 117, 138, 148],
+    "unleaked": [7],
+    "long-context": [8, 113, 127, 159],
+    "reasoning": [9],
+    "evaluation": [10, 23],
+    "for": [11, 31, 102, 155],
+    "large": [12],
+    "language": [13, 128],
+    "models": [14, 137],
+    "which": [15, 37, 69],
+    "is": [16, 24, 65, 152],
+    "also": [17],
+    "easy": [18],
+    "to": [19, 42, 66, 73, 121],
+    "automatically": [20],
+    "score.": [21],
+    "This": [22],
+    "derived": [25],
+    "via": [26],
+    "novel,": [28],
+    "unifying": [29],
+    "framework": [30, 63],
+    "evaluations": [32, 114, 133, 145],
+    "over": [33],
+    "arbitrarily": [34],
+    "long": [35],
+    "contexts": [36],
+    "measure": [38],
+    "the": [39, 59, 76, 80, 87, 100, 105, 143],
+    "model's": [40, 92],
+    "ability": [41],
+    "do": [43],
+    "more": [44],
+    "than": [45],
+    "retrieve": [46],
+    "single": [48],
+    "piece": [49],
+    "of": [50, 58, 94, 104, 126],
+    "information": [51, 78],
+    "from": [52],
+    "its": [53],
+    "context.": [54, 88],
+    "The": [55],
+    "central": [56],
+    "idea": [57],
+    "Latent": [60],
+    "Structure": [61],
+    "Queries": [62],
+    "(LSQ)": [64],
+    "construct": [67],
+    "tasks": [68],
+    "require": [70],
+    "model": [72, 101, 129],
+    "``chisel": [74],
+    "away''": [75],
+    "irrelevant": [77],
+    "in": [79, 86, 157],
+    "context,": [81],
+    "revealing": [82],
+    "latent": [84, 96],
+    "structure": [85],
+    "To": [89],
+    "verify": [90],
+    "understanding": [93],
+    "this": [95],
+    "structure,": [97],
+    "we": [98, 109],
+    "query": [99],
+    "details": [103],
+    "structure.": [106],
+    "Using": [107],
+    "LSQ,": [108],
+    "produce": [110],
+    "three": [111],
+    "diagnostic": [112],
+    "across": [115],
+    "code": [116],
+    "natural-language": [118],
+    "domains": [119],
+    "intended": [120],
+    "provide": [122],
+    "stronger": [124],
+    "signal": [125],
+    "capabilities.": [130],
+    "perform": [132],
+    "on": [134],
+    "several": [135],
+    "state-of-the-art": [136],
+    "demonstrate": [139],
+    "both": [140],
+    "that": [141, 150],
+    "a)": [142],
+    "proposed": [144],
+    "are": [146],
+    "high-signal": [147],
+    "b)": [149],
+    "there": [151],
+    "significant": [153],
+    "room": [154],
+    "improvement": [156],
+    "synthesizing": [158],
+    "information.": [160]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-03-12T08:34:05.389933",
+  "created_date": "2024-10-25T00:00:00"
+}

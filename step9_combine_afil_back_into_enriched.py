@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from config import base_folder
 
@@ -5,8 +6,8 @@ from config import base_folder
 # FILE PATHS
 # --------------------------------------------------
 
-authors_file = "DeepSeek/CSVs/enriched_authors_metadata.csv"
-aff_file = "DeepSeek/CSVs/author_affiliations_enhanced.csv"
+authors_file = os.path.join(base_folder, "CSVs", "enriched_authors_metadata.csv")
+aff_file = os.path.join(base_folder, "CSVs", "author_affiliations_enhanced.csv")
 
 years = list(range(1983, 2027))
 

@@ -1,0 +1,1434 @@
+id,display_name,author_count
+https://openalex.org/I4210161460,OpenAI (United States),60
+https://openalex.org/I97018004,Stanford University,56
+https://openalex.org/I63966007,Massachusetts Institute of Technology,32
+https://openalex.org/I95457486,"University of California, Berkeley",31
+https://openalex.org/I1291425158,Google (United States),29
+https://openalex.org/I74973139,Carnegie Mellon University,21
+https://openalex.org/I99065089,Tsinghua University,18
+https://openalex.org/I57206974,New York University,16
+https://openalex.org/I98677209,University of Edinburgh,12
+https://openalex.org/I76130692,Zhejiang University,10
+https://openalex.org/I136199984,Harvard University,10
+https://openalex.org/I45129253,University College London,10
+https://openalex.org/I20089843,Princeton University,9
+https://openalex.org/I91136226,University of Sheffield,9
+https://openalex.org/I86519309,The University of Texas at Austin,9
+https://openalex.org/I9224756,Northeastern University,9
+https://openalex.org/I78577930,Columbia University,8
+https://openalex.org/I185261750,University of Toronto,8
+https://openalex.org/I2252078561,Meta (Israel),8
+https://openalex.org/I4210090411,DeepMind (United Kingdom),8
+https://openalex.org/I98251732,McMaster University,8
+https://openalex.org/I5124864,École Polytechnique Fédérale de Lausanne,7
+https://openalex.org/I82880672,Beihang University,7
+https://openalex.org/I157725225,University of Illinois Urbana-Champaign,7
+https://openalex.org/I161318765,"University of California, Los Angeles",7
+https://openalex.org/I889458895,University of Hong Kong,7
+https://openalex.org/I867280407,The University of Texas Southwestern Medical Center,7
+https://openalex.org/I87445476,Xi'an Jiaotong University,7
+https://openalex.org/I52357470,The Ohio State University,6
+https://openalex.org/I79576946,University of Pennsylvania,6
+https://openalex.org/I58610484,Seattle University,6
+https://openalex.org/I4210164339,Oldham Council,6
+https://openalex.org/I887968799,RWTH Aachen University,6
+https://openalex.org/I126520041,University of Science and Technology of China,6
+https://openalex.org/I205783295,Cornell University,6
+https://openalex.org/I84218800,"University of California, Davis",6
+https://openalex.org/I241749,University of Cambridge,6
+https://openalex.org/I47720641,Huazhong University of Science and Technology,5
+https://openalex.org/I4210165038,University of Chinese Academy of Sciences,5
+https://openalex.org/I881766915,Nanjing University,5
+https://openalex.org/I19820366,Chinese Academy of Sciences,5
+https://openalex.org/I40120149,University of Oxford,5
+https://openalex.org/I4210109586,Moscow Institute of Thermal Technology,5
+https://openalex.org/I66946132,"University of Maryland, College Park",5
+https://openalex.org/I70931966,Université de Montréal,5
+https://openalex.org/I27837315,University of Michigan–Ann Arbor,5
+https://openalex.org/I46247651,University of Manitoba,5
+https://openalex.org/I887064364,University of Amsterdam,5
+https://openalex.org/I91656880,China Medical University,5
+https://openalex.org/I201448701,University of Washington,5
+https://openalex.org/I859038795,Virginia Tech,5
+https://openalex.org/I219193219,Purdue University West Lafayette,5
+https://openalex.org/I2801851002,Harvard University Press,5
+https://openalex.org/I4210103399,Saudi Heart Association,5
+https://openalex.org/I76214153,Lanzhou University,5
+https://openalex.org/I4210114444,Meta (United States),5
+https://openalex.org/I59553526,Stony Brook University,5
+https://openalex.org/I47508984,Imperial College London,5
+https://openalex.org/I87780372,Chongqing Medical University,4
+https://openalex.org/I75390827,Beijing University of Chemical Technology,4
+https://openalex.org/I4210110987,IIT@MIT,4
+https://openalex.org/I83519826,Nanjing Medical University,4
+https://openalex.org/I165733156,University of Georgia,4
+https://openalex.org/I4210164937,Microsoft Research (United Kingdom),4
+https://openalex.org/I89652312,Northwest A&F University,4
+https://openalex.org/I151746483,University of Waterloo,4
+https://openalex.org/I9842412,Nanjing University of Aeronautics and Astronautics,4
+https://openalex.org/I98704320,Icahn School of Medicine at Mount Sinai,4
+https://openalex.org/I137902535,North Carolina State University,4
+https://openalex.org/I4210102264,Shandong University of Political Science and Law,4
+https://openalex.org/I84884186,Newcastle University,4
+https://openalex.org/I122411786,California Institute of Technology,4
+https://openalex.org/I17145004,Northwestern Polytechnical University,4
+https://openalex.org/I90610280,South China University of Technology,4
+https://openalex.org/I919571938,The University of Texas Health Science Center at Houston,4
+https://openalex.org/I20231570,Peking University,4
+https://openalex.org/I36258959,University of California San Diego,4
+https://openalex.org/I84392919,Temple University,4
+https://openalex.org/I63135867,University of Cincinnati,4
+https://openalex.org/I31746571,UNSW Sydney,4
+https://openalex.org/I130701444,Georgia Institute of Technology,3
+https://openalex.org/I35440088,ETH Zurich,3
+https://openalex.org/I78978612,Yangzhou University,3
+https://openalex.org/I1174212,University of Southern California,3
+https://openalex.org/I48633490,Mass General Brigham,3
+https://openalex.org/I150468666,Emory University,3
+https://openalex.org/I4210137180,Institute of High Energy Physics,3
+https://openalex.org/I75027704,University of Tennessee at Knoxville,3
+https://openalex.org/I79223203,Guangdong Ocean University,3
+https://openalex.org/I79060951,East Stroudsburg University,3
+https://openalex.org/I114027177,University of North Carolina at Chapel Hill,3
+https://openalex.org/I118501908,National Research University Higher School of Economics,3
+https://openalex.org/I4210143632,Tyndall Centre,3
+https://openalex.org/I4210140341,Allen Institute,3
+https://openalex.org/I92156820,University of Cincinnati Medical Center,3
+https://openalex.org/I162868743,Tianjin University,3
+https://openalex.org/I901861585,Vanderbilt University Medical Center,3
+https://openalex.org/I890469752,Ministry of Industry and Information Technology,3
+https://openalex.org/I74801974,The University of Tokyo,3
+https://openalex.org/I154099455,Shandong University,3
+https://openalex.org/I592451,Indiana University,3
+https://openalex.org/I24943067,Fudan University,3
+https://openalex.org/I181547552,Baylor College of Medicine,3
+https://openalex.org/I4210089761,West China Hospital of Sichuan University,3
+https://openalex.org/I79619799,University of Birmingham,3
+https://openalex.org/I4210119109,Indiana University Bloomington,3
+https://openalex.org/I200719446,Vanderbilt University,3
+https://openalex.org/I51556381,University of Virginia,3
+https://openalex.org/I4210099336,Menlo School,3
+https://openalex.org/I9916479,Air Force Medical University,3
+https://openalex.org/I14243506,Hong Kong Polytechnic University,3
+https://openalex.org/I4210113520,Brain (Germany),3
+https://openalex.org/I91935597,University of South China,3
+https://openalex.org/I921990950,University of Colorado Denver,3
+https://openalex.org/I87216513,Michigan State University,3
+https://openalex.org/I38877650,Zhengzhou University,3
+https://openalex.org/I63739035,All India Institute of Medical Sciences,3
+https://openalex.org/I204250578,"University of California, Irvine",3
+https://openalex.org/I76569877,Southeast University,3
+https://openalex.org/I24185976,Sichuan University,3
+https://openalex.org/I79510175,Cardiff University,3
+https://openalex.org/I91045830,Texas A&M University,3
+https://openalex.org/I1314696892,Fermi National Accelerator Laboratory,3
+https://openalex.org/I88830068,Shaanxi Normal University,3
+https://openalex.org/I58200834,Southern Medical University,3
+https://openalex.org/I79817857,University of Guelph,3
+https://openalex.org/I91807558,National Cheng Kung University,3
+https://openalex.org/I2251713219,NTT (Japan),3
+https://openalex.org/I4210113003,Physical Sciences (United States),3
+https://openalex.org/I141945490,University of British Columbia,3
+https://openalex.org/I55769427,Indiana University – Purdue University Indianapolis,3
+https://openalex.org/I96908189,Xinjiang University,3
+https://openalex.org/I148283060,Lawrence Berkeley National Laboratory,3
+https://openalex.org/I40347166,University of Chicago,3
+https://openalex.org/I204465549,Washington University in St. Louis,3
+https://openalex.org/I39422238,University of Illinois Chicago,3
+https://openalex.org/I7882870,University of Glasgow,3
+https://openalex.org/I74775410,Rice University,3
+https://openalex.org/I52158045,China Agricultural University,3
+https://openalex.org/I55732556,Arizona State University,3
+https://openalex.org/I4210087110,St Vincent's Hospital,2
+https://openalex.org/I4210144228,Eunice Kennedy Shriver National Institute of Child Health and Human Development,2
+https://openalex.org/I93393672,Western University of Health Sciences,2
+https://openalex.org/I183935753,King's College London,2
+https://openalex.org/I1285764155,"Merck & Co., Inc., Rahway, NJ, USA (United States)",2
+https://openalex.org/I99978038,Core Laboratories (United States),2
+https://openalex.org/I1330342723,Mayo Clinic,2
+https://openalex.org/I36234482,University of Bristol,2
+https://openalex.org/I165779595,University of Melbourne,2
+https://openalex.org/I96852419,Capital Normal University,2
+https://openalex.org/I17974374,Universidade de São Paulo,2
+https://openalex.org/I169381384,University of Groningen,2
+https://openalex.org/I32971472,Yale University,2
+https://openalex.org/I4210155088,Institute of Chemistry,2
+https://openalex.org/I47838141,Saint Louis University,2
+https://openalex.org/I12097938,West Virginia University,2
+https://openalex.org/I889804353,Robert Bosch (Germany),2
+https://openalex.org/I4210153792,University School,2
+https://openalex.org/I67311998,European Organization for Nuclear Research,2
+https://openalex.org/I99418890,Northwestern Polytechnic University,2
+https://openalex.org/I186335123,East Carolina University,2
+https://openalex.org/I2799853436,Johns Hopkins Medicine,2
+https://openalex.org/I87182695,Universidad del Noreste,2
+https://openalex.org/I74656192,University of Göttingen,2
+https://openalex.org/I76835614,University of Missouri,2
+https://openalex.org/I196729704,Southern Illinois University School of Medicine,2
+https://openalex.org/I2799548008,D. E. Shaw Research,2
+https://openalex.org/I118347636,Australian National University,2
+https://openalex.org/I1283280774,Brigham and Women's Hospital,2
+https://openalex.org/I4210124771,Bipar,2
+https://openalex.org/I98301712,Baidu (China),2
+https://openalex.org/I162827531,Indian Institute of Technology Bombay,2
+https://openalex.org/I1351752,Koç University,2
+https://openalex.org/I59270414,Indian Institute of Science Bangalore,2
+https://openalex.org/I145311948,Johns Hopkins University,2
+https://openalex.org/I881427289,University of Gothenburg,2
+https://openalex.org/I4400600948,Microsoft Research New England (United States),2
+https://openalex.org/I92178344,Anhui University of Technology,2
+https://openalex.org/I4210114115,IBM Research - Thomas J. Watson Research Center,2
+https://openalex.org/I4210155511,First Affiliated Hospital of Henan University,2
+https://openalex.org/I111753288,Fujian Normal University,2
+https://openalex.org/I100930933,University College Dublin,2
+https://openalex.org/I1290206253,Microsoft (United States),2
+https://openalex.org/I135310074,University of Wisconsin–Madison,2
+https://openalex.org/I4210123907,National University College,2
+https://openalex.org/I4210118524,Université Bourgogne Franche-Comté,2
+https://openalex.org/I4210141942,Peking University Third Hospital,2
+https://openalex.org/I139264467,Seoul National University,2
+https://openalex.org/I77920804,Albany Medical Center Hospital,2
+https://openalex.org/I86501945,University of Delaware,2
+https://openalex.org/I33434090,University of Massachusetts Boston,2
+https://openalex.org/I7877124,Charité - Universitätsmedizin Berlin,2
+https://openalex.org/I12834331,University of Wyoming,2
+https://openalex.org/I39343248,Humboldt-Universität zu Berlin,2
+https://openalex.org/I4210156404,Institute of Information Engineering,2
+https://openalex.org/I142974352,National Sun Yat-sen University,2
+https://openalex.org/I90344618,Medical Research Council,2
+https://openalex.org/I4210156212,Mentor Technologies,2
+https://openalex.org/I530967,Toronto Metropolitan University,2
+https://openalex.org/I140221134,Anhui Agricultural University,2
+https://openalex.org/I205401836,National Institute for Materials Science,2
+https://openalex.org/I4210119896,King's College School,2
+https://openalex.org/I204983213,Harbin Institute of Technology,2
+https://openalex.org/I43439940,University of Southampton,2
+https://openalex.org/I80143920,Shandong University of Science and Technology,2
+https://openalex.org/I78650965,TU Dresden,2
+https://openalex.org/I4210126298,Duke Medical Center,2
+https://openalex.org/I1308126019,National Oceanic and Atmospheric Administration,2
+https://openalex.org/I65837984,Kobe University,2
+https://openalex.org/I4210137306,Stanford Medicine,2
+https://openalex.org/I4210157890,Neurological Surgery,2
+https://openalex.org/I142637625,Okinawa Institute of Science and Technology Graduate University,2
+https://openalex.org/I111599522,Jiangnan University,2
+https://openalex.org/I126307644,University of Iowa,2
+https://openalex.org/I4210123804,International Energy Research Centre,2
+https://openalex.org/I168537998,Eli Lilly (United States),2
+https://openalex.org/I170897317,Duke University,2
+https://openalex.org/I1299303238,National Institutes of Health,2
+https://openalex.org/I922845939,Philadelphia University,2
+https://openalex.org/I192545095,United States Military Academy,2
+https://openalex.org/I4210108542,Schlumberger (Ireland),2
+https://openalex.org/I872945872,University of Winnipeg,2
+https://openalex.org/I5740404,Tianjin Medical University,2
+https://openalex.org/I165932596,National University of Singapore,2
+https://openalex.org/I4210147155,Pediatrics and Genetics,2
+https://openalex.org/I899635006,Université Grenoble Alpes,2
+https://openalex.org/I92664306,Walter Reed Army Institute of Research,2
+https://openalex.org/I71270174,Victoria University,2
+https://openalex.org/I124227911,Ben-Gurion University of the Negev,2
+https://openalex.org/I16733864,National Taiwan University,2
+https://openalex.org/I4210152154,State Key Laboratory of Food Science and Technology,2
+https://openalex.org/I887998513,Bharati Vidyapeeth Deemed University,2
+https://openalex.org/I8204097,Ludwig-Maximilians-Universität München,2
+https://openalex.org/I9360294,University of Bologna,2
+https://openalex.org/I90183372,Université de Lorraine,2
+https://openalex.org/I94658018,University of Memphis,2
+https://openalex.org/I95674353,UCLouvain,2
+https://openalex.org/I4210153400,King's College Hospital,2
+https://openalex.org/I119454577,Nanjing Agricultural University,2
+https://openalex.org/I2801993434,The Alfred Hospital,2
+https://openalex.org/I4210145145,Nomor Research (Germany),2
+https://openalex.org/I63634437,Universidad Autónoma de Madrid,2
+https://openalex.org/I4210132565,Young Invincibles,2
+https://openalex.org/I87111246,Catholic University of Korea,2
+https://openalex.org/I76414455,"Kasturba Medical College, Manipal",2
+https://openalex.org/I4210150208,Molecular Oncology (United States),2
+https://openalex.org/I30558944,Oklahoma Medical Research Foundation,2
+https://openalex.org/I2800015558,Phillips Exeter Academy,2
+https://openalex.org/I4210155268,Salesforce (United States),2
+https://openalex.org/I16835326,University of St Andrews,2
+https://openalex.org/I4210117453,Dana-Farber Cancer Institute,2
+https://openalex.org/I1283103587,AT&T (United States),2
+https://openalex.org/I4210131919,Xi'an University of Technology,2
+https://openalex.org/I4210138199,University of Washington Applied Physics Laboratory,2
+https://openalex.org/I1319063186,Langley Research Center,2
+https://openalex.org/I187400657,South China Normal University,2
+https://openalex.org/I2801253297,Southmead Hospital,2
+https://openalex.org/I4210135521,Max Planck Institute for Intelligent Systems,2
+https://openalex.org/I44675526,Shanghai Ocean University,2
+https://openalex.org/I2898894,Liaoning University of Technology,2
+https://openalex.org/I4387153466,Weill Cornell Medicine,2
+https://openalex.org/I4210148567,Pfizer (China),2
+https://openalex.org/I154425047,University of Alberta,2
+https://openalex.org/I4210101034,Birla Institute of Technology and Science - Hyderabad Campus,2
+https://openalex.org/I150229711,University of Electronic Science and Technology of China,2
+https://openalex.org/I55538621,China Jiliang University,2
+https://openalex.org/I43922553,Wuhan University of Science and Technology,2
+https://openalex.org/I4210161994,Dana-Farber Brigham Cancer Center,2
+https://openalex.org/I111088046,Boston University,2
+https://openalex.org/I180670191,"University of California, San Francisco",2
+https://openalex.org/I124357947,University of London,2
+https://openalex.org/I16391192,Tel Aviv University,2
+https://openalex.org/I74485261,Shandong Agricultural University,2
+https://openalex.org/I2802946424,Johns Hopkins University Applied Physics Laboratory,2
+https://openalex.org/I56590836,Monash University,2
+https://openalex.org/I25254941,Beijing Normal University,2
+https://openalex.org/I848706,Sungkyunkwan University,2
+https://openalex.org/I1334627681,Jet Propulsion Laboratory,2
+https://openalex.org/I96733725,Shanghai Maritime University,2
+https://openalex.org/I78715868,University of Arkansas at Fayetteville,2
+https://openalex.org/I74796645,"Birla Institute of Technology and Science, Pilani",2
+https://openalex.org/I8078737,Clemson University,2
+https://openalex.org/I74525822,Hubei University of Technology,2
+https://openalex.org/I5681781,University of Adelaide,2
+https://openalex.org/I5023651,McGill University,2
+https://openalex.org/I4210163399,Shandong First Medical University,2
+https://openalex.org/I2800555584,Peter MacCallum Cancer Centre,2
+https://openalex.org/I2803209242,University of California System,2
+https://openalex.org/I82760581,Taizhou University,2
+https://openalex.org/I1335321130,Children's Hospital of Philadelphia,2
+https://openalex.org/I117965899,University of Hawaiʻi at Mānoa,2
+https://openalex.org/I92403157,University of Science and Technology Beijing,2
+https://openalex.org/I153718931,University of Ottawa,2
+https://openalex.org/I4210087962,National Institute of Arthritis and Musculoskeletal and Skin Diseases,2
+https://openalex.org/I4800084,Southwest Jiaotong University,2
+https://openalex.org/I1322918889,United States Department of Veterans Affairs,2
+https://openalex.org/I17606148,École Nationale Vétérinaire d'Alfort,2
+https://openalex.org/I79731167,Hainan Medical University,2
+https://openalex.org/I2801228662,Peking Union Medical College Hospital,2
+https://openalex.org/I93906172,Anyang University,2
+https://openalex.org/I27577105,University College Cork,2
+https://openalex.org/I74653059,Public Health Foundation of India,2
+https://openalex.org/I61057504,Fujian Agriculture and Forestry University,2
+https://openalex.org/I4575257,Hanyang University,2
+https://openalex.org/I190082696,Durham University,2
+https://openalex.org/I28407311,University of Manchester,2
+https://openalex.org/I4210136823,AstraZeneca (Poland),2
+https://openalex.org/I135140700,University of Bonn,1
+https://openalex.org/I4210141964,Institut Cochin,1
+https://openalex.org/I4210140813,First Affiliated Hospital of Dalian Medical University,1
+https://openalex.org/I61152923,Cabot (United States),1
+https://openalex.org/I4402553993,Guangdong Teachers College of Foreign Language and Arts,1
+https://openalex.org/I4210153230,Shanghai Academy of Spaceflight Technology,1
+https://openalex.org/I4210088493,Institute of Public Health Bengaluru,1
+https://openalex.org/I2801987317,VA Office of Research and Development,1
+https://openalex.org/I879563668,Universidade Estadual Paulista (Unesp),1
+https://openalex.org/I82497590,Auburn University,1
+https://openalex.org/I392282,"University at Albany, State University of New York",1
+https://openalex.org/I8679417,Hong Kong Metropolitan University,1
+https://openalex.org/I4210128938,RIKEN Advanced Science Institute,1
+https://openalex.org/I4210126794,IBM Research (China),1
+https://openalex.org/I4210090489,State Key Laboratory of Pollution Control and Resource Reuse,1
+https://openalex.org/I4210110652,RIKEN,1
+https://openalex.org/I146655781,University of Liverpool,1
+https://openalex.org/I4210153068,Dongfeng Motor Group (China),1
+https://openalex.org/I168893459,University of Allahabad,1
+https://openalex.org/I134421475,National Physical Laboratory,1
+https://openalex.org/I2802046418,Chesterfield College,1
+https://openalex.org/I57825437,University of Neuchâtel,1
+https://openalex.org/I4210143345,Kingston Hospital,1
+https://openalex.org/I4210145005,State Key Laboratory of Vehicle NVH and Safety Technology,1
+https://openalex.org/I887846188,Moscow Engineering Physics Institute,1
+https://openalex.org/I36314861,Beirut Arab University,1
+https://openalex.org/I4210097066,Shanghai Ninth People's Hospital,1
+https://openalex.org/I4210092045,St. Vincent's Hospital,1
+https://openalex.org/I14780663,MingDao University,1
+https://openalex.org/I78323350,Malek Ashtar University of Technology,1
+https://openalex.org/I4210126452,The Retina Center,1
+https://openalex.org/I2802697821,Johns Hopkins Bayview Medical Center,1
+https://openalex.org/I4210143831,Women's General Hospital,1
+https://openalex.org/I1328943360,Saint Petersburg Academic University,1
+https://openalex.org/I223822909,Heidelberg University,1
+https://openalex.org/I4210143791,Institute for Molecular Science,1
+https://openalex.org/I2802220196,Sir Charles Gairdner Hospital,1
+https://openalex.org/I4210153043,Duke University Hospital,1
+https://openalex.org/I153473198,North China Electric Power University,1
+https://openalex.org/I4210093052,Cabrini Hospital,1
+https://openalex.org/I4210133231,Eli and Edythe Broad Foundation,1
+https://openalex.org/I51601045,University of Bath,1
+https://openalex.org/I4210095179,Saint Joseph's Hospital,1
+https://openalex.org/I4210125675,National Patient Safety Agency,1
+https://openalex.org/I4210167263,South African Institute for Medical Research,1
+https://openalex.org/I139759216,Beijing University of Posts and Telecommunications,1
+https://openalex.org/I165690674,Oregon Health & Science University,1
+https://openalex.org/I189196454,The University of Texas at Arlington,1
+https://openalex.org/I2799611809,Korea Research Institute of Standards and Science,1
+https://openalex.org/I4210131006,Centro Latino-Americano e do Caribe de Informação em Ciências da Saúde,1
+https://openalex.org/I165799507,Rensselaer Polytechnic Institute,1
+https://openalex.org/I4210123418,Cincinnati Eye Institute,1
+https://openalex.org/I88596544,Universidade Lusófona,1
+https://openalex.org/I87531838,Teikyo University,1
+https://openalex.org/I4210152539,Atlanta VA Medical Center,1
+https://openalex.org/I4210151472,ChromaDex (United States),1
+https://openalex.org/I2800453128,Austin Hospital,1
+https://openalex.org/I2613432,University of South Florida,1
+https://openalex.org/I25757504,China University of Mining and Technology,1
+https://openalex.org/I4210149087,Xi'an Railway Survey and Design Institute,1
+https://openalex.org/I4210151202,Plant (United States),1
+https://openalex.org/I47251452,Wake Forest University,1
+https://openalex.org/I2801667607,Maryland-National Capital Park and Planning Commission,1
+https://openalex.org/I4210134152,Paradox Sports,1
+https://openalex.org/I1288214837,United States Naval Research Laboratory,1
+https://openalex.org/I4210092774,Hôpital Cochin,1
+https://openalex.org/I4210160694,Memorial Hospital,1
+https://openalex.org/I165951966,The University of Texas Health Science Center at San Antonio,1
+https://openalex.org/I4210126242,Shanghai Entry-Exit Inspection and Quarantine Bureau,1
+https://openalex.org/I1324520350,Hackensack University Medical Center,1
+https://openalex.org/I4210108422,Hayashi Eye Hospital,1
+https://openalex.org/I4210138955,Yuli Veterans Hospital,1
+https://openalex.org/I2802875205,Repatriation General Hospital,1
+https://openalex.org/I189273616,Rosalind Franklin University of Medicine and Science,1
+https://openalex.org/I87253917,Manchester University,1
+https://openalex.org/I4210102265,New York State Office of Mental Health,1
+https://openalex.org/I4210140000,Laboratoire de Recherche en Sciences Végétales,1
+https://openalex.org/I2802654988,Princess Margaret Cancer Centre,1
+https://openalex.org/I51768193,Royal Military College of Canada,1
+https://openalex.org/I73616290,Korea Research Institute of Bioscience and Biotechnology,1
+https://openalex.org/I4392021250,State Key Laboratory of Networking and Switching Technology,1
+https://openalex.org/I169572211,Northeast Agricultural University,1
+https://openalex.org/I4210089486,Fred Hutch Cancer Center,1
+https://openalex.org/I4210156029,MEI Technologies (United States),1
+https://openalex.org/I4210119674,East China University of Technology,1
+https://openalex.org/I2801537753,Eppendorf (Germany),1
+https://openalex.org/I9374425,Ottawa University,1
+https://openalex.org/I4210103178,St. Joseph's Hospital,1
+https://openalex.org/I4210099777,Queen Elizabeth Hospital,1
+https://openalex.org/I82284825,Cranfield University,1
+https://openalex.org/I4210105136,Yangtze River Delta Physics Research Center (China),1
+https://openalex.org/I4210156573,Bassett Medical Center,1
+https://openalex.org/I4210144610,Hôpital Saint-Louis,1
+https://openalex.org/I2801331674,St James's University Hospital,1
+https://openalex.org/I19880235,Lomonosov Moscow State University,1
+https://openalex.org/I75059550,Zhejiang Gongshang University,1
+https://openalex.org/I64281891,College of New Jersey,1
+https://openalex.org/I871655764,Domtar (Canada),1
+https://openalex.org/I61641377,Universitatea Națională de Știință și Tehnologie Politehnica București,1
+https://openalex.org/I4210164131,Ophthalmology Associates (United States),1
+https://openalex.org/I4210160447,Universidad de Londres,1
+https://openalex.org/I142401562,Electronics and Telecommunications Research Institute,1
+https://openalex.org/I4210159480,Environmental Protection Agency,1
+https://openalex.org/I4210128565,CEA Paris-Saclay,1
+https://openalex.org/I4210122455,Policy Analysis (United States),1
+https://openalex.org/I4210140386,PLA Navy General Hospital,1
+https://openalex.org/I4210118245,Shandong Iron and Steel Group (China),1
+https://openalex.org/I114173286,Gujarat University,1
+https://openalex.org/I1287551835,National Skin Centre,1
+https://openalex.org/I2802734952,First Affiliated Hospital of Xinjiang Medical University,1
+https://openalex.org/I118292597,National Taipei University of Technology,1
+https://openalex.org/I4210125099,Mayo Clinic in Arizona,1
+https://openalex.org/I4210165275,Queen Elizabeth’s Academy,1
+https://openalex.org/I1320354487,Target (United States),1
+https://openalex.org/I1280536761,Ames Research Center,1
+https://openalex.org/I4210126858,Submicron Heterostructures for Microelectronics Research and Engineering Center,1
+https://openalex.org/I4210166576,First Affiliated Hospital Zhejiang University,1
+https://openalex.org/I4210108386,North West London Pathology,1
+https://openalex.org/I4210151462,New York Genome Center,1
+https://openalex.org/I2801978711,Nottingham General Hospital,1
+https://openalex.org/I4210158291,Laboratoire Jacques-Louis Lions,1
+https://openalex.org/I4210102181,Mallinckrodt (United States),1
+https://openalex.org/I4210155619,Qingdao Municipal Center for Disease Control and Prevention,1
+https://openalex.org/I145847075,TU Wien,1
+https://openalex.org/I4210166778,Canadian Sleep & Circadian Network,1
+https://openalex.org/I4210125376,ARC Centre of Excellence for Coherent X-ray Science,1
+https://openalex.org/I4210090971,Southeast University,1
+https://openalex.org/I878454856,Hasselt University,1
+https://openalex.org/I205016115,Hubei University of Chinese Medicine,1
+https://openalex.org/I4210154936,Elisha Hospital,1
+https://openalex.org/I9217761,Westinghouse Electric (United States),1
+https://openalex.org/I95568926,Ioffe Institute,1
+https://openalex.org/I80180929,Universidad de Murcia,1
+https://openalex.org/I4210140103,Caris Life Sciences (United States),1
+https://openalex.org/I4210131225,Pain Clinic of India,1
+https://openalex.org/I4210093494,Samuel S. Fleisher Art Memorial,1
+https://openalex.org/I78734956,Allan Hancock College,1
+https://openalex.org/I2799869770,Chelsea and Westminster Hospital NHS Foundation Trust,1
+https://openalex.org/I123387679,Uppsala University,1
+https://openalex.org/I4210149247,National Institute of Meteorology,1
+https://openalex.org/I89079967,Catholic Kwandong University,1
+https://openalex.org/I4210112848,Worcestershire Royal Hospital,1
+https://openalex.org/I1316902750,Cleveland Clinic,1
+https://openalex.org/I4210152478,State Key Laboratory of Polymer Physics and Chemistry,1
+https://openalex.org/I1321305853,National Bureau of Economic Research,1
+https://openalex.org/I203847022,Instituto Politécnico de Lisboa,1
+https://openalex.org/I928334797,Semnan University,1
+https://openalex.org/I1329621470,Bhabha Atomic Research Centre,1
+https://openalex.org/I185103710,"University of California, Santa Cruz",1
+https://openalex.org/I41763900,Central Electronics Engineering Research Institute,1
+https://openalex.org/I4210160531,Chinese People's Liberation Army,1
+https://openalex.org/I4210121071,Fuzhou Second Hospital,1
+https://openalex.org/I127128434,Genomics Institute of the Novartis Research Foundation,1
+https://openalex.org/I4210131461,County Hospital,1
+https://openalex.org/I192455969,York University,1
+https://openalex.org/I63371133,Chongqing Jiaotong University,1
+https://openalex.org/I4210104624,Manufacturing Institute,1
+https://openalex.org/I56085075,University of Tartu,1
+https://openalex.org/I904495901,Ruhr University Bochum,1
+https://openalex.org/I83790135,Whirlpool (United States),1
+https://openalex.org/I121797337,Leiden University,1
+https://openalex.org/I4210116778,Alberta Cancer Foundation,1
+https://openalex.org/I1314251682,Institut National de la Recherche Agronomique,1
+https://openalex.org/I32625721,University of Saskatchewan,1
+https://openalex.org/I103890011,Shenyang Pharmaceutical University,1
+https://openalex.org/I63855395,Missouri Western State University,1
+https://openalex.org/I1313416372,US Forest Service,1
+https://openalex.org/I2801099641,Massachusetts Academy of Math and Science at WPI,1
+https://openalex.org/I137982388,Janssen (Belgium),1
+https://openalex.org/I2801520950,At Bristol,1
+https://openalex.org/I4210094115,Laboratoire d'Informatique Algorithmique: Fondements et Applications,1
+https://openalex.org/I1850255,University of Basel,1
+https://openalex.org/I148314036,Uniformed Services University of the Health Sciences,1
+https://openalex.org/I4210115494,Baogang Group (China),1
+https://openalex.org/I4210131085,Institute of Laboratory Animal Science,1
+https://openalex.org/I114457229,University of Geneva,1
+https://openalex.org/I4210095722,Rambus (United States),1
+https://openalex.org/I1309191912,Research Triangle Park Foundation,1
+https://openalex.org/I99464096,KU Leuven,1
+https://openalex.org/I4210121786,Max Planck Institute for Software Systems,1
+https://openalex.org/I4210167254,Singapore-MIT Alliance for Research and Technology,1
+https://openalex.org/I4210125155,Institute of Food Science & Technology,1
+https://openalex.org/I4210126919,Immunomedics (United States),1
+https://openalex.org/I4210095288,Provo College,1
+https://openalex.org/I160682246,PRIST University,1
+https://openalex.org/I4210127102,Korea Institute of Energy Research,1
+https://openalex.org/I56030857,Central Electricity Generating Board,1
+https://openalex.org/I2802835388,Seoul National University Hospital,1
+https://openalex.org/I4210101648,Connecticut Children's Medical Center,1
+https://openalex.org/I24571045,University of North Dakota,1
+https://openalex.org/I4210092773,UK Centre for Ecology & Hydrology,1
+https://openalex.org/I134113660,"University of Nevada, Reno",1
+https://openalex.org/I4210109017,Upsher-Smith Laboratories (United Kingdom),1
+https://openalex.org/I4210109427,The Japanese Society of Gastroenterological Surgery,1
+https://openalex.org/I44677085,Bühler (United Kingdom),1
+https://openalex.org/I78037679,UiT The Arctic University of Norway,1
+https://openalex.org/I4210152530,Advanced Bioscience Laboratories (United States),1
+https://openalex.org/I154570441,"University of California, Santa Barbara",1
+https://openalex.org/I4401726811,Hartford Financial Services (United States),1
+https://openalex.org/I131249849,Oregon State University,1
+https://openalex.org/I4210108370,Panzhihua University,1
+https://openalex.org/I51504820,San Jose State University,1
+https://openalex.org/I4210147048,Infectiologie Animale et Santé Publique,1
+https://openalex.org/I126231945,Queen's University Belfast,1
+https://openalex.org/I87208437,University of Tulsa,1
+https://openalex.org/I98222981,Murray Darling Basin Authority,1
+https://openalex.org/I1340121542,Climate Central,1
+https://openalex.org/I1330063522,Johnson & Johnson (United States),1
+https://openalex.org/I4210135108,Beijing Municipal Health Bureau,1
+https://openalex.org/I4654613,University of Warsaw,1
+https://openalex.org/I141649380,Western Michigan University,1
+https://openalex.org/I1317886745,Virginia Mason Medical Center,1
+https://openalex.org/I134493880,Instituto Biológico,1
+https://openalex.org/I48663246,Anglo American (South Africa),1
+https://openalex.org/I1322087612,Alcatel Lucent (Germany),1
+https://openalex.org/I4210103755,Dahua Hospital,1
+https://openalex.org/I2802225915,Changi General Hospital,1
+https://openalex.org/I2799343707,Canadian Cardiovascular Society,1
+https://openalex.org/I4210103894,Hefei National Center for Physical Sciences at Nanoscale,1
+https://openalex.org/I4210139016,Material Sciences (United States),1
+https://openalex.org/I4210164117,Walker (United States),1
+https://openalex.org/I52569155,Diabetes UK,1
+https://openalex.org/I4210137316,Rosogneupor (Russia),1
+https://openalex.org/I308837,Suzhou University of Science and Technology,1
+https://openalex.org/I4210124847,National Engineering Research Center of Electromagnetic Radiation Control Materials,1
+https://openalex.org/I2250955327,Huawei Technologies (China),1
+https://openalex.org/I4210162004,New England Research (United States),1
+https://openalex.org/I2802331550,Taipei Medical University Hospital,1
+https://openalex.org/I32943570,Helsinki Institute for Information Technology,1
+https://openalex.org/I161046081,University of Freiburg,1
+https://openalex.org/I4210163657,Crest Middle School,1
+https://openalex.org/I2800093905,"Bundesministerium für Forschung, Technologie und Raumfahrt",1
+https://openalex.org/I42102869,Rusk Rehabilitation,1
+https://openalex.org/I4210154771,CSIRO Manufacturing,1
+https://openalex.org/I4210119107,Institute of Human Genetics,1
+https://openalex.org/I4210158714,Teradata (United States),1
+https://openalex.org/I2802925319,University of Alberta Hospital,1
+https://openalex.org/I68384125,Thomson Reuters (United States),1
+https://openalex.org/I180949307,Illinois Institute of Technology,1
+https://openalex.org/I184693016,China Medical University,1
+https://openalex.org/I70908550,Anhui Polytechnic University,1
+https://openalex.org/I4210134482,Nanjing Institute of Geography and Limnology,1
+https://openalex.org/I4210132936,MC10 (United States),1
+https://openalex.org/I99165933,University of Gujrat,1
+https://openalex.org/I4210086621,Electronics and Radar Development Establishment,1
+https://openalex.org/I35566140,Loyola Marymount University,1
+https://openalex.org/I4210133253,Chengdu Second People's Hospital,1
+https://openalex.org/I3133134087,Lanzhou Jiaotong University,1
+https://openalex.org/I59433898,Brunel University of London,1
+https://openalex.org/I4402554095,Public Health Laboratory,1
+https://openalex.org/I4210155647,National Institutes of Health Clinical Center,1
+https://openalex.org/I59028336,Pratt Institute,1
+https://openalex.org/I95694802,South-West State University,1
+https://openalex.org/I4210135132,Cambridge University Press,1
+https://openalex.org/I280994,King George's Medical University,1
+https://openalex.org/I1320473756,The Royal Melbourne Hospital,1
+https://openalex.org/I4210156804,First Affiliated Hospital of Zhengzhou University,1
+https://openalex.org/I4390039363,Infection et inflammation,1
+https://openalex.org/I4210125878,Suzhou Research Institute,1
+https://openalex.org/I17301866,University of Alabama,1
+https://openalex.org/I4210153510,Prokhorov General Physics Institute,1
+https://openalex.org/I96408529,Taylor University,1
+https://openalex.org/I2799546139,State Administration of Foreign Experts Affairs,1
+https://openalex.org/I72090969,Nokia (United States),1
+https://openalex.org/I47834966,Framingham State University,1
+https://openalex.org/I4210129794,Materials Science & Engineering,1
+https://openalex.org/I4210140353,St. John's School,1
+https://openalex.org/I4210152230,Kaohsiung Veterans General Hospital,1
+https://openalex.org/I98285908,Osaka University,1
+https://openalex.org/I2801996072,LDS Hospital,1
+https://openalex.org/I57664883,Ajou University,1
+https://openalex.org/I4401727003,EOG Resources (United States),1
+https://openalex.org/I4210111045,Astrogeology Science Center,1
+https://openalex.org/I4210095401,Loma Linda University Health Care,1
+https://openalex.org/I197251160,Hebrew University of Jerusalem,1
+https://openalex.org/I1291836623,Mount Sinai Hospital,1
+https://openalex.org/I861853513,Sapienza University of Rome,1
+https://openalex.org/I4210094386,National Superconducting Cyclotron Laboratory,1
+https://openalex.org/I4210085930,Heriot-Watt University Malaysia,1
+https://openalex.org/I142263535,University of Nottingham,1
+https://openalex.org/I81365321,Old Dominion University,1
+https://openalex.org/I2799990285,Epworth Hospital,1
+https://openalex.org/I2802101240,Carolinas Medical Center,1
+https://openalex.org/I55240360,Yeungnam University,1
+https://openalex.org/I57053284,Rockwell Automation (United States),1
+https://openalex.org/I96036126,Kumamoto University,1
+https://openalex.org/I4210091852,Recombinant Technologies (United States),1
+https://openalex.org/I26347476,Loma Linda University,1
+https://openalex.org/I1332737386,General Electric (United States),1
+https://openalex.org/I1343551460,The University of Texas MD Anderson Cancer Center,1
+https://openalex.org/I28290843,University of Surrey,1
+https://openalex.org/I4210134067,Orthopaedic Research,1
+https://openalex.org/I4210106329,Russian Engineering Academy,1
+https://openalex.org/I4210129231,Glens Falls Hospital,1
+https://openalex.org/I92446798,Colorado State University,1
+https://openalex.org/I205924995,Japan Society for the Promotion of Science,1
+https://openalex.org/I59028903,Ocean University of China,1
+https://openalex.org/I4210134534,National Institute of Allergy and Infectious Diseases,1
+https://openalex.org/I1344073410,Howard Hughes Medical Institute,1
+https://openalex.org/I4210113153,Neuroscience Institute,1
+https://openalex.org/I1286490081,Boston Medical Center,1
+https://openalex.org/I91993116,Sirris,1
+https://openalex.org/I121980950,Utah State University,1
+https://openalex.org/I197173980,Southeastern Louisiana University,1
+https://openalex.org/I157485424,Korea Advanced Institute of Science and Technology,1
+https://openalex.org/I129877168,Carl von Ossietzky Universität Oldenburg,1
+https://openalex.org/I4210160793,Institute of Geographic Sciences and Natural Resources Research,1
+https://openalex.org/I4210104042,St. Francis Hospital,1
+https://openalex.org/I4210131558,"Beaumont Hospital, Dearborn",1
+https://openalex.org/I4210145170,Hôpital Bichat-Claude-Bernard,1
+https://openalex.org/I4210145969,Max Planck Institute of Psychiatry,1
+https://openalex.org/I12315562,Texas Tech University,1
+https://openalex.org/I4210088867,Dayanand Medical College & Hospital,1
+https://openalex.org/I4210122374,Universitäts Frauenklinik,1
+https://openalex.org/I1306266525,Goddard Space Flight Center,1
+https://openalex.org/I2800559042,Riverview Hospital,1
+https://openalex.org/I71052956,University of Reading,1
+https://openalex.org/I4210092888,Changchun Institute of Applied Chemistry,1
+https://openalex.org/I184843921,Hebei University of Technology,1
+https://openalex.org/I207123951,New Mexico Institute of Mining and Technology,1
+https://openalex.org/I2800556163,Emory University Hospital,1
+https://openalex.org/I4210140852,Centre for Cancer Biology,1
+https://openalex.org/I4210152891,Superconducting Systems (United States),1
+https://openalex.org/I4210128394,University Child Development School,1
+https://openalex.org/I4210096056,Shanghai CASB Biotechnology (China),1
+https://openalex.org/I198357462,Changsha University,1
+https://openalex.org/I149594827,Xidian University,1
+https://openalex.org/I20388574,SUNY Upstate Medical University,1
+https://openalex.org/I57135942,Atotech (United States),1
+https://openalex.org/I4210161253,Crimean Astrophysical Observatory,1
+https://openalex.org/I156088403,Belarusian State Technological University,1
+https://openalex.org/I4210167297,IBM Research - Haifa,1
+https://openalex.org/I4210141030,SickKids Foundation,1
+https://openalex.org/I2800648950,Wycombe General Hospital,1
+https://openalex.org/I4210104810,West Lothian Council,1
+https://openalex.org/I4210160344,Tongji Hospital,1
+https://openalex.org/I126744593,"University of Maryland, Baltimore",1
+https://openalex.org/I52710748,Charles R. Drew University of Medicine and Science,1
+https://openalex.org/I32062511,Heriot-Watt University,1
+https://openalex.org/I4210122847,"Czech Academy of Sciences, Institute of Microbiology",1
+https://openalex.org/I4210113876,Sri Sathya Sai Institute of Higher Medical Sciences,1
+https://openalex.org/I108688024,Qingdao University,1
+https://openalex.org/I27429435,Kyoto Institute of Technology,1
+https://openalex.org/I8692664,University of Oklahoma,1
+https://openalex.org/I4210136666,FirstHealth of the Carolinas,1
+https://openalex.org/I67206655,Fielding Graduate University,1
+https://openalex.org/I4210110767,National Institute of Neurological Disorders and Stroke,1
+https://openalex.org/I4210153402,CSL (Australia),1
+https://openalex.org/I67031392,Carleton University,1
+https://openalex.org/I9364636,Salisbury University,1
+https://openalex.org/I2800704394,Copiah-Lincoln Community College,1
+https://openalex.org/I88981905,Scottish National Blood Transfusion Service,1
+https://openalex.org/I77826658,St Vincents Institute of Medical Research,1
+https://openalex.org/I4210111906,Palmetto Hematology Oncology,1
+https://openalex.org/I184840846,Virginia Commonwealth University,1
+https://openalex.org/I165143802,University of Queensland,1
+https://openalex.org/I1319677595,Torrance Memorial Medical Center,1
+https://openalex.org/I2800810863,Queen Mary Hospital,1
+https://openalex.org/I4210116130,Physiologie de la Reproduction et des Comportements,1
+https://openalex.org/I60065076,Pacific Lutheran University,1
+https://openalex.org/I17626003,University of Rhode Island,1
+https://openalex.org/I1340584023,North Carolina Department of Environmental Quality,1
+https://openalex.org/I2799389969,Lowell Observatory,1
+https://openalex.org/I16365422,Hefei University of Technology,1
+https://openalex.org/I4210161658,Russian State Agrarian Correspondence University,1
+https://openalex.org/I4210123017,Framingham Heart Study,1
+https://openalex.org/I2802901496,Bristol Royal Infirmary,1
+https://openalex.org/I114150738,Fu Jen Catholic University,1
+https://openalex.org/I4210155257,Alstom (United States),1
+https://openalex.org/I4210099204,Scientific Services,1
+https://openalex.org/I4210127266,First Affiliated Hospital of Chengdu Medical College,1
+https://openalex.org/I178535277,University of the West of England,1
+https://openalex.org/I5332623,ManTech International (United States),1
+https://openalex.org/I2799600557,Japan External Trade Organization,1
+https://openalex.org/I2800440370,Signature Healthcare Brockton Hospital,1
+https://openalex.org/I72019824,Virginia Commonwealth University Medical Center,1
+https://openalex.org/I4210141682,Air Force General Hospital PLA,1
+https://openalex.org/I25846049,National Tsing Hua University,1
+https://openalex.org/I200769079,Hong Kong University of Science and Technology,1
+https://openalex.org/I4210101327,Twin Cities Orthopedics,1
+https://openalex.org/I4210156233,HemoCleanse (United States),1
+https://openalex.org/I107766831,NSF National Center for Atmospheric Research,1
+https://openalex.org/I16609230,Hunan University,1
+https://openalex.org/I2800235667,Kurchatov Institute,1
+https://openalex.org/I869660684,University of the Western Cape,1
+https://openalex.org/I4210099556,Research Support Instruments (United States),1
+https://openalex.org/I4210109968,Laboratoire de Chimie Physique,1
+https://openalex.org/I2803034462,Fox College,1
+https://openalex.org/I73417466,Coventry University,1
+https://openalex.org/I4210126650,Centre Pour La Recherche Economique et ses Applications,1
+https://openalex.org/I883665419,Blackburn College,1
+https://openalex.org/I889315371,Agricultural & Applied Economics Association,1
+https://openalex.org/I2802259095,Energy Research Centre of the Netherlands,1
+https://openalex.org/I70983195,Syracuse University,1
+https://openalex.org/I2801410363,Stony Brook University Hospital,1
+https://openalex.org/I4210101049,Lung Institute,1
+https://openalex.org/I926333354,Tetra Tech (United States),1
+https://openalex.org/I4210099116,Far West Local Health District,1
+https://openalex.org/I75421653,University of Missouri–Kansas City,1
+https://openalex.org/I4210163497,Austin Health,1
+https://openalex.org/I31512782,Technical University of Darmstadt,1
+https://openalex.org/I4210086647,Philips (China),1
+https://openalex.org/I4387152290,Vuntut National Park,1
+https://openalex.org/I135768898,Ritsumeikan University,1
+https://openalex.org/I97429440,University of Wales,1
+https://openalex.org/I2948663404,Boston Scientific (United States),1
+https://openalex.org/I75929689,UConn Health,1
+https://openalex.org/I4210126590,General Research Institute for Nonferrous Metals (China),1
+https://openalex.org/I53964585,Weizmann Institute of Science,1
+https://openalex.org/I4210142504,Semiconductor Manufacturing International (China),1
+https://openalex.org/I4210152674,National Institute of Pharmaceutical Education and Research,1
+https://openalex.org/I67009956,Iran University of Science and Technology,1
+https://openalex.org/I2800444561,Atlanta Technical College,1
+https://openalex.org/I4210156903,Materials Research Group (United States),1
+https://openalex.org/I4210166048,Gesellschaft Fur Mathematik Und Datenverarbeitung,1
+https://openalex.org/I143868143,Anhui University,1
+https://openalex.org/I41461413,Universiti Malaysia Sarawak,1
+https://openalex.org/I4210100923,Munster Technological University,1
+https://openalex.org/I4210130572,175th Hospital of People's Liberation Army,1
+https://openalex.org/I4210153182,Zigong First People's Hospital,1
+https://openalex.org/I66862912,Chalmers University of Technology,1
+https://openalex.org/I4210152161,Damien Foundation,1
+https://openalex.org/I4210134615,Health and Human Services Agency,1
+https://openalex.org/I4210116144,Chongqing University of Education,1
+https://openalex.org/I149672521,Federation University,1
+https://openalex.org/I4210102556,K Lab (United States),1
+https://openalex.org/I4210116048,Beijing National Laboratory for Molecular Sciences,1
+https://openalex.org/I3004594783,Institute of High Performance Computing,1
+https://openalex.org/I4210145152,Shenzhen Radio and TV University,1
+https://openalex.org/I4210088960,Kochi Medical School Hospital,1
+https://openalex.org/I183874917,Urbana University,1
+https://openalex.org/I73613424,National Institute of Advanced Industrial Science and Technology,1
+https://openalex.org/I160992636,Toyota Technological Institute at Chicago,1
+https://openalex.org/I4210113369,Microsoft Research Asia (China),1
+https://openalex.org/I4391767752,State Key Laboratory of Chemobiosensing and Chemometrics,1
+https://openalex.org/I4210128526,UPMC Hillman Cancer Center,1
+https://openalex.org/I4210130959,Mineral Resources,1
+https://openalex.org/I4210159865,Xiangya Hospital Central South University,1
+https://openalex.org/I48168531,South University,1
+https://openalex.org/I4210124598,Palo Alto Institute,1
+https://openalex.org/I4210105151,Laboratoire de Physique Nucléaire et de Hautes Énergies,1
+https://openalex.org/I27804330,Brown University,1
+https://openalex.org/I4210154508,Food & Nutrition,1
+https://openalex.org/I4210120917,Taiwan Semiconductor Manufacturing Company (Taiwan),1
+https://openalex.org/I4210152189,St. George Hospital,1
+https://openalex.org/I166416128,DEVCOM Army Research Laboratory,1
+https://openalex.org/I69740276,Tokyo Metropolitan University,1
+https://openalex.org/I61937129,Jackson State University,1
+https://openalex.org/I103087548,Norfolk State University,1
+https://openalex.org/I863488634,Coherent (United States),1
+https://openalex.org/I4210113439,Baotou Teachers College,1
+https://openalex.org/I114539943,Zhejiang Chinese Medical University,1
+https://openalex.org/I4210163776,Dermatology Research Center,1
+https://openalex.org/I3019322962,Universidade Brasil,1
+https://openalex.org/I4210145077,Camborne Redruth Community Hospital,1
+https://openalex.org/I157773358,Sun Yat-sen University,1
+https://openalex.org/I90023481,National Institute of Information and Communications Technology,1
+https://openalex.org/I33086117,New York Psychoanalytic Society and Institute,1
+https://openalex.org/I4210166021,"Biologie de la Reproduction, Environnement, Epigénétique et Développement",1
+https://openalex.org/I89440247,Myongji University,1
+https://openalex.org/I4210119012,Xichang University,1
+https://openalex.org/I4210098326,London Studio Centre,1
+https://openalex.org/I193662353,Utrecht University,1
+https://openalex.org/I4210148352,St. Mary's Medical Center,1
+https://openalex.org/I4210136897,National Institute on Aging,1
+https://openalex.org/I192454743,Sandia National Laboratories California,1
+https://openalex.org/I4210148245,Fundação Faculdade de Medicina,1
+https://openalex.org/I4210138965,Pro Change Behavior Systems (United States),1
+https://openalex.org/I4210146715,National Institute of Pharmaceutical Education and Research,1
+https://openalex.org/I98358874,Delft University of Technology,1
+https://openalex.org/I922474255,Tokushima University,1
+https://openalex.org/I74022624,Oklahoma State University Center for Health Sciences,1
+https://openalex.org/I4210096666,"Institute of Biomedical Sciences, Academia Sinica",1
+https://openalex.org/I4210157319,Shinkoga Hospital,1
+https://openalex.org/I84653119,Academia Sinica,1
+https://openalex.org/I4210107408,New York Proton Center,1
+https://openalex.org/I4210143490,Computing Center,1
+https://openalex.org/I4210117317,Tianjin Open University,1
+https://openalex.org/I4210122954,MIT Lincoln Laboratory,1
+https://openalex.org/I4210163926,Zhejiang Medicine (China),1
+https://openalex.org/I2802742124,John Radcliffe Hospital,1
+https://openalex.org/I2802362269,Health Sciences Centre,1
+https://openalex.org/I4210130600,Children's Hospital of Pittsburgh,1
+https://openalex.org/I4210153075,Laboratoire de Génétique Cellulaire,1
+https://openalex.org/I177881444,Pomona College,1
+https://openalex.org/I4210135013,Space Information Laboratories (United States),1
+https://openalex.org/I74614422,Quest Diagnostics (United States),1
+https://openalex.org/I3129535883,Coquitlam College,1
+https://openalex.org/I4210124779,National Aeronautics and Space Administration,1
+https://openalex.org/I4210139743,Geotechnical Consulting Group (United Kingdom),1
+https://openalex.org/I159176309,Universität Hamburg,1
+https://openalex.org/I22265921,National Central University,1
+https://openalex.org/I66867065,East China Normal University,1
+https://openalex.org/I133868755,Shanghai Medical College of Fudan University,1
+https://openalex.org/I4210105538,Maryland Department of Natural Resources,1
+https://openalex.org/I4210163247,Henan Institute of Science and Technology,1
+https://openalex.org/I4210106879,Ohio University,1
+https://openalex.org/I4210146328,Scripps Clinic,1
+https://openalex.org/I44187974,Molecular Sciences Institute,1
+https://openalex.org/I194450716,Jilin University,1
+https://openalex.org/I1289243028,Oak Ridge National Laboratory,1
+https://openalex.org/I4210098582,ZTE (China),1
+https://openalex.org/I4210150094,Ludwig Cancer Research,1
+https://openalex.org/I4210157122,Heidelberg Repatriation Hospital,1
+https://openalex.org/I130828816,University of Leeds,1
+https://openalex.org/I138006243,University of Arizona,1
+https://openalex.org/I189590672,Kansas State University,1
+https://openalex.org/I206437052,University of Management and Technology,1
+https://openalex.org/I4210121815,National Institute on Alcohol Abuse and Alcoholism,1
+https://openalex.org/I4210133016,Motion Control (United States),1
+https://openalex.org/I200399037,University of Puerto Rico System,1
+https://openalex.org/I1287521167,Lockheed Martin (United States),1
+https://openalex.org/I2799866627,University Hospital of North Tees,1
+https://openalex.org/I81020160,Louisiana State University Health Sciences Center Shreveport,1
+https://openalex.org/I4210087266,Institute of Computer Science,1
+https://openalex.org/I2800713431,Saint Vincent Hospital,1
+https://openalex.org/I4210094860,Sensor Concepts (United States),1
+https://openalex.org/I201537933,Tohoku University,1
+https://openalex.org/I4210088259,National Institute of Dental and Craniofacial Research,1
+https://openalex.org/I4210137574,Cells Therapy (Poland),1
+https://openalex.org/I4210144781,Grand Accélérateur National d'Ions Lourds,1
+https://openalex.org/I4210088792,United States Army,1
+https://openalex.org/I40963666,Central China Normal University,1
+https://openalex.org/I4210135832,Institute of Child Health,1
+https://openalex.org/I4210138837,Fonctions Optiques pour les Technologies de l’information,1
+https://openalex.org/I129902397,Dalhousie University,1
+https://openalex.org/I4210136029,Saratoga Hospital,1
+https://openalex.org/I4210108489,National Technical Information Service,1
+https://openalex.org/I4210120835,Graf Research (United States),1
+https://openalex.org/I4210157972,Chongqing Municipal Government,1
+https://openalex.org/I1330989302,United States Department of Energy,1
+https://openalex.org/I4210103271,White Plains Hospital,1
+https://openalex.org/I93320256,University of Tampa,1
+https://openalex.org/I4210147359,Royal Observatory in Greenwich,1
+https://openalex.org/I4210093632,Rockefeller University Hospital,1
+https://openalex.org/I4210108723,Changzhou Institute of Technology,1
+https://openalex.org/I4210086780,Japan Science and Technology Agency,1
+https://openalex.org/I4840577,Toyota Technological Institute,1
+https://openalex.org/I51532219,University of Lincoln,1
+https://openalex.org/I4210131837,Etablissements de Santé Mentale,1
+https://openalex.org/I4210157054,UK-China Guangdong CCUS Centre,1
+https://openalex.org/I4210152006,Jilin Agricultural University,1
+https://openalex.org/I1316064682,LinkedIn (United States),1
+https://openalex.org/I4210107260,Apple (United Kingdom),1
+https://openalex.org/I4210091849,Bhabha Atomic Research Center Hospital,1
+https://openalex.org/I4210097092,Water Research Australia,1
+https://openalex.org/I4210135903,UCSF Benioff Children's Hospital,1
+https://openalex.org/I113979032,Twitter (United States),1
+https://openalex.org/I1292875679,Commonwealth Scientific and Industrial Research Organisation,1
+https://openalex.org/I4210106621,Belarusian State Economic University,1
+https://openalex.org/I4210099312,Shandong Jiaotong University,1
+https://openalex.org/I7863295,Villanova University,1
+https://openalex.org/I7350606,Dalian Jiaotong University,1
+https://openalex.org/I905225518,Shanghai University of International Business and Economics,1
+https://openalex.org/I97565354,University of Lausanne,1
+https://openalex.org/I4210138332,Guizhou Provincial Meteorological Bureau,1
+https://openalex.org/I187911006,Australian Red Cross Lifeblood,1
+https://openalex.org/I187453708,Institute for High Energy Physics,1
+https://openalex.org/I4210139547,Xi'an Peihua University,1
+https://openalex.org/I94509681,Technische Universität Braunschweig,1
+https://openalex.org/I4210099512,Second Affiliated Hospital & Yuying Children's Hospital of Wenzhou Medical University,1
+https://openalex.org/I4210138502,Onto Innovation (United States),1
+https://openalex.org/I4210117648,Northeast Georgia Medical Center,1
+https://openalex.org/I77199428,National Taiwan Sport University,1
+https://openalex.org/I176808543,Liaoning Technical University,1
+https://openalex.org/I4210112143,Fourth Hospital of Changsha,1
+https://openalex.org/I2801280572,Environmental Molecular Sciences Laboratory,1
+https://openalex.org/I65181880,Indian Institute of Technology Hyderabad,1
+https://openalex.org/I4210154776,University of Hawaiʻi Sea Grant,1
+https://openalex.org/I4210095266,Mount Sinai Medical Center,1
+https://openalex.org/I26730717,Foothill College,1
+https://openalex.org/I2802152183,Novant Health,1
+https://openalex.org/I4210163592,Economic Research Centre,1
+https://openalex.org/I4388482696,Naval Research Laboratory Information Technology Division,1
+https://openalex.org/I99484792,Baxter (United States),1
+https://openalex.org/I2802931750,Flinders Medical Centre,1
+https://openalex.org/I4210152392,American Association of Critical-Care Nurses,1
+https://openalex.org/I4210136793,Peng Cheng Laboratory,1
+https://openalex.org/I4210105312,Shanghai Power Equipment Research Institute,1
+https://openalex.org/I4210149240,Barber-Nichols (United States),1
+https://openalex.org/I4210100502,Beverly Hills Cancer Center,1
+https://openalex.org/I3019308854,Moffitt Cancer Center,1
+https://openalex.org/I2799630439,Sandwell & West Birmingham Hospitals NHS Trust,1
+https://openalex.org/I98834328,Wuyi University,1
+https://openalex.org/I4210147389,Hunan Provincial People's Hospital,1
+https://openalex.org/I4210091773,Taichung Veterans General Hospital,1
+https://openalex.org/I36788626,California University of Pennsylvania,1
+https://openalex.org/I4210094273,National Institute of Science and Technology Policy,1
+https://openalex.org/I4210136447,Ulsan University Hospital,1
+https://openalex.org/I40253897,University of New Haven,1
+https://openalex.org/I4210120193,Wuxi Wind Power Design and Research Institute,1
+https://openalex.org/I4210099505,BioNano Genomics (United States),1
+https://openalex.org/I2800807537,Korea Research Institute for Vocational Education and Training,1
+https://openalex.org/I60770847,Notre Dame University – Louaize,1
+https://openalex.org/I888729015,University of Colorado Colorado Springs,1
+https://openalex.org/I3132302805,National University of Saint Anthony the Abbot in Cuzco,1
+https://openalex.org/I4210091775,Instituto Español de Oceanografía,1
+https://openalex.org/I867306930,Power Grid Corporation (India),1
+https://openalex.org/I4210136340,Comer Children's Hospital,1
+https://openalex.org/I1281735042,Natural Resources Canada,1
+https://openalex.org/I137506752,North China University of Science and Technology,1
+https://openalex.org/I4210142748,Shandong Academy of Sciences,1
+https://openalex.org/I139024713,Guangdong University of Technology,1
+https://openalex.org/I4210099692,Government of the Northern Territory,1
+https://openalex.org/I1325846038,Royal Marsden NHS Foundation Trust,1
+https://openalex.org/I80043,Institut Curie,1
+https://openalex.org/I149919469,California Polytechnic State University,1
+https://openalex.org/I4210136534,Manchester College,1
+https://openalex.org/I4210098257,Iranshahr University,1
+https://openalex.org/I4210126592,National Clinical Research,1
+https://openalex.org/I50928471,Elmhurst College,1
+https://openalex.org/I204136569,The Open University,1
+https://openalex.org/I25355098,Chang'an University,1
+https://openalex.org/I4210136868,New Technology (Israel),1
+https://openalex.org/I4210131307,Institute of Behavioral Sciences,1
+https://openalex.org/I94611258,Hebei Normal University,1
+https://openalex.org/I4210162753,First Affiliated Hospital of Jinan University,1
+https://openalex.org/I8264552,Lublin University of Technology,1
+https://openalex.org/I4210129701,Institute of High Energy Physics,1
+https://openalex.org/I4210119759,Essen University Hospital,1
+https://openalex.org/I155781252,University of South Carolina,1
+https://openalex.org/I4210161528,Qilu Hospital of Shandong University,1
+https://openalex.org/I72951846,Washington State University,1
+https://openalex.org/I1316535847,Beth Israel Deaconess Medical Center,1
+https://openalex.org/I21945476,Shanghai Normal University,1
+https://openalex.org/I4210097707,People’s Hospital of Rizhao,1
+https://openalex.org/I178232147,Guizhou University,1
+https://openalex.org/I184681353,Anhui University of Science and Technology,1
+https://openalex.org/I4210148186,Google (Canada),1
+https://openalex.org/I47519274,Taipei Medical University,1
+https://openalex.org/I4210133358,Search,1
+https://openalex.org/I4210158190,Institute of Crop Sciences,1
+https://openalex.org/I202276237,Medical University of Graz,1
+https://openalex.org/I4387153084,UK Health Security Agency,1
+https://openalex.org/I4210092817,Suzhou Institute of Biomedical Engineering and Technology,1
+https://openalex.org/I4210137750,UC Irvine Health,1
+https://openalex.org/I24603500,University of Massachusetts Amherst,1
+https://openalex.org/I79940851,University of Brescia,1
+https://openalex.org/I4210137423,Zhuzhou Central Hospital,1
+https://openalex.org/I223532165,University of Utah,1
+https://openalex.org/I85722119,UCB Pharma (Belgium),1
+https://openalex.org/I4210128768,Tianjin Fire Research Institute,1
+https://openalex.org/I4210142318,HTG Molecular Diagnostics (United States),1
+https://openalex.org/I4210113821,"Indian Institute of Information Technology, Pune",1
+https://openalex.org/I4210103890,Allscripts (United States),1
+https://openalex.org/I285663978,Weatherford College,1
+https://openalex.org/I4210153742,Jenner Institute,1
+https://openalex.org/I4210153016,Irrua Specialist Teaching Hospital,1
+https://openalex.org/I172901346,St Petersburg University,1
+https://openalex.org/I161350542,China Three Gorges University,1
+https://openalex.org/I1289437631,Fox Chase Cancer Center,1
+https://openalex.org/I189712700,University of Konstanz,1
+https://openalex.org/I152269853,Qilu University of Technology,1
+https://openalex.org/I25974101,University of Würzburg,1
+https://openalex.org/I158438070,Universidad de La Laguna,1
+https://openalex.org/I4210133194,Scottish Water (United Kingdom),1
+https://openalex.org/I4210132734,Max Planck Computing and Data Facility,1
+https://openalex.org/I4210162013,Technical Solutions (United States),1
+https://openalex.org/I4210159699,United Nations Children's Fund India,1
+https://openalex.org/I67348948,Bayer (Germany),1
+https://openalex.org/I173899330,Henan University,1
+https://openalex.org/I1333540553,Nitte University,1
+https://openalex.org/I79741316,University of Pecs,1
+https://openalex.org/I4210119922,Kaiser Permanente Redwood City Medical Center,1
+https://openalex.org/I2800124591,Texas Oncology,1
+https://openalex.org/I55214057,Sam Ratulangi University,1
+https://openalex.org/I4210165441,Hangzhou Medical College,1
+https://openalex.org/I51158804,Massey University,1
+https://openalex.org/I129734738,All India Institute of Medical Sciences Raipur,1
+https://openalex.org/I4210124175,Center for Astrophysics Harvard & Smithsonian,1
+https://openalex.org/I4210131548,Hamilton Medical Center,1
+https://openalex.org/I4210089442,Aston Medical (France),1
+https://openalex.org/I4210132156,RIKEN Center for Emergent Matter Science,1
+https://openalex.org/I108806672,Baden-Wuerttemberg Cooperative State University,1
+https://openalex.org/I909854389,London School of Economics and Political Science,1
+https://openalex.org/I4210095026,Poultry Research Institute,1
+https://openalex.org/I39333907,Yanshan University,1
+https://openalex.org/I4210164192,Affiliated Hospital of Zunyi Medical College,1
+https://openalex.org/I106165777,University of Central Florida,1
+https://openalex.org/I4210104735,Sandia National Laboratories,1
+https://openalex.org/I4210094618,CT Group Of Institutions,1
+https://openalex.org/I98389781,Dhirubhai Ambani Institute of Information and Communication Technology,1
+https://openalex.org/I4210160049,El Paso Public Library,1
+https://openalex.org/I4210145812,Cancer Genetics (United States),1
+https://openalex.org/I103163165,Florida State University,1
+https://openalex.org/I4210164526,Meso Scale Discovery (United States),1
+https://openalex.org/I21193070,Beijing Jiaotong University,1
+https://openalex.org/I79072001,International University of Health and Welfare,1
+https://openalex.org/I4210124184,Heilongjiang Bayi Agricultural University,1
+https://openalex.org/I45756140,Hanoi University of Industry,1
+https://openalex.org/I89004649,Korea Institute of Industrial Technology,1
+https://openalex.org/I173865709,Gifu Pharmaceutical University,1
+https://openalex.org/I75381157,Wilfrid Laurier University,1
+https://openalex.org/I4210101320,Herzen University,1
+https://openalex.org/I67001856,Shanghai Institute of Technology,1
+https://openalex.org/I61951971,American Society for Microbiology,1
+https://openalex.org/I179651463,George Fox University,1
+https://openalex.org/I4210100841,University Health Care System,1
+https://openalex.org/I4210111899,Burke Foundation,1
+https://openalex.org/I43406934,Université Laval,1
+https://openalex.org/I175594653,John Brown University,1
+https://openalex.org/I863896202,Delhi Technological University,1
+https://openalex.org/I60053951,Universitat Politècnica de València,1
+https://openalex.org/I4210163675,La Maddalena,1
+https://openalex.org/I4210134778,BioNTech (Germany),1
+https://openalex.org/I224962290,Çankırı Karatekin University,1
+https://openalex.org/I193531525,George Washington University,1
+https://openalex.org/I4210087988,Rapt Therapeutics (United States),1
+https://openalex.org/I4210092002,Runze (China),1
+https://openalex.org/I4210138151,Jilin Electric Power Research Institute (China),1
+https://openalex.org/I4385474403,Changchun University of Technology,1
+https://openalex.org/I55712492,Zhejiang University of Technology,1
+https://openalex.org/I4210104555,Allen Institute for Immunology,1
+https://openalex.org/I1292462581,White Memorial Medical Center,1
+https://openalex.org/I4210121020,Clinical Trial Investigators,1
+https://openalex.org/I55022517,Heilongjiang University,1
+https://openalex.org/I4210126060,First Affiliated Hospital of GuangXi Medical University,1
+https://openalex.org/I885383172,National University of Malaysia,1
+https://openalex.org/I4210164673,Advanced Composite Products (United States),1
+https://openalex.org/I4210100868,Second Affiliated Hospital of Dalian Medical University,1
+https://openalex.org/I4210123185,Zhejiang Lab,1
+https://openalex.org/I4210107657,IRD Fuel Cells (Denmark),1
+https://openalex.org/I4210100942,Tri-Institutional PhD Program in Chemical Biology,1
+https://openalex.org/I141596103,University of Lisbon,1
+https://openalex.org/I31847773,Zhejiang Ocean University,1
+https://openalex.org/I204308271,Medical College of Wisconsin,1
+https://openalex.org/I4210127894,Songjiang District Central Hospital,1
+https://openalex.org/I4210107570,Scripps Memorial Hospital,1
+https://openalex.org/I157264075,Sangmyung University,1
+https://openalex.org/I4210106108,Xinjiang Technical Institute of Physics & Chemistry,1
+https://openalex.org/I4210125052,Park Ridge Public Library,1
+https://openalex.org/I179760745,Mahaveer Academy of Technology and Science University,1
+https://openalex.org/I50760025,Hangzhou Dianzi University,1
+https://openalex.org/I4210145761,Shenzhen Institutes of Advanced Technology,1
+https://openalex.org/I2799807261,Tel Aviv Sourasky Medical Center,1
+https://openalex.org/I4210124519,JFE Holdings (Japan),1
+https://openalex.org/I924451375,Incyte (United States),1
+https://openalex.org/I4210116924,"Chinese University of Hong Kong, Shenzhen",1
+https://openalex.org/I198091727,Tiangong University,1
+https://openalex.org/I99043593,Macquarie University,1
+https://openalex.org/I4210104315,Barbican Centre,1
+https://openalex.org/I201448948,Samuel Merritt University,1
+https://openalex.org/I4210148621,Luxembourg Institute of Socio-Economic Research,1
+https://openalex.org/I1334950195,Australian Nuclear Science and Technology Organisation,1
+https://openalex.org/I36152291,Henan University of Technology,1
+https://openalex.org/I20942203,Hainan University,1
+https://openalex.org/I4210165024,Institute of Infection and Immunity,1
+https://openalex.org/I3131980609,Korean Academy of Science and Technology,1
+https://openalex.org/I4210155468,ZTT (China),1
+https://openalex.org/I37796252,Beijing University of Technology,1
+https://openalex.org/I37448385,China People's Public Security University,1
+https://openalex.org/I3133055985,Westlake University,1
+https://openalex.org/I4210156876,VA Greater Los Angeles Healthcare System,1
+https://openalex.org/I4665924,University of Rostock,1
+https://openalex.org/I191208505,Xiamen University,1
+https://openalex.org/I1334819555,Memorial Sloan Kettering Cancer Center,1
+https://openalex.org/I4210126939,ZheJiang Academy of Agricultural Sciences,1
+https://openalex.org/I4387152206,All India Institute of Medical Sciences Rishikesh,1
+https://openalex.org/I4210092582,Guizhou Academy of Agricultural Sciences,1
+https://openalex.org/I4210153580,"Institute of Forest Ecology, Environment and Protection",1
+https://openalex.org/I4210160144,The Catholic University of Korea Seoul St. Mary's Hospital,1
+https://openalex.org/I100005738,Brigham Young University,1
+https://openalex.org/I4210157065,Sylvester Comprehensive Cancer Center,1
+https://openalex.org/I4210111179,Michigan United,1
+https://openalex.org/I4210167018,Interaction Design (United Kingdom),1
+https://openalex.org/I4210166742,Research Institute in Oncology and Hematology,1
+https://openalex.org/I49185572,Yunnan University of Finance And Economics,1
+https://openalex.org/I4210153776,Apple (United States),1
+https://openalex.org/I83205935,Malaviya National Institute of Technology Jaipur,1
+https://openalex.org/I196608512,PES University,1
+https://openalex.org/I4210121988,Film Independent,1
+https://openalex.org/I4210132426,Shanghai Fudan Microelectronics (China),1
+https://openalex.org/I50180762,Chongqing Three Gorges University,1
+https://openalex.org/I4210113480,Mohamed bin Zayed University of Artificial Intelligence,1
+https://openalex.org/I96478251,Hunan Institute of Technology,1
+https://openalex.org/I4210146430,Astronomy and Space,1
+https://openalex.org/I53592917,Jiangxi Normal University,1
+https://openalex.org/I55143463,University of Turin,1
+https://openalex.org/I4210167432,Center for Policy Analysis,1
+https://openalex.org/I2800666604,Glasgow Royal Infirmary,1
+https://openalex.org/I63098007,Liverpool John Moores University,1
+https://openalex.org/I90090648,Shijiazhuang Tiedao University,1
+https://openalex.org/I7923278,Shell (Netherlands),1
+https://openalex.org/I2802286613,Government of Canada,1
+https://openalex.org/I897549280,Hologic (Germany),1
+https://openalex.org/I1285301757,Rush University Medical Center,1
+https://openalex.org/I80020514,Resuscitation Council,1
+https://openalex.org/I99613584,National Taipei University,1
+https://openalex.org/I138285227,Agilent Technologies (United States),1
+https://openalex.org/I4210112727,Hôpital Pellegrin,1
+https://openalex.org/I172675005,Nanyang Technological University,1
+https://openalex.org/I1289530486,BC Cancer Agency,1
+https://openalex.org/I1334095494,New York City Department of Health and Mental Hygiene,1
+https://openalex.org/I4210101641,Mount Sinai Hospital,1
+https://openalex.org/I66514158,Hacettepe University,1
+https://openalex.org/I4210150756,AstraZeneca (United States),1
+https://openalex.org/I52099693,University of York,1
+https://openalex.org/I188973947,Novosibirsk State University,1
+https://openalex.org/I31683504,Beijing Forestry University,1
+https://openalex.org/I4210151019,aTyr Pharma (United States),1
+https://openalex.org/I68581759,China Academy of Launch Vehicle Technology,1
+https://openalex.org/I82571370,GLA University,1
+https://openalex.org/I105036370,AstraZeneca (United Kingdom),1
+https://openalex.org/I4210118226,Mangalore Institute of Oncology,1
+https://openalex.org/I165441096,National Health Research Institutes,1
+https://openalex.org/I4210164133,Heilongjiang Academy of Agricultural Machinery Engineering,1
+https://openalex.org/I4210116987,BD Biosciences (United States),1
+https://openalex.org/I4210135897,ResearchWorks (United States),1
+https://openalex.org/I2802587341,Kaohsiung Medical University Chung-Ho Memorial Hospital,1
+https://openalex.org/I2801453606,Australian Government,1
+https://openalex.org/I60922564,Naver (South Korea),1
+https://openalex.org/I4210136219,Kaifeng City Children's Hospital,1
+https://openalex.org/I214657376,Davangere University,1
+https://openalex.org/I4210107849,Institute of Economic System and Management,1
+https://openalex.org/I4210165559,Institute of Soil Science,1
+https://openalex.org/I4210119171,Kepler Universitätsklinikum,1
+https://openalex.org/I4210130891,Olive View-UCLA Medical Center,1
+https://openalex.org/I4210164952,Tianjin haihe hospital,1
+https://openalex.org/I92039509,Guangzhou Medical University,1
+https://openalex.org/I117532281,Guangzhou University of Chinese Medicine,1
+https://openalex.org/I3923682,Soochow University,1
+https://openalex.org/I4210165606,Hubei Normal University,1
+https://openalex.org/I4210158168,Melbourne Health,1
+https://openalex.org/I74837319,Jiangxi Agricultural University,1
+https://openalex.org/I4210100789,Wuhan College,1
+https://openalex.org/I4210094836,Ganzhou People's Hospital,1
+https://openalex.org/I166533956,Institute of Management Technology,1
+https://openalex.org/I860003557,Punjab Engineering College,1
+https://openalex.org/I90149893,China Earthquake Administration,1
+https://openalex.org/I4210148683,Brown Computer Company (United States),1
+https://openalex.org/I69737025,University of Chile,1
+https://openalex.org/I64222039,National University of Mongolia,1
+https://openalex.org/I90259746,Capital University of Economics and Business,1
+https://openalex.org/I4210133467,Xi'an Aeronautical University,1
+https://openalex.org/I4210119942,Wuhan Textile University,1
+https://openalex.org/I4210146710,Mayo Clinic in Florida,1
+https://openalex.org/I102607778,Cleveland State University,1
+https://openalex.org/I4391767992,Janssen Scientific Affairs (United States),1
+https://openalex.org/I2801562743,Cisco College,1
+https://openalex.org/I67415387,Lancaster University,1
+https://openalex.org/I204824540,University of Wollongong,1
+https://openalex.org/I4210106258,Harvard College Observatory,1
+https://openalex.org/I59606676,Universidade Federal do Pará,1
+https://openalex.org/I33585257,"Anna University, Chennai",1
+https://openalex.org/I4210165827,Skolkovo Foundation,1
+https://openalex.org/I4210137309,National Center for Climate Change Strategy and International Cooperation,1
+https://openalex.org/I4210133666,Tiandi Science & Technology (China),1
+https://openalex.org/I110152177,University of Akron,1
+https://openalex.org/I1343180700,Intel (United States),1
+https://openalex.org/I4210150146,Moscow State University,1
+https://openalex.org/I1327020802,Geological Survey of Canada,1
+https://openalex.org/I107639228,University of Notre Dame,1
+https://openalex.org/I4210131007,John Wiley & Sons (United States),1
+https://openalex.org/I4210134724,PTC Therapeutics (United States),1
+https://openalex.org/I4210087915,Massachusetts General Hospital,1
+https://openalex.org/I99977706,FH Aachen,1
+https://openalex.org/I51317819,Institute of Medical Sciences,1
+https://openalex.org/I184942183,University of Oslo,1
+https://openalex.org/I1322597698,Royal Netherlands Academy of Arts and Sciences,1
+https://openalex.org/I4210110313,DNA Link (South Korea),1
+https://openalex.org/I51226738,Dong-A University,1
+https://openalex.org/I4210119757,Jinhua Academy of Agricultural Sciences,1
+https://openalex.org/I4210126829,China Medical University Hospital,1
+https://openalex.org/I204823248,Huazhong Agricultural University,1
+https://openalex.org/I98381234,University of Oulu,1
+https://openalex.org/I120250893,New York University Abu Dhabi,1
+https://openalex.org/I4210113297,Google (United Kingdom),1
+https://openalex.org/I2801862477,Canada Research Chairs,1
+https://openalex.org/I149251103,Thomas Jefferson University,1
+https://openalex.org/I4210141230,Apple (Germany),1
+https://openalex.org/I4210137436,JSS Science and Technology University,1
+https://openalex.org/I116953780,Tongji University,1
+https://openalex.org/I1282105669,Argonne National Laboratory,1
+https://openalex.org/I4210156496,Uber AI (United States),1
+https://openalex.org/I30771326,Italian Institute of Technology,1
+https://openalex.org/I4210165112,Leo Pharma (Denmark),1
+https://openalex.org/I183067930,Shanghai Jiao Tong University,1
+https://openalex.org/I4210128615,Chinese Academy of Forestry,1
+https://openalex.org/I4210141849,"National Administration of Surveying, Mapping and Geoinformation of China",1
+https://openalex.org/I125932930,Parks Canada,1
+https://openalex.org/I60733029,Monash Institute of Medical Research,1
+https://openalex.org/I43313876,Dalian Maritime University,1
+https://openalex.org/I4210162190,"China University of Petroleum, East China",1
+https://openalex.org/I4210119234,Xiangyang Central Hospital,1
+https://openalex.org/I4210149717,Center for Cancer Research,1
+https://openalex.org/I4210098425,The First People's Hospital of Shunde,1
+https://openalex.org/I204722609,Queen's University,1
+https://openalex.org/I155173764,Rochester Institute of Technology,1
+https://openalex.org/I4210165171,Astellas Pharma (United States),1
+https://openalex.org/I4210127390,State Council of the People's Republic of China,1
+https://openalex.org/I79238269,Universidad de Sevilla,1
+https://openalex.org/I4210125355,Scottish Universities Physics Alliance,1
+https://openalex.org/I168635309,University of Calgary,1
+https://openalex.org/I55124831,"J.C. Bose University of Science & Technology, YMCA",1
+https://openalex.org/I4210140459,Center for Disease Control,1
+https://openalex.org/I111979921,Northwestern University,1
+https://openalex.org/I4210158803,Rigetti Computing (United States),1
+https://openalex.org/I4210156194,Addenbrooke's Hospital,1
+https://openalex.org/I354108,Minjiang University,1
+https://openalex.org/I79995938,China People's Police University,1
+https://openalex.org/I4210102410,First Affiliated Hospital of Jiamusi University,1
+https://openalex.org/I4210097061,Hazen and Sawyer (United States),1
+https://openalex.org/I4210162999,MSD (Netherlands),1
+https://openalex.org/I4210149496,Zhengzhou People's Hospital,1
+https://openalex.org/I4210126328,IBM Research - Zurich,1
+https://openalex.org/I68171755,National Defense Medical Center,1
+https://openalex.org/I202334528,Beijing Electronic Science and Technology Institute,1
+https://openalex.org/I4210099135,Wuhan Institute of Physics and Mathematics,1
+https://openalex.org/I4210090176,Institute of Computing Technology,1
+https://openalex.org/I1282311441,Lawrence Livermore National Laboratory,1
+https://openalex.org/I913958620,Erasmus University Rotterdam,1
+https://openalex.org/I174458059,National Technical University of Athens,1
+https://openalex.org/I4210093923,Instituto de Pesquisas Ecológicas,1
+https://openalex.org/I4210148116,Ryhov Hospital Jönköping,1
+https://openalex.org/I4210140958,Ann Arbor Center for Independent Living,1
+https://openalex.org/I51296178,China Center of Advanced Science and Technology,1
+https://openalex.org/I1331384533,University of Hawaii System,1
+https://openalex.org/I5388228,University of Rochester,1
+https://openalex.org/I86987016,KTH Royal Institute of Technology,1
+https://openalex.org/I4210134666,Biogas Institute of Ministry of Agriculture,1
+https://openalex.org/I4210099955,Institute of Particle Physics,1
+https://openalex.org/I4210125245,Centro Brasileiro de Pesquisas Físicas,1
+https://openalex.org/I60158472,Concordia University,1
+https://openalex.org/I4210126458,Institute of Metallurgy and Materials Science,1
+https://openalex.org/I196829312,La Trobe University,1
+https://openalex.org/I4210153219,Retina Institute,1
+https://openalex.org/I4210088741,Clinical Research Institute,1
+https://openalex.org/I172039944,Dominican University of California,1
+https://openalex.org/I4210137409,National Hospital Organization,1
+https://openalex.org/I64189192,"International Institute of Information Technology, Hyderabad",1
+https://openalex.org/I2802539864,Guru Teg Bahadur Hospital,1
+https://openalex.org/I4210139176,Interuniversity Institute for High Energies,1
+https://openalex.org/I121883995,Johannes Kepler University of Linz,1
+https://openalex.org/I4210137555,Regional Medical Center,1
+https://openalex.org/I146416000,University of Kansas,1
+https://openalex.org/I4391768003,State Key Laboratory of Biotherapy,1
+https://openalex.org/I4210123868,Accurate Solar Power (United States),1
+https://openalex.org/I154130895,University of Auckland,1
+https://openalex.org/I14588785,William James College,1
+https://openalex.org/I170606269,University of the Fraser Valley,1
+https://openalex.org/I4210086861,Liverpool Heart and Chest Hospital,1
+https://openalex.org/I4210134579,Dana-Farber/Harvard Cancer Center,1
+https://openalex.org/I98635879,American University of Beirut,1
+https://openalex.org/I87377408,SUNY College of Optometry,1
+https://openalex.org/I2799850029,Dongguan University of Technology,1
+https://openalex.org/I4210138501,Chinese Academy of Agricultural Sciences,1
+https://openalex.org/I4210145501,Crown Bioscience (China),1
+https://openalex.org/I87097829,University of North Carolina at Asheville,1
+https://openalex.org/I151281966,Cisco Systems (China),1
+https://openalex.org/I47396830,Bristol-Myers Squibb (Switzerland),1
+https://openalex.org/I4210120668,Creative Commons,1
+https://openalex.org/I50627504,Istanbul Arel University,1
+https://openalex.org/I4210125531,Reckitt Benckiser (United States),1
+https://openalex.org/I903300897,Southern States University,1
+https://openalex.org/I4210133110,Tampere University,1
+https://openalex.org/I71715416,Universidade Federal do ABC,1
+https://openalex.org/I200207707,Homi Bhabha National Institute,1
+https://openalex.org/I4210120504,Bristol Industrial and Research Associates (United Kingdom),1
+https://openalex.org/I70876197,Babol University of Medical Sciences,1
+https://openalex.org/I4210112883,Sanford Broadway Medical Center,1
+https://openalex.org/I1327359573,Bio-Rad (United States),1
+https://openalex.org/I4210106378,Dalian Municipal Central Hospital,1
+https://openalex.org/I4210163933,Union Hospital,1
+https://openalex.org/I146620803,Wenzhou University,1
+https://openalex.org/I4210092658,Harvard–MIT Division of Health Sciences and Technology,1
+https://openalex.org/I897542642,University of Plymouth,1
+https://openalex.org/I4210094819,LRS Institute of Tuberculosis and Respiratory Diseases,1
+https://openalex.org/I4210138024,VA Northwest Network,1
+https://openalex.org/I2801876189,Deutsches Elektronen-Synchrotron DESY,1
+https://openalex.org/I4210146711,Sun Yat-sen University Cancer Center,1
+https://openalex.org/I4210161779,Campbell Collaboration,1
+https://openalex.org/I4210097601,The University of Kansas Cancer Center,1
+https://openalex.org/I4391767964,State Key Laboratory of Wireless Mobile Communications,1
+https://openalex.org/I98298690,I-Shou University,1
+https://openalex.org/I4399598384,Kyoto University Institute for Chemical Research,1
+https://openalex.org/I4210103863,Affiliated Hospital of Hangzhou Normal University,1
+https://openalex.org/I4210116506,Wyoming Department of Education,1
+https://openalex.org/I4210109121,Centre Hospitalier Intercommunal de Poissy,1
+https://openalex.org/I4210128529,Taipei Hospital,1
+https://openalex.org/I160856358,University of San Diego,1
+https://openalex.org/I2799503643,Columbia University Irving Medical Center,1
+https://openalex.org/I4402554120,Rutgers New Jersey Medical School,1
+https://openalex.org/I4210148737,CHA University,1
+https://openalex.org/I4210167153,Biotechnology Research Institute,1
+https://openalex.org/I4210127509,Vector Institute,1
+https://openalex.org/I142108993,Southwest University,1
+https://openalex.org/I5936373,University of Montenegro,1
+https://openalex.org/I2801852214,University of Washington Medical Center,1
+https://openalex.org/I2801345734,China Academy of Engineering Physics,1
+https://openalex.org/I4210092032,China Institute of Water Resources and Hydropower Research,1
+https://openalex.org/I4210153613,Third People's Hospital of Hefei,1
+https://openalex.org/I4387152483,ISIS Neutron and Muon Source,1
+https://openalex.org/I4210137389,Eastern Hepatobiliary Surgery Hospital,1
+https://openalex.org/I4210165020,Health Protection Research Unit in Emerging and Zoonotic Infections at University of Liverpool,1
+https://openalex.org/I4210113124,Human Factors (Norway),1
+https://openalex.org/I1648549,University of Zulia,1
+https://openalex.org/I2802207673,Trinity College London,1
+https://openalex.org/I4210164760,Oxford Gene Technology (United Kingdom),1
+https://openalex.org/I4210158318,Second Affiliated Hospital of Zhejiang University,1
+https://openalex.org/I143593769,East China University of Science and Technology,1
+https://openalex.org/I57201433,Università della Svizzera italiana,1
+https://openalex.org/I76766440,University of San Francisco,1
+https://openalex.org/I4210131893,Second Affiliated Hospital of Xi'an Jiaotong University,1
+https://openalex.org/I4210159652,Islamic Azad University Islamshahr Branch,1
+https://openalex.org/I142606810,Pacific Northwest National Laboratory,1
+https://openalex.org/I2946016260,Uber AI (United States),1
+https://openalex.org/I4210112176,James H. Quillen VA Medical Center,1
+https://openalex.org/I4210157891,NOAA National Centers for Environmental Information,1
+https://openalex.org/I4210144818,Radiation Oncology Associates,1
+https://openalex.org/I4210123167,Biologie des Oiseaux et Aviculture,1
+https://openalex.org/I2800363604,Walter Reed National Military Medical Center,1
+https://openalex.org/I4387154479,Centre d'Investigation Clinique Antilles Guyane,1
+https://openalex.org/I1336096307,United States Department of Agriculture,1
+https://openalex.org/I4210159509,Recursion (United States),1
+https://openalex.org/I891191580,Aalborg University,1
+https://openalex.org/I58716616,Korea Institute of Science and Technology,1
+https://openalex.org/I4387154743,MVJ College of Engineering,1
+https://openalex.org/I44461941,University of Houston,1
+https://openalex.org/I4210150456,Fujian Academy of Medical Sciences,1
+https://openalex.org/I63525965,Western Sydney University,1
+https://openalex.org/I61628605,Smith-Kettlewell Eye Research Institute,1
+https://openalex.org/I4210166037,Cooperative Institute for Climate and Satellites,1
+https://openalex.org/I4210135110,Centre Hospitalier Universitaire de Martinique,1
+https://openalex.org/I2802841970,The Ohio State University Wexner Medical Center,1
+https://openalex.org/I68947357,Université de Strasbourg,1
+https://openalex.org/I2800717037,University of Florida Health,1
+https://openalex.org/I4210161337,Swedish National Road and Transport Research Institute,1
+https://openalex.org/I4210089985,Amazon (Germany),1
+https://openalex.org/I368840534,University of Mississippi,1
+https://openalex.org/I4210142231,Central University of Jammu,1
+https://openalex.org/I4210096034,Centre for Quantum Computation and Communication Technology,1
+https://openalex.org/I94328231,University of Rio Grande and Rio Grande Community College,1
+https://openalex.org/I102322142,"Rutgers, The State University of New Jersey",1
+https://openalex.org/I4210165075,National Power (United Kingdom),1
+https://openalex.org/I154757721,University of Piraeus,1
+https://openalex.org/I4210166070,Geomatics (Norway),1
+https://openalex.org/I99205534,Yaroslav-the-Wise Novgorod State University,1
+https://openalex.org/I879441112,Milliman (United States),1
+https://openalex.org/I76134821,Medical University of Vienna,1
+https://openalex.org/I4210152958,Sensor Coating Systems (United Kingdom),1
+https://openalex.org/I4210161363,Cellular Biomedicine Group (United States),1
+https://openalex.org/I4210119653,Institute of Urban Environment,1
+https://openalex.org/I60324483,K S Hegde Medical Academy,1
+https://openalex.org/I8977528,Dr. Hari Singh Gour University,1
+https://openalex.org/I4210097783,Tongde Hospital of Zhejiang Province,1
+https://openalex.org/I4210090800,Sensors (United States),1
+https://openalex.org/I2802707398,Brookdale University Hospital and Medical Center,1
+https://openalex.org/I96323854,National Yang Ming Chiao Tung University,1
+https://openalex.org/I4387155286,Showa University Koto Toyosu Hospital,1
+https://openalex.org/I40542001,University of Ulsan,1
+https://openalex.org/I205237279,Nankai University,1
+https://openalex.org/I2802466933,Cambridge University Hospitals NHS Foundation Trust,1
+https://openalex.org/I4210159511,Changhua Christian Hospital,1
+https://openalex.org/I4210166639,Dartmouth Hospital,1
+https://openalex.org/I161103922,Philipps University of Marburg,1
+https://openalex.org/I4210167069,New Horizons Diagnostics (United States),1
+https://openalex.org/I162608824,University of Sussex,1
+https://openalex.org/I1304085615,Nvidia (United Kingdom),1
+https://openalex.org/I4210139030,Samsung (India),1
+https://openalex.org/I63190737,"University at Buffalo, State University of New York",1
+https://openalex.org/I58956616,Case Western Reserve University,1
+https://openalex.org/I4210132079,Hangzhou Wanxiang Polytechnic,1
+https://openalex.org/I4210134825,Dr. Shroff’s Charity Eye Hospital,1
+https://openalex.org/I1315141215,Australian Law Reform Commission,1
+https://openalex.org/I4210108373,Ashwini Hospital,1
+https://openalex.org/I2801935854,SLAC National Accelerator Laboratory,1
+https://openalex.org/I83683471,University of West Florida,1
+https://openalex.org/I4210153576,Kagawa Prefectural Central Hospital,1
+https://openalex.org/I4210096503,Lucas Research,1
+https://openalex.org/I85922643,Nagaoka University of Technology,1
+https://openalex.org/I77631543,Wuxi Institute of Technology,1
+https://openalex.org/I4210103203,Victorian Comprehensive Cancer Centre,1
+https://openalex.org/I4210145268,Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo,1
+https://openalex.org/I4210156221,Allen Institute for Artificial Intelligence,1
+https://openalex.org/I78757542,University of Newcastle Australia,1
+https://openalex.org/I4210164024,First Affiliated Hospital of Nanchang University,1
+https://openalex.org/I4210145362,Institute of Technology Management,1
+https://openalex.org/I122140584,Universidade Federal do Rio de Janeiro,1
+https://openalex.org/I4210087032,Cambridge Scientific (United States),1
+https://openalex.org/I4210137693,Siemens (United States),1
+https://openalex.org/I4387152517,Instituto Superior Técnico,1
+https://openalex.org/I3125743391,China University of Geosciences (Beijing),1
+https://openalex.org/I1316052090,Mater Health Services,1
+https://openalex.org/I4210121586,Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine,1
+https://openalex.org/I2801012209,Albert B. Chandler Hospital,1
+https://openalex.org/I2132711,Kutztown University,1
+https://openalex.org/I4210112465,Advanced Lightweight Engineering (Netherlands),1
+https://openalex.org/I2802236040,University of Colorado System,1
+https://openalex.org/I4210141737,Bio-Rad (Canada),1
+https://openalex.org/I911458345,Amsterdam UMC Location VUmc,1
+https://openalex.org/I4210135679,Antea Group (France),1
+https://openalex.org/I4210116747,Office of Science and Technology Policy,1
+https://openalex.org/I9579091,Indian Institute of Technology Mandi,1
+https://openalex.org/I135428043,Cisco Systems (United States),1
+https://openalex.org/I348769827,Public Health England,1
+https://openalex.org/I4210093174,European Space Astronomy Centre,1
+https://openalex.org/I75867142,Xiamen University of Technology,1
+https://openalex.org/I4210126257,CRRC (China),1
+https://openalex.org/I4210097902,Center for Personalized Cancer Treatment,1
+https://openalex.org/I64157871,B.J. Medical College,1
+https://openalex.org/I139660479,Central South University,1
+https://openalex.org/I2803004286,Taipei Veterans General Hospital,1
+https://openalex.org/I2799833905,Basque Culinary Center,1
+https://openalex.org/I4210138734,Hikone Central Hospital,1
+https://openalex.org/I4210165005,BioElectronics (United States),1
+https://openalex.org/I2801840469,Torch Technologies (United States),1
+https://openalex.org/I196934937,Liaocheng University,1
+https://openalex.org/I2799803374,Anne Arundel Medical Center,1
+https://openalex.org/I4210118466,Beijing Health Vocational College,1
+https://openalex.org/I68435313,Australian Psychological Society,1
+https://openalex.org/I4387155886,Digital Health Cooperative Research Centre,1
+https://openalex.org/I4391768007,State Key Laboratory of Oncology in South China,1
+https://openalex.org/I4210155611,Ministry of Water Resources of the People's Republic of China,1
+https://openalex.org/I4210148712,Silicon Valley University,1
+https://openalex.org/I145894827,Indian Institute of Technology Kharagpur,1
+https://openalex.org/I68986083,Northwest Normal University,1
+https://openalex.org/I4210104949,Ophthalmic Consultants of Long Island,1
+https://openalex.org/I686019,AGH University of Krakow,1
+https://openalex.org/I146122375,Medical University of Białystok,1
+https://openalex.org/I4210127091,Fundação Instituto de Pesca do Estado do Rio de Janeiro,1
+https://openalex.org/I4210147586,Texas Children's Hospital,1
+https://openalex.org/I267592682,Williams (United States),1
+https://openalex.org/I93979751,"Islamic Azad University, Bojnourd Branch",1
+https://openalex.org/I195795380,Tambov State Technical University,1
+https://openalex.org/I162838928,National Chung Hsing University,1
+https://openalex.org/I1289762815,Royal Society,1
