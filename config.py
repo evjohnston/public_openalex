@@ -26,6 +26,7 @@ if __name__ == "__main__":
         "step9_combine_afil_back_into_enriched.py",
         "step10_careertrajectory.py",
         "step11_visualizations.py",
+        "step12_descriptive_statistics.py",
     ]
 
     # Root directory (where config.py lives)
