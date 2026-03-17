@@ -1,0 +1,827 @@
+{
+  "id": "https://openalex.org/W4407794264",
+  "doi": "https://doi.org/10.48550/arxiv.2502.13923",
+  "title": "Qwen2.5-VL Technical Report",
+  "display_name": "Qwen2.5-VL Technical Report",
+  "publication_year": 2025,
+  "publication_date": "2025-02-19",
+  "ids": {
+    "openalex": "https://openalex.org/W4407794264",
+    "doi": "https://doi.org/10.48550/arxiv.2502.13923"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:arXiv.org:2502.13923",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2502.13923",
+    "pdf_url": "https://arxiv.org/pdf/2502.13923",
+    "source": {
+      "id": "https://openalex.org/S4393918464",
+      "display_name": "ArXiv.org",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "arxiv",
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2502.13923",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5102727039",
+        "display_name": "Shuai Bai",
+        "orcid": "https://orcid.org/0000-0003-3900-9646"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Bai, Shuai",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030987813",
+        "display_name": "Keqin Chen",
+        "orcid": "https://orcid.org/0000-0002-9091-8258"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Keqin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101944063",
+        "display_name": "Xuejing Liu",
+        "orcid": "https://orcid.org/0000-0002-5082-2315"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Xuejing",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101557898",
+        "display_name": "Jialin Wang",
+        "orcid": "https://orcid.org/0000-0002-3147-8619"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Jialin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013425805",
+        "display_name": "Wenbin Ge",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ge, Wenbin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102334026",
+        "display_name": "Sibo Song",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Song, Sibo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014400759",
+        "display_name": "Kai Dang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dang, Kai",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100395928",
+        "display_name": "Peng Wang",
+        "orcid": "https://orcid.org/0000-0001-8118-4929"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Peng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100374844",
+        "display_name": "Shijie Wang",
+        "orcid": "https://orcid.org/0000-0002-2175-4309"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Shijie",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103106936",
+        "display_name": "Jun Tang",
+        "orcid": "https://orcid.org/0000-0002-4748-3527"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tang, Jun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101663416",
+        "display_name": "Hua Zhong",
+        "orcid": "https://orcid.org/0000-0001-9604-4523"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhong, Humen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011605104",
+        "display_name": "Yuanzhi Zhu",
+        "orcid": "https://orcid.org/0000-0002-6490-0871"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhu, Yuanzhi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062346032",
+        "display_name": "Mingkun Yang",
+        "orcid": "https://orcid.org/0000-0002-9210-4098"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Mingkun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112985512",
+        "display_name": "Zhaohai Li",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Zhaohai",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111582686",
+        "display_name": "Jianqiang Wan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wan, Jianqiang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100399575",
+        "display_name": "Pengfei Wang",
+        "orcid": "https://orcid.org/0000-0002-9081-3683"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Pengfei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066638397",
+        "display_name": "Wei Ding",
+        "orcid": "https://orcid.org/0000-0002-4764-7827"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ding, Wei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055194387",
+        "display_name": "Zhangping Fu",
+        "orcid": "https://orcid.org/0000-0003-4050-6260"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fu, Zheren",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059281265",
+        "display_name": "Yuanzhong Xu",
+        "orcid": "https://orcid.org/0000-0002-5264-5324"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xu, Yiheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091465907",
+        "display_name": "Jiabo Ye",
+        "orcid": "https://orcid.org/0009-0009-5451-8984"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ye, Jiabo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087184425",
+        "display_name": "X.-C. Zhang",
+        "orcid": "https://orcid.org/0000-0002-7187-1829"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Xi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103373480",
+        "display_name": "Tianbao Xie",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xie, Tianbao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037196765",
+        "display_name": "Zong‐Ming Cheng",
+        "orcid": "https://orcid.org/0000-0002-1811-591X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Cheng, Zesen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062819361",
+        "display_name": "Zhang Hang",
+        "orcid": "https://orcid.org/0000-0001-9236-372X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Hang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052757063",
+        "display_name": "Zhibo Yang",
+        "orcid": "https://orcid.org/0000-0002-4637-7175"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Zhibo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100642201",
+        "display_name": "Haiyang Xu",
+        "orcid": "https://orcid.org/0000-0003-3950-6511"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xu, Haiyang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068166551",
+        "display_name": "Juntang Lin",
+        "orcid": "https://orcid.org/0000-0001-9300-1771"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lin, Junyang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 27,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5102727039"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 43,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11429",
+    "display_name": "Semiconductor Lasers and Optical Devices",
+    "score": 0.324400007724762,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2208",
+      "display_name": "Electrical and Electronic Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11429",
+      "display_name": "Semiconductor Lasers and Optical Devices",
+      "score": 0.324400007724762,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/business",
+      "display_name": "Business",
+      "score": 0.386807799339294
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.386807799339294
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "pmh:oai:arXiv.org:2502.13923",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2502.13923",
+      "pdf_url": "https://arxiv.org/pdf/2502.13923",
+      "source": {
+        "id": "https://openalex.org/S4393918464",
+        "display_name": "ArXiv.org",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2502.13923",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2502.13923",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2502.13923",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2502.13923",
+    "pdf_url": "https://arxiv.org/pdf/2502.13923",
+    "source": {
+      "id": "https://openalex.org/S4393918464",
+      "display_name": "ArXiv.org",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2765153054",
+    "https://openalex.org/W2596173151",
+    "https://openalex.org/W3213789065",
+    "https://openalex.org/W3080576469",
+    "https://openalex.org/W4231340554",
+    "https://openalex.org/W1491839574",
+    "https://openalex.org/W2931838652",
+    "https://openalex.org/W3168296622",
+    "https://openalex.org/W4399331938"
+  ],
+  "abstract_inverted_index": {
+    "We": [0],
+    "introduce": [1],
+    "Qwen2.5-VL,": [2],
+    "the": [3, 33, 121, 240, 245],
+    "latest": [4],
+    "flagship": [5, 214],
+    "model": [6, 122, 216],
+    "of": [7, 51, 81, 104, 109, 180, 244],
+    "Qwen": [8],
+    "vision-language": [9],
+    "series,": [10],
+    "which": [11],
+    "demonstrates": [12],
+    "significant": [13],
+    "advancements": [14],
+    "in": [15, 28, 166, 187, 200, 228],
+    "both": [16],
+    "foundational": [17],
+    "capabilities": [18],
+    "and": [19, 30, 45, 74, 84, 95, 107, 128, 147, 169, 184, 194, 222, 230],
+    "innovative": [20],
+    "functionalities.": [21],
+    "Qwen2.5-VL": [22, 52, 90, 162, 197, 234],
+    "achieves": [23],
+    "a": [24, 139, 160],
+    "major": [25],
+    "leap": [26],
+    "forward": [27],
+    "understanding": [29, 171],
+    "interacting": [31],
+    "with": [32, 115],
+    "world": [34],
+    "through": [35],
+    "enhanced": [36],
+    "visual": [37, 177],
+    "recognition,": [38],
+    "precise": [39],
+    "object": [40],
+    "localization,": [41],
+    "robust": [42, 67, 236],
+    "document": [43, 170, 229],
+    "parsing,": [44],
+    "long-video": [46],
+    "comprehension.": [47],
+    "A": [48],
+    "standout": [49],
+    "feature": [50],
+    "is": [53, 198],
+    "its": [54],
+    "ability": [55],
+    "to": [56, 101, 113, 123, 210],
+    "localize": [57],
+    "objects": [58],
+    "using": [59],
+    "bounding": [60],
+    "boxes": [61],
+    "or": [62],
+    "points": [63],
+    "accurately.": [64],
+    "It": [65],
+    "provides": [66],
+    "structured": [68],
+    "data": [69],
+    "extraction": [70],
+    "from": [71, 145, 207],
+    "invoices,": [72],
+    "forms,": [73],
+    "tables,": [75],
+    "as": [76, 78, 174, 191],
+    "well": [77],
+    "detailed": [79],
+    "analysis": [80],
+    "charts,": [82],
+    "diagrams,": [83],
+    "layouts.": [85],
+    "To": [86],
+    "handle": [87],
+    "complex": [88],
+    "inputs,": [89],
+    "introduces": [91],
+    "dynamic": [92],
+    "resolution": [93],
+    "processing": [94],
+    "absolute": [96],
+    "time": [97],
+    "encoding,": [98],
+    "enabling": [99],
+    "it": [100],
+    "process": [102],
+    "images": [103],
+    "varying": [105],
+    "sizes": [106],
+    "videos": [108],
+    "extended": [110],
+    "durations": [111],
+    "(up": [112],
+    "hours)": [114],
+    "second-level": [116],
+    "event": [117],
+    "localization.": [118],
+    "This": [119],
+    "allows": [120],
+    "natively": [124],
+    "perceive": [125],
+    "spatial": [126],
+    "scales": [127],
+    "temporal": [129],
+    "dynamics": [130],
+    "without": [131],
+    "relying": [132],
+    "on": [133],
+    "traditional": [134],
+    "normalization": [135],
+    "techniques.": [136],
+    "By": [137],
+    "training": [138],
+    "native": [140, 157],
+    "dynamic-resolution": [141],
+    "Vision": [142],
+    "Transformer": [143],
+    "(ViT)": [144],
+    "scratch": [146],
+    "incorporating": [148],
+    "Window": [149],
+    "Attention,": [150],
+    "we": [151],
+    "reduce": [152],
+    "computational": [153],
+    "overhead": [154],
+    "while": [155],
+    "maintaining": [156],
+    "resolution.": [158],
+    "As": [159],
+    "result,": [161],
+    "excels": [163],
+    "not": [164],
+    "only": [165],
+    "static": [167],
+    "image": [168],
+    "but": [172],
+    "also": [173],
+    "an": [175],
+    "interactive": [176],
+    "agent": [178],
+    "capable": [179],
+    "reasoning,": [181],
+    "tool": [182],
+    "usage,": [183],
+    "task": [185],
+    "execution": [186],
+    "real-world": [188],
+    "scenarios": [189],
+    "such": [190],
+    "operating": [192],
+    "computers": [193],
+    "mobile": [195],
+    "devices.": [196],
+    "available": [199],
+    "three": [201],
+    "sizes,": [202],
+    "addressing": [203],
+    "diverse": [204],
+    "use": [205],
+    "cases": [206],
+    "edge": [208],
+    "AI": [209],
+    "high-performance": [211],
+    "computing.": [212],
+    "The": [213],
+    "Qwen2.5-VL-72B": [215],
+    "matches": [217],
+    "state-of-the-art": [218],
+    "models": [219],
+    "like": [220],
+    "GPT-4o": [221],
+    "Claude": [223],
+    "3.5": [224],
+    "Sonnet,": [225],
+    "particularly": [226],
+    "excelling": [227],
+    "diagram": [231],
+    "understanding.": [232],
+    "Additionally,": [233],
+    "maintains": [235],
+    "linguistic": [237],
+    "performance,": [238],
+    "preserving": [239],
+    "core": [241],
+    "language": [242],
+    "competencies": [243],
+    "Qwen2.5": [246],
+    "LLM.": [247]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 36
+    }
+  ],
+  "updated_date": "2026-03-11T14:59:36.786465",
+  "created_date": "2025-10-10T00:00:00"
+}

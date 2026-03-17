@@ -1,0 +1,505 @@
+id,institution_name,country,direct_author_count,total_author_count,direct_works_count,total_works_count,direct_citations,total_citations,num_children,num_ancestors,has_parent,is_parent
+https://openalex.org/I19820366,Chinese Academy of Sciences,China,2,39,972587,1807366,107929084,184633500,154,0,False,True
+https://openalex.org/I45928872,Alibaba Group (China),China,21,33,6442,10328,417118,684224,2,0,False,True
+https://openalex.org/I99065089,Tsinghua University,China,30,30,362254,362254,31397384,31397384,17,0,False,True
+https://openalex.org/I4210108516,Sacred Heart Hospital,United States,18,18,525,525,14453,14453,0,0,False,False
+https://openalex.org/I881766915,Nanjing University,China,11,11,180192,180192,15960239,15960239,9,0,False,True
+https://openalex.org/I9224756,Northeastern University,China,11,11,91237,91237,4580686,4580686,2,0,False,True
+https://openalex.org/I4210165038,University of Chinese Academy of Sciences,China,10,11,367415,372860,27994606,28318986,3,1,True,True
+https://openalex.org/I87445476,Xi'an Jiaotong University,China,10,10,195348,195348,12190458,12190458,5,0,False,True
+https://openalex.org/I20231570,Peking University,China,9,9,378094,378094,30109743,30109743,15,0,False,True
+https://openalex.org/I47720641,Huazhong University of Science and Technology,China,9,9,255823,255823,22309264,22309264,7,0,False,True
+https://openalex.org/I4210095624,Alibaba Group (United States),United States,9,9,3204,3204,205224,205224,0,1,True,False
+https://openalex.org/I76569877,Southeast University,China,9,9,152485,152485,8722758,8722758,3,0,False,True
+https://openalex.org/I76130692,Zhejiang University,China,9,9,355911,355911,27582071,27582071,15,0,False,True
+https://openalex.org/I9916479,Air Force Medical University,China,7,7,52166,52166,4509705,4509705,1,0,False,True
+https://openalex.org/I92403157,University of Science and Technology Beijing,China,7,7,96479,96479,5880436,5880436,2,0,False,True
+https://openalex.org/I82880672,Beihang University,China,7,7,145211,145211,7259400,7259400,2,0,False,True
+https://openalex.org/I24943067,Fudan University,China,6,6,232431,232431,18888220,18888220,8,0,False,True
+https://openalex.org/I24185976,Sichuan University,China,4,6,252674,257568,18323614,18687270,5,0,False,True
+https://openalex.org/I76214153,Lanzhou University,China,5,5,102710,102710,7093976,7093976,2,0,False,True
+https://openalex.org/I98227222,China National Petroleum Corporation (China),China,3,5,22959,47808,405418,1259149,6,0,False,True
+https://openalex.org/I52158045,China Agricultural University,China,4,4,93838,93838,8356414,8356414,3,0,False,True
+https://openalex.org/I90610280,South China University of Technology,China,4,4,147567,147567,10631504,10631504,4,0,False,True
+https://openalex.org/I37461747,Wuhan University,China,4,4,217524,217524,16152678,16152678,4,0,False,True
+https://openalex.org/I170215575,National University of Defense Technology,China,4,4,84416,84416,2968711,2968711,3,0,False,True
+https://openalex.org/I98301712,Baidu (China),China,4,4,6251,6251,419206,419206,0,0,False,False
+https://openalex.org/I204983213,Harbin Institute of Technology,China,4,4,214404,214404,13279823,13279823,3,0,False,True
+https://openalex.org/I889458895,University of Hong Kong,Hong Kong,4,4,219228,219228,20824507,20824507,2,0,False,True
+https://openalex.org/I162868743,Tianjin University,China,4,4,163841,163841,11658756,11658756,4,0,False,True
+https://openalex.org/I4210162190,"China University of Petroleum, East China",China,4,4,42677,42677,2995389,2995389,0,0,False,False
+https://openalex.org/I47689461,Northeast Forestry University,China,4,4,35690,35690,1644697,1644697,1,0,False,True
+https://openalex.org/I150229711,University of Electronic Science and Technology of China,China,4,4,138126,138126,7095173,7095173,1,0,False,True
+https://openalex.org/I66867065,East China Normal University,China,4,4,81284,81284,4885021,4885021,2,0,False,True
+https://openalex.org/I63371133,Chongqing Jiaotong University,China,4,4,17756,17756,345043,345043,0,0,False,False
+https://openalex.org/I4800084,Southwest Jiaotong University,China,4,4,79414,79414,3540951,3540951,2,0,False,True
+https://openalex.org/I9842412,Nanjing University of Aeronautics and Astronautics,China,4,4,91677,91677,3831507,3831507,1,0,False,True
+https://openalex.org/I126520041,University of Science and Technology of China,China,4,4,198313,198313,21534618,21534618,7,1,True,True
+https://openalex.org/I91935597,University of South China,China,3,3,30244,30244,1226917,1226917,0,0,False,False
+https://openalex.org/I194450716,Jilin University,China,3,3,176762,176762,13697911,13697911,6,0,False,True
+https://openalex.org/I15062923,Tianjin Normal University,China,3,3,14820,14820,503964,503964,0,0,False,False
+https://openalex.org/I96908189,Xinjiang University,China,3,3,34169,34169,1127024,1127024,0,0,False,False
+https://openalex.org/I107851509,Chinese Academy of Tropical Agricultural Sciences,China,2,3,11643,14948,569650,818690,15,1,True,True
+https://openalex.org/I1290206253,Microsoft (United States),United States,1,3,33365,55641,4380123,7649558,25,0,False,True
+https://openalex.org/I4210142748,Shandong Academy of Sciences,China,2,3,20064,36921,1027182,1979837,5,0,False,True
+https://openalex.org/I4210138501,Chinese Academy of Agricultural Sciences,China,2,3,88838,89765,8128365,8205683,38,1,True,True
+https://openalex.org/I91045830,Texas A&M University,United States,2,3,235472,244138,17719197,18054408,4,1,True,True
+https://openalex.org/I157773358,Sun Yat-sen University,China,2,3,289252,295545,24635956,25676727,6,0,False,True
+https://openalex.org/I172675005,Nanyang Technological University,Singapore,3,3,187858,187858,16778791,16778791,2,0,False,True
+https://openalex.org/I89652312,Northwest A&F University,China,3,3,61415,61415,5987934,5987934,0,0,False,False
+https://openalex.org/I95457486,"University of California, Berkeley",United States,3,3,428650,428650,53300724,53300724,11,1,True,True
+https://openalex.org/I78988378,Renmin University of China,China,3,3,44485,44485,1310755,1310755,0,0,False,False
+https://openalex.org/I183067930,Shanghai Jiao Tong University,China,3,3,352907,352907,26350786,26350786,7,0,False,True
+https://openalex.org/I4210164339,Oldham Council,United Kingdom,3,3,147585,147585,164968,164968,0,0,False,False
+https://openalex.org/I139759216,Beijing University of Posts and Telecommunications,China,3,3,76905,76905,2673772,2673772,2,0,False,True
+https://openalex.org/I27357992,Dalian University of Technology,China,3,3,133081,133081,8946835,8946835,5,0,False,True
+https://openalex.org/I4210131919,Xi'an University of Technology,China,3,3,38627,38627,1221715,1221715,0,0,False,False
+https://openalex.org/I92039509,Guangzhou Medical University,China,3,3,65749,65749,5242115,5242115,0,0,False,False
+https://openalex.org/I87216513,Michigan State University,United States,3,3,237219,237219,18993104,18993104,6,0,False,True
+https://openalex.org/I4210104252,Air Force Engineering University,China,3,3,22865,22865,541634,541634,0,0,False,False
+https://openalex.org/I4210137180,Institute of High Energy Physics,China,3,3,27160,27160,9637948,9637948,5,1,True,True
+https://openalex.org/I4210086143,Alibaba Group (Cayman Islands),Cayman Islands,3,3,682,682,61882,61882,0,1,True,False
+https://openalex.org/I83519826,Nanjing Medical University,China,3,3,103119,103119,7717690,7717690,1,0,False,True
+https://openalex.org/I152031979,Nanjing Normal University,China,2,2,51613,51613,2623663,2623663,2,0,False,True
+https://openalex.org/I53411278,Chengdu University of Traditional Chinese Medicine,China,2,2,20476,20476,1015873,1015873,0,0,False,False
+https://openalex.org/I4210151926,Hengyang Academy of Agricultural Sciences,China,2,2,2831,2831,32581,32581,0,0,False,False
+https://openalex.org/I99041443,Mississippi State University,United States,2,2,50814,50814,2398859,2398859,0,1,True,False
+https://openalex.org/I142108993,Southwest University,China,2,2,78105,78105,4283314,4283314,1,0,False,True
+https://openalex.org/I181326427,Donghua University,China,2,2,47581,47581,3489859,3489859,1,0,False,True
+https://openalex.org/I139660479,Central South University,China,2,2,244006,244006,17317150,17317150,2,0,False,True
+https://openalex.org/I74525822,Hubei University of Technology,China,2,2,20235,20235,682081,682081,0,0,False,False
+https://openalex.org/I113940042,Shanghai University,China,2,2,96458,96458,4796200,4796200,0,0,False,False
+https://openalex.org/I57206974,New York University,United States,2,2,267058,267058,25365356,25365356,6,0,False,True
+https://openalex.org/I90090648,Shijiazhuang Tiedao University,China,2,2,10054,10054,204596,204596,0,0,False,False
+https://openalex.org/I9356336,Zhangzhou Normal University,China,2,2,5971,5971,199081,199081,0,0,False,False
+https://openalex.org/I83714178,Shenyang Jianzhu University,China,2,2,10939,10939,155787,155787,0,0,False,False
+https://openalex.org/I4210146711,Sun Yat-sen University Cancer Center,China,2,2,29286,29286,3353952,3353952,0,0,False,False
+https://openalex.org/I97009856,Bohai University,China,2,2,12044,12044,530410,530410,0,0,False,False
+https://openalex.org/I86519309,The University of Texas at Austin,United States,2,2,345269,345269,22410107,22410107,7,1,True,True
+https://openalex.org/I4210144289,Research Center for Eco-Environmental Sciences,China,2,2,24938,24938,3228850,3228850,2,1,True,True
+https://openalex.org/I927504317,Nanchang Hangkong University,China,2,2,13733,13733,746017,746017,0,0,False,False
+https://openalex.org/I96733725,Shanghai Maritime University,China,2,2,20906,20906,560555,560555,0,0,False,False
+https://openalex.org/I97018004,Stanford University,United States,2,2,511099,511099,82342857,82342857,12,0,False,True
+https://openalex.org/I5023651,McGill University,Canada,2,2,287452,287452,25907332,25907332,6,0,False,True
+https://openalex.org/I200296433,Chinese Academy of Medical Sciences & Peking Union Medical College,China,2,2,186977,186977,17107342,17107342,3,0,False,True
+https://openalex.org/I890469752,Ministry of Industry and Information Technology,China,1,2,19213,152305,1092295,8419314,6,0,False,True
+https://openalex.org/I136199984,Harvard University,United States,1,2,687679,699311,138969651,143109189,17,0,False,True
+https://openalex.org/I4210095787,NOAA National Weather Service,United States,1,2,5821,5866,260865,263374,15,2,True,True
+https://openalex.org/I4210089297,Lanzhou Institute of Chemical Physics,China,1,2,17051,23382,1846170,2324419,3,1,True,True
+https://openalex.org/I196699116,Wuhan University of Technology,China,2,2,92675,92675,5741973,5741973,2,0,False,True
+https://openalex.org/I4210159865,Xiangya Hospital Central South University,China,2,2,36729,36729,2764309,2764309,0,0,False,False
+https://openalex.org/I55022517,Heilongjiang University,China,2,2,20529,20529,1221596,1221596,0,0,False,False
+https://openalex.org/I63533367,General Atomics (United States),United States,2,2,9744,9744,1348907,1348907,1,0,False,True
+https://openalex.org/I45129253,University College London,United Kingdom,2,2,559049,559049,60369480,60369480,15,1,True,True
+https://openalex.org/I49232843,Changchun University,China,2,2,11750,11750,174878,174878,0,0,False,False
+https://openalex.org/I5388228,University of Rochester,United States,2,2,140324,140324,15026451,15026451,3,0,False,True
+https://openalex.org/I4210106405,Fourth Hospital of Hebei Medical University,China,2,2,8736,8736,273393,273393,0,0,False,False
+https://openalex.org/I43922553,Wuhan University of Science and Technology,China,2,2,37343,37343,2485406,2485406,0,0,False,False
+https://openalex.org/I116953780,Tongji University,China,2,2,182933,182933,9854259,9854259,5,0,False,True
+https://openalex.org/I75390827,Beijing University of Chemical Technology,China,2,2,53688,53688,5671387,5671387,1,0,False,True
+https://openalex.org/I4391767678,State Key Laboratory of Hydraulics and Mountain River Engineering,China,2,2,4894,4894,363656,363656,0,1,True,False
+https://openalex.org/I74485261,Shandong Agricultural University,China,2,2,28253,28253,2111806,2111806,1,0,False,True
+https://openalex.org/I205237279,Nankai University,China,2,2,109924,109924,9391432,9391432,3,0,False,True
+https://openalex.org/I867280407,The University of Texas Southwestern Medical Center,United States,2,2,137941,137941,19999371,19999371,3,1,True,True
+https://openalex.org/I76835614,University of Missouri,United States,2,2,129078,129078,8522217,8522217,0,1,True,False
+https://openalex.org/I135310074,University of Wisconsin–Madison,United States,2,2,362635,362635,40645216,40645216,3,1,True,True
+https://openalex.org/I2802541053,Academy of Military Medical Sciences,China,2,2,15097,15097,851563,851563,4,0,False,True
+https://openalex.org/I16609230,Hunan University,China,2,2,94925,94925,9480956,9480956,3,0,False,True
+https://openalex.org/I5740404,Tianjin Medical University,China,2,2,48957,48957,2206052,2206052,0,0,False,False
+https://openalex.org/I187400657,South China Normal University,China,2,2,49099,49099,2679464,2679464,0,0,False,False
+https://openalex.org/I119454577,Nanjing Agricultural University,China,2,2,66027,66027,6431205,6431205,1,0,False,True
+https://openalex.org/I43337087,Hebei University,China,2,2,37178,37178,1190349,1190349,0,0,False,False
+https://openalex.org/I58200834,Southern Medical University,China,2,2,84216,84216,6897856,6897856,0,0,False,False
+https://openalex.org/I96852419,Capital Normal University,China,2,2,24445,24445,880793,880793,0,0,False,False
+https://openalex.org/I17145004,Northwestern Polytechnical University,China,2,2,132368,132368,6910881,6910881,1,0,False,True
+https://openalex.org/I4210135723,Shanghai Institute of Technical Physics,China,2,2,8307,8307,559974,559974,1,1,True,True
+https://openalex.org/I4210097214,Shandong Management University,China,2,2,5586,5586,145382,145382,0,0,False,False
+https://openalex.org/I4210128818,Institute of Software,China,2,2,14978,14978,402668,402668,1,1,True,True
+https://openalex.org/I78577930,Columbia University,United States,2,2,377191,377191,44888559,44888559,3,0,False,True
+https://openalex.org/I180726961,Shenzhen University,China,2,2,89209,89209,5382899,5382899,2,0,False,True
+https://openalex.org/I62916508,Technical University of Munich,Germany,2,2,217677,217677,17740223,17740223,7,0,False,True
+https://openalex.org/I135836153,Shenyang Agricultural University,China,2,2,19496,19496,852758,852758,0,0,False,False
+https://openalex.org/I56934997,Changsha University of Science and Technology,China,2,2,28955,28955,967023,967023,0,0,False,False
+https://openalex.org/I4210166499,Henan Polytechnic University,China,2,2,31184,31184,1010083,1010083,0,0,False,False
+https://openalex.org/I47151758,National University of Uzbekistan,Uzbekistan,1,1,13488,13488,86149,86149,0,0,False,False
+https://openalex.org/I71459812,Beijing International Studies University,China,1,1,3329,3329,36035,36035,0,0,False,False
+https://openalex.org/I4210149211,Institute of Semiconductors,China,1,1,17646,17646,1284410,1284410,2,1,True,True
+https://openalex.org/I4210139507,State Nuclear Power Technology Company (China),China,1,1,1752,1752,18832,18832,0,0,False,False
+https://openalex.org/I125839683,Beijing Institute of Technology,China,1,1,133092,133092,7327019,7327019,0,1,True,False
+https://openalex.org/I4210105359,Shanghai Liangyou (China),China,1,1,1163,1163,13903,13903,0,0,False,False
+https://openalex.org/I80626142,Xinxiang Medical University,China,1,1,13046,13046,533801,533801,0,0,False,False
+https://openalex.org/I143302722,University of Kentucky,United States,1,1,151671,151671,10330477,10330477,2,0,False,True
+https://openalex.org/I4210144482,Shanghai Sixth People's Hospital,China,1,1,19988,19988,1500965,1500965,0,0,False,False
+https://openalex.org/I4210120522,Shantou University Medical College,China,1,1,9210,9210,604078,604078,0,0,False,False
+https://openalex.org/I4210110525,Hebei General Hospital,China,1,1,4732,4732,118414,118414,0,0,False,False
+https://openalex.org/I49835588,Macao Polytechnic University,Macao,1,1,5462,5462,85290,85290,0,0,False,False
+https://openalex.org/I91125648,Wuhan Institute of Technology,China,1,1,22250,22250,902409,902409,0,0,False,False
+https://openalex.org/I4210116048,Beijing National Laboratory for Molecular Sciences,China,1,1,33025,33025,7234101,7234101,0,0,False,False
+https://openalex.org/I146773158,Qingdao Agricultural University,China,1,1,19537,19537,884897,884897,0,0,False,False
+https://openalex.org/I4210131857,Yunnan Forestry Vocational and Technical College,China,1,1,1239,1239,6355,6355,0,0,False,False
+https://openalex.org/I4210126248,Jiyang College of Zhejiang A&F University,China,1,1,3225,3225,47098,47098,0,0,False,False
+https://openalex.org/I4210143087,Fujian Provincial Hospital,China,1,1,7600,7600,212432,212432,0,0,False,False
+https://openalex.org/I2803024705,Westmead Hospital,Australia,1,1,23220,23220,2152962,2152962,0,1,True,False
+https://openalex.org/I79223203,Guangdong Ocean University,China,1,1,16083,16083,580056,580056,0,0,False,False
+https://openalex.org/I4210106122,Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou),China,1,1,19671,19671,733037,733037,0,0,False,False
+https://openalex.org/I98285908,The University of Osaka,Japan,1,1,282999,282999,24722563,24722563,2,0,False,True
+https://openalex.org/I13591777,University of Nottingham Ningbo China,China,1,1,16905,16905,474099,474099,0,1,True,False
+https://openalex.org/I18570673,Guangxi University of Science and Technology,China,1,1,9824,9824,155695,155695,0,0,False,False
+https://openalex.org/I91807558,National Cheng Kung University,Taiwan,1,1,96411,96411,5185576,5185576,0,0,False,False
+https://openalex.org/I59028903,Ocean University of China,China,1,1,69798,69798,4005755,4005755,0,0,False,False
+https://openalex.org/I4210088873,Third Affiliated Hospital of Southern Medical University,China,1,1,5442,5442,263580,263580,0,0,False,False
+https://openalex.org/I88830068,Shaanxi Normal University,China,1,1,42391,42391,2350305,2350305,0,0,False,False
+https://openalex.org/I4210100054,Heilongjiang Provincial Academy of Agricultural Sciences,China,1,1,4088,4088,77109,77109,0,0,False,False
+https://openalex.org/I79731167,Hainan Medical University,China,1,1,14255,14255,350753,350753,0,0,False,False
+https://openalex.org/I151878197,Pingdingshan University,China,1,1,6778,6778,57709,57709,0,0,False,False
+https://openalex.org/I79995938,China People's Police University,China,1,1,3750,3750,24655,24655,0,1,True,False
+https://openalex.org/I4210121771,First Affiliated Hospital of Xi'an Jiaotong University,China,1,1,25893,25893,1462649,1462649,0,0,False,False
+https://openalex.org/I99418890,Northwestern Polytechnic University,United States,1,1,4069,4069,36818,36818,0,0,False,False
+https://openalex.org/I4210127469,Yalong Hydro (China),China,1,1,1509,1509,56595,56595,0,0,False,False
+https://openalex.org/I919571938,The University of Texas Health Science Center at Houston,United States,1,1,138842,138842,7261020,7261020,0,1,True,False
+https://openalex.org/I55712492,Zhejiang University of Technology,China,1,1,66789,66789,3648895,3648895,2,0,False,True
+https://openalex.org/I4210145099,Xian Yang Central Hospital,China,1,1,9693,9693,130168,130168,0,0,False,False
+https://openalex.org/I75027704,University of Tennessee at Knoxville,United States,1,1,141906,141906,9583628,9583628,1,1,True,True
+https://openalex.org/I4210161003,Qingdao Center of Resource Chemistry and New Materials,China,1,1,6331,6331,478249,478249,0,2,True,False
+https://openalex.org/I4210125143,Chengdu University,China,1,1,30062,30062,1693185,1693185,0,0,False,False
+https://openalex.org/I88372448,Dalian Polytechnic University,China,1,1,13423,13423,809315,809315,0,0,False,False
+https://openalex.org/I82951845,RMIT University,Australia,1,1,81244,81244,3909905,3909905,3,0,False,True
+https://openalex.org/I4210086862,Hainan Maternal and Child Health Hospital,China,1,1,977,977,18697,18697,0,0,False,False
+https://openalex.org/I4210095289,Jiangsu Changjiang Electronics Technology (China),China,1,1,504,504,4005,4005,0,0,False,False
+https://openalex.org/I4210163526,Sichuan Academy of Agricultural Sciences,China,1,1,4614,4614,145696,145696,0,0,False,False
+https://openalex.org/I4210119942,Wuhan Textile University,China,1,1,12604,12604,669228,669228,0,0,False,False
+https://openalex.org/I27599042,Xi'an Polytechnic University,China,1,1,10778,10778,251279,251279,0,0,False,False
+https://openalex.org/I4210128819,Institute of Electrical Engineering,China,1,1,10032,10032,528385,528385,0,1,True,False
+https://openalex.org/I1291425158,Google (United States),United States,1,1,75675,75675,11431064,11431064,7,1,True,True
+https://openalex.org/I4210093194,Fudan University Shanghai Cancer Center,China,1,1,21589,21589,2033273,2033273,0,0,False,False
+https://openalex.org/I3125743391,China University of Geosciences (Beijing),China,1,1,46149,46149,2422976,2422976,0,0,False,False
+https://openalex.org/I165932596,National University of Singapore,Singapore,1,1,269413,269413,23718424,23718424,4,0,False,True
+https://openalex.org/I74872605,China Southern Power Grid (China),China,1,1,21359,21359,205260,205260,0,0,False,False
+https://openalex.org/I4210141942,Peking University Third Hospital,China,1,1,26463,26463,1237830,1237830,0,0,False,False
+https://openalex.org/I4210163247,Henan Institute of Science and Technology,China,1,1,11257,11257,277138,277138,0,0,False,False
+https://openalex.org/I4210142192,Powerchina Huadong Engineering Corporation (China),China,1,1,3786,3786,46941,46941,0,0,False,False
+https://openalex.org/I4210158318,Second Affiliated Hospital of Zhejiang University,China,1,1,28960,28960,1989008,1989008,0,0,False,False
+https://openalex.org/I4210114698,Institute of Plasma Physics,China,1,1,9721,9721,787296,787296,0,2,True,False
+https://openalex.org/I879441112,Milliman (United States),United States,1,1,838,838,23323,23323,0,0,False,False
+https://openalex.org/I4210151662,Zhanjiang Experimental Station,China,1,1,3305,3305,249040,249040,0,2,True,False
+https://openalex.org/I167027274,Nanjing Forestry University,China,1,1,45402,45402,2334674,2334674,0,0,False,False
+https://openalex.org/I2799850029,Dongguan University of Technology,China,1,1,15738,15738,510274,510274,1,0,False,True
+https://openalex.org/I42934936,Dublin City University,Ireland,1,1,31983,31983,1446846,1446846,1,0,False,True
+https://openalex.org/I4210130692,Affiliated Hospital of Youjiang Medical University for Nationalities,China,1,1,4149,4149,99276,99276,0,0,False,False
+https://openalex.org/I72565114,Luoyang Institute of Science and Technology,China,1,1,9748,9748,147968,147968,0,0,False,False
+https://openalex.org/I2800570007,Renji Hospital,China,1,1,22042,22042,1977724,1977724,0,0,False,False
+https://openalex.org/I178232147,Guizhou University,China,1,1,60075,60075,1652476,1652476,0,0,False,False
+https://openalex.org/I4210142464,FORCE Technology (Norway),Norway,1,1,789,789,5520,5520,0,1,True,False
+https://openalex.org/I905225518,Shanghai University of International Business and Economics,China,1,1,3928,3928,39203,39203,0,0,False,False
+https://openalex.org/I4210102273,Chongqing Metrology Quality Inspection and Research Institute,China,1,1,902,902,10900,10900,0,0,False,False
+https://openalex.org/I30809798,ShanghaiTech University,China,1,1,22358,22358,1615194,1615194,0,0,False,False
+https://openalex.org/I4210150558,Shanghai Research Institute of Materials,China,1,1,3097,3097,190252,190252,0,0,False,False
+https://openalex.org/I52590639,Nottingham Trent University,United Kingdom,1,1,29821,29821,1061312,1061312,0,0,False,False
+https://openalex.org/I157286207,"National University of Ireland, Maynooth",Ireland,1,1,20843,20843,762559,762559,1,1,True,True
+https://openalex.org/I4210161995,Yulin University,China,1,1,5105,5105,80760,80760,0,0,False,False
+https://openalex.org/I62318514,University of Duisburg-Essen,Germany,1,1,82687,82687,4846068,4846068,5,0,False,True
+https://openalex.org/I4210155994,Zhengzhou Business University,China,1,1,2741,2741,44266,44266,0,0,False,False
+https://openalex.org/I2799886051,Arkansas Agricultural Experiment Station,United States,1,1,13034,13034,418157,418157,0,1,True,False
+https://openalex.org/I184843921,Hebei University of Technology,China,1,1,38898,38898,1684649,1684649,0,0,False,False
+https://openalex.org/I4210148884,Laboratoire de Dynamique des Fluides,France,1,1,4397,4397,148823,148823,0,2,True,False
+https://openalex.org/I4210125137,First Hospital of Jilin University,China,1,1,24225,24225,1324126,1324126,0,0,False,False
+https://openalex.org/I4387153335,China Telecom,China,1,1,3702,3702,37495,37495,0,0,False,False
+https://openalex.org/I102882674,Beijing Institute of Fashion Technology,China,1,1,3925,3925,76822,76822,0,0,False,False
+https://openalex.org/I4210145500,Guizhou Electric Power Design and Research Institute,China,1,1,6533,6533,51826,51826,0,0,False,False
+https://openalex.org/I10660446,Kunming University of Science and Technology,China,1,1,57238,57238,2488216,2488216,0,0,False,False
+https://openalex.org/I146620803,Wenzhou University,China,1,1,25469,25469,1233447,1233447,0,0,False,False
+https://openalex.org/I926333354,Tetra Tech (United States),United States,1,1,2536,2536,65743,65743,2,0,False,True
+https://openalex.org/I4210144653,Cardiovascular Research Foundation,United States,1,1,5041,5041,1022159,1022159,0,0,False,False
+https://openalex.org/I2800393352,China Tourism Academy,China,1,1,2377,2377,25360,25360,0,0,False,False
+https://openalex.org/I99043593,Macquarie University,Australia,1,1,97946,97946,5127646,5127646,5,0,False,True
+https://openalex.org/I4210158959,Detection Limit (United States),United States,1,1,1146,1146,16586,16586,0,0,False,False
+https://openalex.org/I63354593,Sichuan Normal University,China,1,1,15563,15563,475303,475303,0,0,False,False
+https://openalex.org/I4210147395,Colorado Center for Bone Research,United States,1,1,357,357,47960,47960,0,0,False,False
+https://openalex.org/I40963666,Central China Normal University,China,1,1,41571,41571,3525718,3525718,0,0,False,False
+https://openalex.org/I4210115239,First Affiliated Hospital of Shantou University Medical College,China,1,1,4344,4344,159253,159253,0,0,False,False
+https://openalex.org/I4210114800,Yuntianhua Group (China),China,1,1,1529,1529,19478,19478,0,0,False,False
+https://openalex.org/I4210136062,Brown Foundation,United States,1,1,1920,1920,319404,319404,0,0,False,False
+https://openalex.org/I32574673,Shantou University,China,1,1,33377,33377,1669753,1669753,0,0,False,False
+https://openalex.org/I75059550,Zhejiang Gongshang University,China,1,1,18612,18612,719737,719737,0,0,False,False
+https://openalex.org/I6469544,City University of Macau,Macao,1,1,12150,12150,238036,238036,0,0,False,False
+https://openalex.org/I4210160793,Institute of Geographic Sciences and Natural Resources Research,China,1,1,32496,32496,2408477,2408477,1,1,True,True
+https://openalex.org/I4210099373,Second Hospital of Hebei Medical University,China,1,1,10499,10499,390477,390477,0,0,False,False
+https://openalex.org/I4210097637,Tangshan People's Hospital,China,1,1,2435,2435,42020,42020,0,0,False,False
+https://openalex.org/I4210109380,Tesla (United States),United States,1,1,405,405,9933,9933,0,0,False,False
+https://openalex.org/I4210164580,National Astronomical Observatories,China,1,1,18691,18691,1046103,1046103,4,1,True,True
+https://openalex.org/I149910238,Kent State University,United States,1,1,44810,44810,2442538,2442538,0,1,True,False
+https://openalex.org/I4210124205,First Hospital of Shijiazhuang,China,1,1,2766,2766,63840,63840,0,0,False,False
+https://openalex.org/I4210161896,Fu Wai Hospital,China,1,1,9109,9109,552989,552989,0,0,False,False
+https://openalex.org/I148099405,Xi'an University of Architecture and Technology,China,1,1,27542,27542,1249818,1249818,0,0,False,False
+https://openalex.org/I4391768007,State Key Laboratory of Oncology in South China,China,1,1,6293,6293,1040771,1040771,0,1,True,False
+https://openalex.org/I4391767695,State Key Laboratory of Light Alloy Casting Technology for High-end Equipment,China,1,1,27,27,1209,1209,0,1,True,False
+https://openalex.org/I4403928323,Tianjin Renai College,China,1,1,576,576,5512,5512,0,0,False,False
+https://openalex.org/I5124864,École Polytechnique Fédérale de Lausanne,Switzerland,1,1,163991,163991,19089635,19089635,2,1,True,True
+https://openalex.org/I4210141908,Children's Nutrition Research Center at Baylor College of Medicine,United States,1,1,4450,4450,503225,503225,0,1,True,False
+https://openalex.org/I4210086659,Jilin Jianzhu University,China,1,1,5141,5141,94395,94395,0,0,False,False
+https://openalex.org/I4210153856,Second Xiangya Hospital of Central South University,China,1,1,28367,28367,1910841,1910841,0,0,False,False
+https://openalex.org/I41198531,Nanjing University of Posts and Telecommunications,China,1,1,42659,42659,1906315,1906315,1,0,False,True
+https://openalex.org/I31595395,Chengdu University of Technology,China,1,1,32205,32205,940187,940187,1,0,False,True
+https://openalex.org/I98251732,McMaster University,Canada,1,1,177538,177538,17301871,17301871,2,0,False,True
+https://openalex.org/I4210141682,Air Force General Hospital PLA,China,1,1,4721,4721,103895,103895,0,0,False,False
+https://openalex.org/I4210162588,Shanghai Micro Electronics Equipment (China),China,1,1,304,304,2578,2578,0,0,False,False
+https://openalex.org/I37802460,Northwest University,China,1,1,42396,42396,2507680,2507680,1,0,False,True
+https://openalex.org/I4210134448,Fourth Affiliated Hospital of Guangxi Medical University,China,1,1,2069,2069,42262,42262,0,0,False,False
+https://openalex.org/I4210153162,Xianyang Research and Design Institute of Ceramics (China),China,1,1,183,183,3024,3024,0,0,False,False
+https://openalex.org/I4210163363,PLA Army Engineering University,China,1,1,19219,19219,549817,549817,0,0,False,False
+https://openalex.org/I3132882781,Longdong University,China,1,1,2873,2873,20797,20797,0,0,False,False
+https://openalex.org/I4210148359,Lifan (China),China,1,1,124,124,1766,1766,0,0,False,False
+https://openalex.org/I4401726990,Shanghai Ecological Forecasting and Remote Sensing Center,China,1,1,49,49,925,925,0,0,False,False
+https://openalex.org/I151727225,Harbin Engineering University,China,1,1,61040,61040,2649173,2649173,0,0,False,False
+https://openalex.org/I1174212,University of Southern California,United States,1,1,266049,266049,26197414,26197414,4,0,False,True
+https://openalex.org/I4210156189,Shanghai Dianji University,China,1,1,6032,6032,54859,54859,0,0,False,False
+https://openalex.org/I4210096899,Jiangsu University of Science and Technology,China,1,1,28092,28092,1026514,1026514,0,0,False,False
+https://openalex.org/I4210139405,Panzhihua Central Hospital,China,1,1,1306,1306,9227,9227,0,0,False,False
+https://openalex.org/I4210114604,Beijing Luhe Hospital Affiliated to Capital Medical University,China,1,1,2376,2376,69917,69917,0,0,False,False
+https://openalex.org/I177739611,Yangtze University,China,1,1,28956,28956,728158,728158,1,0,False,True
+https://openalex.org/I4210152006,Jilin Agricultural University,China,1,1,21969,21969,842572,842572,0,0,False,False
+https://openalex.org/I51768193,Royal Military College of Canada,Canada,1,1,11258,11258,369067,369067,0,0,False,False
+https://openalex.org/I923382979,ExxonMobil (United States),United States,1,1,18970,18970,1486012,1486012,6,0,False,True
+https://openalex.org/I4391767941,State Key Laboratory of Cardiovascular Disease,China,1,1,725,725,36586,36586,0,1,True,False
+https://openalex.org/I205016115,Hubei University of Chinese Medicine,China,1,1,7374,7374,238456,238456,0,0,False,False
+https://openalex.org/I4210166112,State Key Laboratory of Remote Sensing Science,China,1,1,13678,13678,882581,882581,0,0,False,False
+https://openalex.org/I4210112595,Research Institute of Petroleum Exploration and Development,China,1,1,22366,22366,795828,795828,1,1,True,True
+https://openalex.org/I4210138162,Wuhan Red Cross Hospital,China,1,1,240,240,15006,15006,0,0,False,False
+https://openalex.org/I4210156165,Lenovo (China),China,1,1,1218,1218,35797,35797,2,0,False,True
+https://openalex.org/I4210111804,Sanofi (United States),United States,1,1,7374,7374,562663,562663,1,1,True,True
+https://openalex.org/I4210099558,Shanghai Changzheng Hospital,China,1,1,6580,6580,336482,336482,0,0,False,False
+https://openalex.org/I60134161,Nagoya University,Japan,1,1,201388,201388,14277320,14277320,0,1,True,False
+https://openalex.org/I4210155683,Tumor Hospital of Guangxi Medical University,China,1,1,3116,3116,164035,164035,0,0,False,False
+https://openalex.org/I98358874,Delft University of Technology,The Netherlands,1,1,168950,168950,10395961,10395961,2,0,False,True
+https://openalex.org/I92092256,Huanghe Science and Technology College,China,1,1,2666,2666,60658,60658,0,0,False,False
+https://openalex.org/I2800817003,California Southern University,United States,1,1,44233,44233,1935520,1935520,0,0,False,False
+https://openalex.org/I78650965,Technische Universität Dresden,Germany,1,1,131795,131795,9501022,9501022,12,0,False,True
+https://openalex.org/I4210141165,Ministry of Education,Taiwan,1,1,2471,2471,262927,262927,3,1,True,True
+https://openalex.org/I917184967,Bank of China,China,1,1,1963,1963,18121,18121,0,0,False,False
+https://openalex.org/I141649914,Nanchang University,China,1,1,75370,75370,4475274,4475274,1,0,False,True
+https://openalex.org/I177721651,Oakland University,United States,1,1,29210,29210,1039374,1039374,0,0,False,False
+https://openalex.org/I91656880,China Medical University,China,1,1,60629,60629,3927001,3927001,0,0,False,False
+https://openalex.org/I48697060,SRC,United States,1,1,880,880,48477,48477,0,0,False,False
+https://openalex.org/I4210156804,First Affiliated Hospital of Zhengzhou University,China,1,1,38203,38203,1975123,1975123,0,0,False,False
+https://openalex.org/I168959743,University of America,United States,1,1,14359,14359,635093,635093,0,0,False,False
+https://openalex.org/I56590836,Monash University,Australia,1,1,273185,273185,20036693,20036693,9,0,False,True
+https://openalex.org/I75900474,Hubei University,China,1,1,32070,32070,1489902,1489902,0,0,False,False
+https://openalex.org/I152815399,Singapore University of Technology and Design,Singapore,1,1,13727,13727,796798,796798,0,0,False,False
+https://openalex.org/I4210099004,Guangdong Academy of Agricultural Sciences,China,1,1,10848,10848,573468,573468,4,0,False,True
+https://openalex.org/I2250653659,Tencent (China),China,1,1,9373,9373,712147,712147,0,0,False,False
+https://openalex.org/I7350606,Dalian Jiaotong University,China,1,1,10296,10296,171485,171485,0,0,False,False
+https://openalex.org/I4210146008,First Bethune Hospital of Jilin University,China,1,1,3429,3429,164488,164488,0,0,False,False
+https://openalex.org/I4210104439,People's Liberation Army 401 Hospital,China,1,1,3873,3873,65181,65181,0,0,False,False
+https://openalex.org/I4210150261,National University Health System,Singapore,1,1,19135,19135,1714853,1714853,1,0,False,True
+https://openalex.org/I4210156066,State Key Laboratory of Chemical Engineering,China,1,1,19796,19796,2405760,2405760,0,0,False,False
+https://openalex.org/I119439378,University of Verona,Italy,1,1,61290,61290,4854399,4854399,0,0,False,False
+https://openalex.org/I4210156221,Allen Institute for Artificial Intelligence,United States,1,1,1245,1245,142298,142298,0,0,False,False
+https://openalex.org/I67636235,University of International Relations,China,1,1,2523,2523,12992,12992,0,0,False,False
+https://openalex.org/I4210120144,Beijing Jingshida Electromechanical Equipment Research Institute,China,1,1,1799,1799,20758,20758,0,0,False,False
+https://openalex.org/I158123994,Toyo University,Japan,1,1,10333,10333,243742,243742,0,0,False,False
+https://openalex.org/I87780372,Chongqing Medical University,China,1,1,70792,70792,4167947,4167947,0,0,False,False
+https://openalex.org/I4387930233,NOAA Office of Water Prediction,United States,1,1,45,45,2509,2509,0,3,True,False
+https://openalex.org/I4210150320,Center of Hubei Cooperative Innovation for Emissions Trading System,China,1,1,2314,2314,205603,205603,0,0,False,False
+https://openalex.org/I4392738113,China Electric Power Research Institute,China,1,1,17373,17373,226364,226364,0,1,True,False
+https://openalex.org/I2800102766,Idaho National Laboratory,United States,1,1,21949,21949,685901,685901,1,2,True,True
+https://openalex.org/I1334819555,Memorial Sloan Kettering Cancer Center,United States,1,1,113633,113633,27898595,27898595,1,0,False,True
+https://openalex.org/I160354086,Guangxi Medical University,China,1,1,28823,28823,1439084,1439084,0,0,False,False
+https://openalex.org/I99464096,KU Leuven,Belgium,1,1,300292,300292,27435950,27435950,4,0,False,True
+https://openalex.org/I1338503839,Corning (United States),United States,1,1,9613,9613,506906,506906,3,0,False,True
+https://openalex.org/I72951846,Washington State University,United States,1,1,103429,103429,7274806,7274806,6,0,False,True
+https://openalex.org/I4210156876,VA Greater Los Angeles Healthcare System,United States,1,1,11561,11561,1216815,1216815,3,1,True,True
+https://openalex.org/I86467917,James Cook University,Australia,1,1,50054,50054,3441911,3441911,1,0,False,True
+https://openalex.org/I4210111013,Nanjing Drum Tower Hospital,China,1,1,23177,23177,1487176,1487176,0,0,False,False
+https://openalex.org/I4210138730,Hunan Communications Research Institute,China,1,1,1331,1331,9153,9153,0,0,False,False
+https://openalex.org/I10052268,New Mexico State University,United States,1,1,37065,37065,2127538,2127538,8,0,False,True
+https://openalex.org/I4210150498,Jilin Academy of Traditional Chinese Medicine,China,1,1,665,665,18601,18601,0,0,False,False
+https://openalex.org/I4210091343,Shanghai Stomatological Hospital,China,1,1,3822,3822,161960,161960,0,0,False,False
+https://openalex.org/I51296178,China Center of Advanced Science and Technology,China,1,1,7589,7589,383268,383268,0,2,True,False
+https://openalex.org/I141945490,University of British Columbia,Canada,1,1,343874,343874,30744166,30744166,8,0,False,True
+https://openalex.org/I14243506,Hong Kong Polytechnic University,Hong Kong,1,1,146736,146736,8817981,8817981,0,0,False,False
+https://openalex.org/I4210134666,Biogas Institute of Ministry of Agriculture,China,1,1,927,927,77318,77318,0,2,True,False
+https://openalex.org/I8078737,Clemson University,United States,1,1,73619,73619,3799543,3799543,0,0,False,False
+https://openalex.org/I4210144083,Third People's Hospital of Huzhou,China,1,1,1378,1378,26090,26090,0,0,False,False
+https://openalex.org/I219193219,Purdue University West Lafayette,United States,1,1,280486,280486,19514047,19514047,3,1,True,True
+https://openalex.org/I4210152797,Advanced Neural Dynamics (United States),United States,1,1,435,435,26262,26262,0,0,False,False
+https://openalex.org/I34155123,Hebei University of Science and Technology,China,1,1,15486,15486,436545,436545,0,0,False,False
+https://openalex.org/I57328836,North Dakota State University,United States,1,1,32975,32975,1715703,1715703,2,0,False,True
+https://openalex.org/I4210089584,Institute of Hydrobiology,China,1,1,11226,11226,1046717,1046717,1,1,True,True
+https://openalex.org/I32399674,Shenyang Normal University,China,1,1,10044,10044,164696,164696,0,0,False,False
+https://openalex.org/I149594827,Xidian University,China,1,1,80837,80837,3494143,3494143,1,0,False,True
+https://openalex.org/I4391768164,"China National Heavy Machinery Research Institute Co., Ltd.",China,1,1,308,308,3844,3844,0,0,False,False
+https://openalex.org/I4210130071,Institute of Oceanographic Instrumentation,China,1,1,1593,1593,28581,28581,0,0,False,False
+https://openalex.org/I2801798921,Helmholtz-Zentrum Dresden-Rossendorf,Germany,1,1,20985,20985,1411825,1411825,3,1,True,True
+https://openalex.org/I84653119,Academia Sinica,Taiwan,1,1,35659,35659,1864659,1864659,32,0,False,True
+https://openalex.org/I58152225,Texas A&M University at Qatar,Qatar,1,1,8666,8666,335211,335211,0,2,True,False
+https://openalex.org/I3923682,Soochow University,China,1,1,118826,118826,10374130,10374130,1,0,False,True
+https://openalex.org/I116036724,Shenyang Ligong University,China,1,1,9068,9068,98984,98984,0,0,False,False
+https://openalex.org/I4210153482,Changzhou University,China,1,1,23106,23106,1202678,1202678,0,0,False,False
+https://openalex.org/I922237871,Netherlands Institute for Radio Astronomy,The Netherlands,1,1,11510,11510,1122353,1122353,0,1,True,False
+https://openalex.org/I123534392,University of North Texas,United States,1,1,59631,59631,2901807,2901807,0,1,True,False
+https://openalex.org/I79576946,University of Pennsylvania,United States,1,1,362672,362672,50552364,50552364,1,0,False,True
+https://openalex.org/I4210145812,Cancer Genetics (United States),United States,1,1,11072,11072,3519124,3519124,0,0,False,False
+https://openalex.org/I44461941,University of Houston,United States,1,1,100441,100441,6209699,6209699,1,1,True,True
+https://openalex.org/I73613424,National Institute of Advanced Industrial Science and Technology,Japan,1,1,95244,95244,6643333,6643333,1,0,False,True
+https://openalex.org/I61565387,Dalian Minzu University,China,1,1,8006,8006,248292,248292,0,0,False,False
+https://openalex.org/I4210146427,CCCC Wuhan Harbour Engineering Design and Research (China),China,1,1,1132,1132,6059,6059,0,0,False,False
+https://openalex.org/I38706770,Guilin University of Technology,China,1,1,21205,21205,761703,761703,0,0,False,False
+https://openalex.org/I4210094879,Shandong Institute of Automation,China,1,1,16857,16857,952655,952655,0,1,True,False
+https://openalex.org/I173899330,Henan University,China,1,1,46681,46681,2223236,2223236,1,0,False,True
+https://openalex.org/I63966007,Massachusetts Institute of Technology,United States,1,1,337548,337548,61425425,61425425,15,0,False,True
+https://openalex.org/I152033890,Hainan Normal University,China,1,1,8888,8888,195965,195965,0,0,False,False
+https://openalex.org/I4210136497,Jilin Medical University,China,1,1,26750,26750,1077806,1077806,0,0,False,False
+https://openalex.org/I168879160,Zhejiang University of Science and Technology,China,1,1,20741,20741,699808,699808,0,0,False,False
+https://openalex.org/I78675632,Beijing Information Science & Technology University,China,1,1,16191,16191,244004,244004,0,0,False,False
+https://openalex.org/I4210119392,Institute of Microelectronics,China,1,1,19710,19710,1176886,1176886,0,1,True,False
+https://openalex.org/I4210146488,Institute of Molecular Medicine,India,1,1,5011,5011,794435,794435,0,0,False,False
+https://openalex.org/I55654194,Inner Mongolia University of Technology,China,1,1,10253,10253,270250,270250,0,0,False,False
+https://openalex.org/I111979921,Northwestern University,United States,1,1,251846,251846,33525051,33525051,3,0,False,True
+https://openalex.org/I66946132,"University of Maryland, College Park",United States,1,1,234628,234628,22681627,22681627,8,1,True,True
+https://openalex.org/I901624438,Realtek (Taiwan),Taiwan,1,1,511,511,17544,17544,0,0,False,False
+https://openalex.org/I4210105842,Kavli Institute for Theoretical Sciences,China,1,1,5445,5445,324380,324380,0,2,True,False
+https://openalex.org/I4210141176,Communication University of Zhejiang,China,1,1,2683,2683,58018,58018,0,0,False,False
+https://openalex.org/I4210114444,Meta (United States),United States,1,1,4004,4004,576173,576173,2,0,False,True
+https://openalex.org/I4210103115,Xinjiang Institute of Ecology and Geography,China,1,1,14402,14402,824517,824517,2,1,True,True
+https://openalex.org/I111599522,Jiangnan University,China,1,1,71919,71919,5133906,5133906,1,0,False,True
+https://openalex.org/I904495901,Ruhr University Bochum,Germany,1,1,117789,117789,7184856,7184856,3,0,False,True
+https://openalex.org/I4210135735,Institute of Geochemistry,China,1,1,10114,10114,702868,702868,3,1,True,True
+https://openalex.org/I4210142271,Wan Fang Hospital,Taiwan,1,1,13044,13044,325765,325765,0,0,False,False
+https://openalex.org/I4210125404,Institute of Theoretical Physics,China,1,1,20362,20362,879291,879291,0,1,True,False
+https://openalex.org/I4210152737,Jinhua University of Vocational Technology,China,1,1,3538,3538,27155,27155,0,0,False,False
+https://openalex.org/I4210127074,Zhongshan Hospital,China,1,1,40402,40402,3080845,3080845,0,0,False,False
+https://openalex.org/I90871651,University of Toledo,United States,1,1,44501,44501,2182465,2182465,0,1,True,False
+https://openalex.org/I77920804,Albany Medical Center Hospital,United States,1,1,22938,22938,1678035,1678035,0,1,True,False
+https://openalex.org/I8488066,Chiba Institute of Technology,Japan,1,1,10934,10934,192186,192186,0,0,False,False
+https://openalex.org/I4210141097,Tân Tạo University,Vietnam,1,1,3987,3987,35121,35121,0,0,False,False
+https://openalex.org/I4210120169,First Affiliated Hospital of Kunming Medical University,China,1,1,8838,8838,269351,269351,1,0,False,True
+https://openalex.org/I4210145422,Westmead Institute for Medical Research,Australia,1,1,4902,4902,482868,482868,0,0,False,False
+https://openalex.org/I154893126,Guizhou Normal University,China,1,1,13766,13766,242770,242770,0,0,False,False
+https://openalex.org/I4210155419,Center for Systems Biology,United States,1,1,11632,11632,4139538,4139538,0,2,True,False
+https://openalex.org/I4210089228,West China Second University Hospital of Sichuan University,China,1,1,11585,11585,412747,412747,0,0,False,False
+https://openalex.org/I75421653,University of Missouri–Kansas City,United States,1,1,38160,38160,2070132,2070132,0,1,True,False
+https://openalex.org/I4210162776,Central Institute for Art History,Germany,1,1,1788,1788,1471,1471,0,0,False,False
+https://openalex.org/I122411786,California Institute of Technology,United States,1,1,238511,238511,34453755,34453755,8,0,False,True
+https://openalex.org/I84392919,Temple University,United States,1,1,98031,98031,6395280,6395280,1,0,False,True
+https://openalex.org/I78978612,Yangzhou University,China,1,1,68308,68308,3625168,3625168,0,0,False,False
+https://openalex.org/I4210140386,PLA Navy General Hospital,China,1,1,5006,5006,94202,94202,0,0,False,False
+https://openalex.org/I392282,"University at Albany, State University of New York",United States,1,1,52035,52035,3945820,3945820,0,1,True,False
+https://openalex.org/I144581915,Jishou University,China,1,1,9349,9349,223084,223084,0,0,False,False
+https://openalex.org/I4210133534,Henan Provincial People's Hospital,China,1,1,13402,13402,464970,464970,0,0,False,False
+https://openalex.org/I223532165,University of Utah,United States,1,1,214063,214063,19379888,19379888,3,1,True,True
+https://openalex.org/I4210138900,State Key Laboratory of Oncogene and Related Genes,China,1,1,4769,4769,872325,872325,0,0,False,False
+https://openalex.org/I24254649,Tsukuba University of Technology,Japan,1,1,3077,3077,72918,72918,0,0,False,False
+https://openalex.org/I25254941,Beijing Normal University,China,1,1,113928,113928,6216825,6216825,2,0,False,True
+https://openalex.org/I68956291,Martin Luther University Halle-Wittenberg,Germany,1,1,78943,78943,3414236,3414236,3,0,False,True
+https://openalex.org/I4210164937,Microsoft Research (United Kingdom),United Kingdom,1,1,20964,20964,3130220,3130220,1,1,True,True
+https://openalex.org/I43313876,Dalian Maritime University,China,1,1,31887,31887,1091352,1091352,0,0,False,False
+https://openalex.org/I4210122191,Ordnance Engineering College,China,1,1,6267,6267,27120,27120,0,0,False,False
+https://openalex.org/I106994412,Sinopec (China),China,1,1,31575,31575,651983,651983,1,0,False,True
+https://openalex.org/I4210156995,Sichuan Academy Of Social Sciences,China,1,1,1358,1358,13644,13644,0,0,False,False
+https://openalex.org/I102335020,Karlsruhe Institute of Technology,Germany,1,1,162197,162197,10606359,10606359,2,1,True,True
+https://openalex.org/I95946905,Hebei GEO University,China,1,1,5259,5259,76075,76075,0,0,False,False
+https://openalex.org/I4210091550,Shanxi Provincial Traffic Planning Survey and Design Institute,China,1,1,491,491,1869,1869,0,0,False,False
+https://openalex.org/I146416000,University of Kansas,United States,1,1,112250,112250,7470755,7470755,3,0,False,True
+https://openalex.org/I2800742272,Folkwang University of the Arts,Germany,1,1,13140,13140,1202102,1202102,0,0,False,False
+https://openalex.org/I4387156274,PetroChina Southwest Oil and Gas Field Company (China),China,1,1,2483,2483,57903,57903,1,1,True,True
+https://openalex.org/I4210149496,Zhengzhou People's Hospital,China,1,1,5337,5337,89082,89082,0,0,False,False
+https://openalex.org/I4210141265,National Institute of Quality,Peru,1,1,938,938,27918,27918,0,0,False,False
+https://openalex.org/I48780066,Shenyang University of Chemical Technology,China,1,1,8897,8897,258210,258210,0,0,False,False
+https://openalex.org/I74973139,Carnegie Mellon University,United States,1,1,153999,153999,15927431,15927431,7,0,False,True
+https://openalex.org/I4210089761,West China Hospital of Sichuan University,China,1,1,68371,68371,3525565,3525565,0,0,False,False
+https://openalex.org/I119868032,Shanxi Agricultural University,China,1,1,15213,15213,464279,464279,0,0,False,False
+https://openalex.org/I176453806,University of Potsdam,Germany,1,1,59182,59182,2741507,2741507,4,0,False,True
+https://openalex.org/I39333907,Yanshan University,China,1,1,39241,39241,1865486,1865486,1,0,False,True
+https://openalex.org/I4210086486,Zhaotong University,China,1,1,10952,10952,34419,34419,2,0,False,True
+https://openalex.org/I1308199089,Harbin University,China,1,1,12442,12442,756056,756056,0,0,False,False
+https://openalex.org/I38877650,Zhengzhou University,China,1,1,115306,115306,6700442,6700442,0,0,False,False
+https://openalex.org/I143413998,Qingdao University of Science and Technology,China,1,1,39051,39051,2253892,2253892,0,0,False,False
+https://openalex.org/I157725225,University of Illinois Urbana-Champaign,United States,1,1,321992,321992,30950076,30950076,7,1,True,True
+https://openalex.org/I4210087207,World Wide Web Consortium,United States,1,1,7110,7110,916075,916075,0,0,False,False
+https://openalex.org/I50760025,Hangzhou Dianzi University,China,1,1,35470,35470,1141937,1141937,0,0,False,False
+https://openalex.org/I4210157613,Riverside Technology (United States),United States,1,1,336,336,22024,22024,0,0,False,False
+https://openalex.org/I4210102412,Yan'an University,China,1,1,11922,11922,237251,237251,0,0,False,False
+https://openalex.org/I162714631,George Mason University,United States,1,1,81567,81567,3173253,3173253,2,0,False,True
+https://openalex.org/I83019370,Eindhoven University of Technology,The Netherlands,1,1,93784,93784,6394484,6394484,0,0,False,False
+https://openalex.org/I4210119674,East China University of Technology,China,1,1,9751,9751,396576,396576,0,0,False,False
+https://openalex.org/I16351329,China West Normal University,China,1,1,16770,16770,360953,360953,0,0,False,False
+https://openalex.org/I79272384,"University of Maryland, Baltimore County",United States,1,1,35392,35392,2130826,2130826,0,1,True,False
+https://openalex.org/I4210158567,Hainan Medical College Hospital,China,1,1,2554,2554,68653,68653,0,0,False,False
+https://openalex.org/I4210159575,Huashan Hospital,China,1,1,26161,26161,1844888,1844888,0,0,False,False
+https://openalex.org/I4402553993,Guangdong Teachers College of Foreign Language and Arts,China,1,1,377,377,398,398,0,0,False,False
+https://openalex.org/I4210146936,Huawei Technologies (United States),United States,1,1,1763,1763,159884,159884,0,1,True,False
+https://openalex.org/I4210126653,Shaanxi Research Association for Women and Family,China,1,1,10514,10514,49810,49810,0,0,False,False
+https://openalex.org/I66883779,Weifang University,China,1,1,11369,11369,110504,110504,0,0,False,False
+https://openalex.org/I76198965,Friedrich Schiller University Jena,Germany,1,1,154436,154436,5174632,5174632,1,0,False,True
+https://openalex.org/I4210105678,Microsoft (Finland),Finland,1,1,1312,1312,139215,139215,0,1,True,False
+https://openalex.org/I180857899,Pfizer (United States),United States,1,1,42948,42948,7142416,7142416,18,0,False,True
+https://openalex.org/I4391768012,State Key Laboratory of Information Security,China,1,1,441,441,12003,12003,0,2,True,False
+https://openalex.org/I63772739,Florida Atlantic University,United States,1,1,38524,38524,1583806,1583806,1,1,True,True
+https://openalex.org/I64852412,Sichuan University of Science and Engineering,China,1,1,11974,11974,294377,294377,0,0,False,False
+https://openalex.org/I4210163147,Traffic Management Research Institute,China,1,1,804,804,6734,6734,0,1,True,False
+https://openalex.org/I4387155047,"Hospital of Stomatology, Sun Yat-sen University",China,1,1,1179,1179,108093,108093,0,0,False,False
+https://openalex.org/I88081825,Empire State University,United States,1,1,1673,1673,20324,20324,0,1,True,False
+https://openalex.org/I4210138151,Jilin Electric Power Research Institute (China),China,1,1,2032,2032,14527,14527,0,0,False,False
+https://openalex.org/I4210127816,San’an Optoelectronics (China),China,1,1,1602,1602,37989,37989,0,0,False,False
+https://openalex.org/I115592961,Jiangsu University,China,1,1,92438,92438,6618048,6618048,0,0,False,False
+https://openalex.org/I4210162715,Googol Technology (China),China,1,1,112,112,1276,1276,0,0,False,False
+https://openalex.org/I4210137793,Tianjin Meteorological Bureau,China,1,1,1332,1332,29247,29247,0,1,True,False
+https://openalex.org/I68986083,Northwest Normal University,China,1,1,27648,27648,1148028,1148028,0,0,False,False
+https://openalex.org/I43439940,University of Southampton,United Kingdom,1,1,179172,179172,12332040,12332040,4,0,False,True
+https://openalex.org/I25757504,China University of Mining and Technology,China,1,1,87539,87539,4209457,4209457,2,0,False,True
+https://openalex.org/I4210093413,Advanced Science and Automation (United States),United States,1,1,116,116,1643,1643,0,0,False,False
+https://openalex.org/I4210099336,Menlo School,United States,1,1,20201,20201,1937934,1937934,0,0,False,False
+https://openalex.org/I4210114115,IBM Research - Thomas J. Watson Research Center,United States,1,1,35195,35195,4653548,4653548,11,1,True,True
+https://openalex.org/I4210152047,PDL BioPharma (United States),United States,1,1,771,771,200737,200737,0,0,False,False
+https://openalex.org/I154099455,Shandong University,China,1,1,191854,191854,13685579,13685579,2,0,False,True
+https://openalex.org/I4210160344,Tongji Hospital,China,1,1,45304,45304,3954544,3954544,0,0,False,False
+https://openalex.org/I152743029,Kaohsiung Medical University,Taiwan,1,1,36100,36100,2418217,2418217,0,0,False,False
+https://openalex.org/I154100212,Schlumberger (British Virgin Islands),British Virgin Islands,1,1,15667,15667,466644,466644,0,1,True,False
+https://openalex.org/I143868143,Anhui University,China,1,1,49232,49232,2064015,2064015,0,0,False,False
+https://openalex.org/I24201400,Chengdu University of Information Technology,China,1,1,17569,17569,391996,391996,0,0,False,False
+https://openalex.org/I11406153,Shanghai International Studies University,China,1,1,6553,6553,59948,59948,0,0,False,False
+https://openalex.org/I118292597,National Taipei University of Technology,Taiwan,1,1,25499,25499,1004780,1004780,0,0,False,False
+https://openalex.org/I79619799,University of Birmingham,United Kingdom,1,1,211038,211038,21544860,21544860,3,0,False,True
+https://openalex.org/I308837,Suzhou University of Science and Technology,China,1,1,22547,22547,730264,730264,0,0,False,False
+https://openalex.org/I58956616,Case Western Reserve University,United States,1,1,166946,166946,15832000,15832000,2,0,False,True
+https://openalex.org/I2801561730,Liaoning University of International Business and Economics,China,1,1,1068,1068,4012,4012,0,0,False,False
+https://openalex.org/I4210158179,Yellow River Institute of Hydraulic Research,China,1,1,5842,5842,121755,121755,0,1,True,False
+https://openalex.org/I51556381,University of Virginia,United States,1,1,194375,194375,16473322,16473322,2,0,False,True
+https://openalex.org/I4210166329,Hôpital Broussais,France,1,1,4908,4908,601654,601654,0,0,False,False
+https://openalex.org/I4210105608,ShenZhen People’s Hospital,China,1,1,6945,6945,101324,101324,0,0,False,False
+https://openalex.org/I4210091958,Hanoi Open University,Vietnam,1,1,1835,1835,7669,7669,0,0,False,False
+https://openalex.org/I4210147155,Pediatrics and Genetics,United States,1,1,21318,21318,2588198,2588198,0,0,False,False
+https://openalex.org/I148283060,Lawrence Berkeley National Laboratory,United States,1,1,144507,144507,28447731,28447731,8,2,True,True
+https://openalex.org/I4210123095,Institute of Materials Research and Engineering,Singapore,1,1,11423,11423,1442019,1442019,0,1,True,False
+https://openalex.org/I4210150714,Johns Hopkins Hospital,United States,1,1,33871,33871,3125966,3125966,0,1,True,False
+https://openalex.org/I163340411,Hohai University,China,1,1,70352,70352,2635151,2635151,1,0,False,True
+https://openalex.org/I4399598474,China University of Mining and Technology - Beijing,China,1,1,461,461,15463,15463,0,0,False,False
+https://openalex.org/I90267481,Umeå University,Sweden,1,1,82190,82190,7112867,7112867,3,0,False,True
+https://openalex.org/I4210117763,Xinqiao Hospital,China,1,1,9668,9668,669435,669435,0,0,False,False
+https://openalex.org/I132586189,Zhongyuan University of Technology,China,1,1,10240,10240,219851,219851,0,0,False,False
+https://openalex.org/I145935303,Ling Tung University,Taiwan,1,1,4233,4233,36317,36317,0,0,False,False
+https://openalex.org/I922474255,Tokushima University,Japan,1,1,46684,46684,3013695,3013695,0,0,False,False
+https://openalex.org/I78715868,University of Arkansas at Fayetteville,United States,1,1,53720,53720,2703731,2703731,0,1,True,False
+https://openalex.org/I2803004286,Taipei Veterans General Hospital,Taiwan,1,1,34376,34376,2775207,2775207,0,0,False,False
+https://openalex.org/I36234482,University of Bristol,United Kingdom,1,1,207167,207167,20080252,20080252,5,0,False,True
+https://openalex.org/I165799507,Rensselaer Polytechnic Institute,United States,1,1,61845,61845,3965871,3965871,0,0,False,False
+https://openalex.org/I184681353,Anhui University of Science and Technology,China,1,1,26038,26038,711423,711423,0,0,False,False
+https://openalex.org/I4210160447,Universidad de Londres,Mexico,1,1,34501,34501,823249,823249,0,0,False,False
+https://openalex.org/I204823248,Huazhong Agricultural University,China,1,1,59026,59026,6148457,6148457,2,0,False,True
+https://openalex.org/I4210119987,Qingdao Municipal Hospital,China,1,1,9312,9312,405307,405307,0,0,False,False
+https://openalex.org/I149137203,Guiyang Medical University,China,1,1,17187,17187,575670,575670,0,0,False,False
+https://openalex.org/I166337079,Queen Mary University of London,United Kingdom,1,1,129810,129810,12600328,12600328,2,1,True,True
+https://openalex.org/I72816309,Drexel University,United States,1,1,81392,81392,5652042,5652042,0,0,False,False
+https://openalex.org/I74054363,Linfield College,United States,1,1,1365,1365,32398,32398,0,0,False,False
+https://openalex.org/I4210157650,Colección Ornitológica Phelps,Venezuela,1,1,139,139,9479,9479,0,0,False,False
+https://openalex.org/I18014758,Simon Fraser University,Canada,1,1,86064,86064,5883986,5883986,4,0,False,True
+https://openalex.org/I138006243,University of Arizona,United States,1,1,250600,250600,21364494,21364494,4,1,True,True
+https://openalex.org/I1343180700,Intel (United States),United States,1,1,33439,33439,2680292,2680292,10,0,False,True
+https://openalex.org/I161318765,"University of California, Los Angeles",United States,1,1,400466,400466,48871630,48871630,3,1,True,True
+https://openalex.org/I86987016,KTH Royal Institute of Technology,Sweden,1,1,113578,113578,7877072,7877072,3,0,False,True
+https://openalex.org/I18452120,Yantai University,China,1,1,23106,23106,837739,837739,0,0,False,False
+https://openalex.org/I158842170,Chongqing University,China,1,1,134399,134399,7653157,7653157,3,0,False,True
+https://openalex.org/I4210118317,81th Hospital of PLA,China,1,1,2742,2742,104298,104298,0,0,False,False
+https://openalex.org/I4210089040,Beijing Institute of Optoelectronic Technology,China,1,1,2674,2674,119941,119941,1,0,False,True
+https://openalex.org/I55769427,Indiana University – Purdue University Indianapolis,United States,1,1,139115,139115,12534967,12534967,0,2,True,False
+https://openalex.org/I4210134904,British Nuclear Fuel Limited (United Kingdom),United Kingdom,1,1,1108,1108,34229,34229,0,0,False,False

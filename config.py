@@ -1,7 +1,7 @@
 import os
 
 # 🔹 Change this one line to set the base folder
-base_folder = "DeepMind"
+base_folder = "Alibaba"
 
 input_folder = os.path.join(base_folder, "JSONs")
 output_folder = os.path.join(base_folder, "CSVs")
@@ -28,13 +28,23 @@ if __name__ == "__main__":
         "step11_visualizations.py",
     ]
 
+    # Root directory (where config.py lives)
+    root_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Add root to PYTHONPATH so scripts in /scripts can still do
+    # "from config import base_folder"
+    env = os.environ.copy()
+    env["PYTHONPATH"] = root_dir + os.pathsep + env.get("PYTHONPATH", "")
+
     for i, script in enumerate(steps, 1):
+        script_path = os.path.join("_scripts", script)
+
         print(f"\n{'='*60}")
         print(f"Running step {i}/11: {script}")
         print(f"{'='*60}\n")
 
         start = time.time()
-        result = subprocess.run([sys.executable, script])
+        result = subprocess.run([sys.executable, script_path], env=env)
         elapsed = time.time() - start
 
         if result.returncode != 0:

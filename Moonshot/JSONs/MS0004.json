@@ -1,0 +1,1542 @@
+{
+  "id": "https://openalex.org/W7103188877",
+  "doi": "https://doi.org/10.48550/arxiv.2510.26692",
+  "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+  "display_name": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+  "publication_year": 2025,
+  "publication_date": "2025-10-30",
+  "ids": {
+    "openalex": "https://openalex.org/W7103188877",
+    "doi": "https://doi.org/10.48550/arxiv.2510.26692"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.48550/arxiv.2510.26692",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.48550/arxiv.2510.26692",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.48550/arxiv.2510.26692",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": null,
+        "display_name": "Kimi Team",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Kimi Team",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhang, Yu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Yu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Lin, Zongyu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lin, Zongyu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yao, Xingcheng",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yao, Xingcheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Hu, Jiaxi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hu, Jiaxi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Meng, Fanqing",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Meng, Fanqing",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Liu, Chengyin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Chengyin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Men, Xin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Men, Xin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yang, Songlin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Songlin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Li, Zhiyuan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Zhiyuan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Li, Wentao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Wentao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Lu, Enzhe",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lu, Enzhe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Liu, Weizhou",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Weizhou",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Chen, Yanru",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Yanru",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Xu, Weixin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xu, Weixin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yu, Longhui",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yu, Longhui",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Yejie",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Yejie",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Fan, Yu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fan, Yu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhong, Longguang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhong, Longguang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yuan, Enming",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yuan, Enming",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhang, Dehao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Dehao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhang, Yizhi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Yizhi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Liu, T. Y.",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, T. Y.",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Haiming",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Haiming",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Fang, Shengjun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fang, Shengjun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "He, Weiran",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "He, Weiran",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Liu, Shaowei",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Shaowei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Li, Yiwei",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Yiwei",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Su, Jianlin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Su, Jianlin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Qiu, Jiezhong",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiu, Jiezhong",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Pang, Bo",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Pang, Bo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yan, Junjie",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yan, Junjie",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Jiang, Zhejun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jiang, Zhejun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Huang, Weixiao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Huang, Weixiao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yin, Bohong",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yin, Bohong",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "You, Jiacheng",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "You, Jiacheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wei, Chu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wei, Chu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Zhengtao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Zhengtao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Hong, Chao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hong, Chao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Chen, Yutian",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Yutian",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Chen, Guanduo",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Guanduo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Yucheng",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Yucheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zheng, Huabin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zheng, Huabin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Feng",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Feng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Liu, Yibo",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Yibo",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Dong, Mengnan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dong, Mengnan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhang, Zheng",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Zheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Pan, Siyuan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Pan, Siyuan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wu, Wenhao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Wenhao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wu, Yuhao",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Yuhao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Guan, Longyu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Guan, Longyu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Tao, Jiawen",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tao, Jiawen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Fu, Guohong",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Fu, Guohong",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Xu, Xinran",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xu, Xinran",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wang, Yuzhi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Yuzhi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Lai, Guokun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lai, Guokun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Wu, Yuxin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Yuxin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Zhou, Xinyu",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhou, Xinyu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Yang, Zhilin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Zhilin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Du, Yulun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Du, Yulun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 60,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": true,
+  "primary_topic": {
+    "id": "https://openalex.org/T10036",
+    "display_name": "Advanced Neural Network Applications",
+    "score": 0.494700014591217,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10036",
+      "display_name": "Advanced Neural Network Applications",
+      "score": 0.494700014591217,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11307",
+      "display_name": "Domain Adaptation and Few-Shot Learning",
+      "score": 0.116899996995926,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11714",
+      "display_name": "Multimodal Machine Learning Applications",
+      "score": 0.0766000002622604,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/throughput",
+      "display_name": "Throughput",
+      "score": 0.58490002155304
+    },
+    {
+      "id": "https://openalex.org/keywords/kernel",
+      "display_name": "Kernel (algebra)",
+      "score": 0.533599972724915
+    },
+    {
+      "id": "https://openalex.org/keywords/margin",
+      "display_name": "Margin (machine learning)",
+      "score": 0.515900015830994
+    },
+    {
+      "id": "https://openalex.org/keywords/cache",
+      "display_name": "Cache",
+      "score": 0.511600017547607
+    },
+    {
+      "id": "https://openalex.org/keywords/decoding-methods",
+      "display_name": "Decoding methods",
+      "score": 0.502900004386902
+    },
+    {
+      "id": "https://openalex.org/keywords/bespoke",
+      "display_name": "Bespoke",
+      "score": 0.477200001478195
+    },
+    {
+      "id": "https://openalex.org/keywords/encoding",
+      "display_name": "Encoding (memory)",
+      "score": 0.40939998626709
+    },
+    {
+      "id": "https://openalex.org/keywords/computation",
+      "display_name": "Computation",
+      "score": 0.391200006008148
+    },
+    {
+      "id": "https://openalex.org/keywords/task",
+      "display_name": "Task (project management)",
+      "score": 0.332899987697601
+    },
+    {
+      "id": "https://openalex.org/keywords/production",
+      "display_name": "Production (economics)",
+      "score": 0.329499989748001
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.736500024795532
+    },
+    {
+      "id": "https://openalex.org/C157764524",
+      "wikidata": "https://www.wikidata.org/wiki/Q1383412",
+      "display_name": "Throughput",
+      "level": 3,
+      "score": 0.58490002155304
+    },
+    {
+      "id": "https://openalex.org/C74193536",
+      "wikidata": "https://www.wikidata.org/wiki/Q574844",
+      "display_name": "Kernel (algebra)",
+      "level": 2,
+      "score": 0.533599972724915
+    },
+    {
+      "id": "https://openalex.org/C774472",
+      "wikidata": "https://www.wikidata.org/wiki/Q6760393",
+      "display_name": "Margin (machine learning)",
+      "level": 2,
+      "score": 0.515900015830994
+    },
+    {
+      "id": "https://openalex.org/C115537543",
+      "wikidata": "https://www.wikidata.org/wiki/Q165596",
+      "display_name": "Cache",
+      "level": 2,
+      "score": 0.511600017547607
+    },
+    {
+      "id": "https://openalex.org/C57273362",
+      "wikidata": "https://www.wikidata.org/wiki/Q576722",
+      "display_name": "Decoding methods",
+      "level": 2,
+      "score": 0.502900004386902
+    },
+    {
+      "id": "https://openalex.org/C44210515",
+      "wikidata": "https://www.wikidata.org/wiki/Q16968978",
+      "display_name": "Bespoke",
+      "level": 2,
+      "score": 0.477200001478195
+    },
+    {
+      "id": "https://openalex.org/C125411270",
+      "wikidata": "https://www.wikidata.org/wiki/Q18653",
+      "display_name": "Encoding (memory)",
+      "level": 2,
+      "score": 0.40939998626709
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.394300013780594
+    },
+    {
+      "id": "https://openalex.org/C45374587",
+      "wikidata": "https://www.wikidata.org/wiki/Q12525525",
+      "display_name": "Computation",
+      "level": 2,
+      "score": 0.391200006008148
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.364199995994568
+    },
+    {
+      "id": "https://openalex.org/C173608175",
+      "wikidata": "https://www.wikidata.org/wiki/Q232661",
+      "display_name": "Parallel computing",
+      "level": 1,
+      "score": 0.345200002193451
+    },
+    {
+      "id": "https://openalex.org/C2780451532",
+      "wikidata": "https://www.wikidata.org/wiki/Q759676",
+      "display_name": "Task (project management)",
+      "level": 2,
+      "score": 0.332899987697601
+    },
+    {
+      "id": "https://openalex.org/C2778348673",
+      "wikidata": "https://www.wikidata.org/wiki/Q739302",
+      "display_name": "Production (economics)",
+      "level": 2,
+      "score": 0.329499989748001
+    },
+    {
+      "id": "https://openalex.org/C80444323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+      "display_name": "Theoretical computer science",
+      "level": 1,
+      "score": 0.31920000910759
+    },
+    {
+      "id": "https://openalex.org/C111335779",
+      "wikidata": "https://www.wikidata.org/wiki/Q3454686",
+      "display_name": "Reduction (mathematics)",
+      "level": 2,
+      "score": 0.318399995565414
+    },
+    {
+      "id": "https://openalex.org/C194544171",
+      "wikidata": "https://www.wikidata.org/wiki/Q21105679",
+      "display_name": "Gating",
+      "level": 2,
+      "score": 0.318300008773804
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.316700011491776
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.309199988842011
+    },
+    {
+      "id": "https://openalex.org/C113775141",
+      "wikidata": "https://www.wikidata.org/wiki/Q428691",
+      "display_name": "Computer engineering",
+      "level": 1,
+      "score": 0.308499991893768
+    },
+    {
+      "id": "https://openalex.org/C79403827",
+      "wikidata": "https://www.wikidata.org/wiki/Q3988",
+      "display_name": "Real-time computing",
+      "level": 1,
+      "score": 0.29789999127388
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.296200007200241
+    },
+    {
+      "id": "https://openalex.org/C99844830",
+      "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+      "display_name": "Scaling",
+      "level": 2,
+      "score": 0.296200007200241
+    },
+    {
+      "id": "https://openalex.org/C175154964",
+      "wikidata": "https://www.wikidata.org/wiki/Q380077",
+      "display_name": "Task analysis",
+      "level": 3,
+      "score": 0.284999996423721
+    },
+    {
+      "id": "https://openalex.org/C114275822",
+      "wikidata": "https://www.wikidata.org/wiki/Q621512",
+      "display_name": "Linear dynamical system",
+      "level": 3,
+      "score": 0.284799993038178
+    },
+    {
+      "id": "https://openalex.org/C196697905",
+      "wikidata": "https://www.wikidata.org/wiki/Q2042052",
+      "display_name": "Input/output",
+      "level": 2,
+      "score": 0.284099996089935
+    },
+    {
+      "id": "https://openalex.org/C127162648",
+      "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+      "display_name": "Channel (broadcasting)",
+      "level": 2,
+      "score": 0.283399999141693
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.28150001168251
+    },
+    {
+      "id": "https://openalex.org/C163175372",
+      "wikidata": "https://www.wikidata.org/wiki/Q3339222",
+      "display_name": "Linear model",
+      "level": 2,
+      "score": 0.276399999856949
+    },
+    {
+      "id": "https://openalex.org/C2776502983",
+      "wikidata": "https://www.wikidata.org/wiki/Q690182",
+      "display_name": "Contrast (vision)",
+      "level": 2,
+      "score": 0.271899998188019
+    },
+    {
+      "id": "https://openalex.org/C49766605",
+      "wikidata": "https://www.wikidata.org/wiki/Q207643",
+      "display_name": "Linear map",
+      "level": 2,
+      "score": 0.270900011062622
+    },
+    {
+      "id": "https://openalex.org/C2776760102",
+      "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+      "display_name": "Code (set theory)",
+      "level": 3,
+      "score": 0.270599991083145
+    },
+    {
+      "id": "https://openalex.org/C177148314",
+      "wikidata": "https://www.wikidata.org/wiki/Q170084",
+      "display_name": "Generalization",
+      "level": 2,
+      "score": 0.266499996185303
+    },
+    {
+      "id": "https://openalex.org/C98045186",
+      "wikidata": "https://www.wikidata.org/wiki/Q205663",
+      "display_name": "Process (computing)",
+      "level": 2,
+      "score": 0.266200006008148
+    },
+    {
+      "id": "https://openalex.org/C135598885",
+      "wikidata": "https://www.wikidata.org/wiki/Q1366302",
+      "display_name": "Row",
+      "level": 2,
+      "score": 0.261400014162064
+    },
+    {
+      "id": "https://openalex.org/C2778112365",
+      "wikidata": "https://www.wikidata.org/wiki/Q3511065",
+      "display_name": "Sequence (biology)",
+      "level": 2,
+      "score": 0.257200002670288
+    },
+    {
+      "id": "https://openalex.org/C2164484",
+      "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+      "display_name": "Core (optical fiber)",
+      "level": 2,
+      "score": 0.256999999284744
+    },
+    {
+      "id": "https://openalex.org/C48921125",
+      "wikidata": "https://www.wikidata.org/wiki/Q10861030",
+      "display_name": "Linear regression",
+      "level": 2,
+      "score": 0.253600001335144
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.48550/arxiv.2510.26692",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2510.26692",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.48550/arxiv.2510.26692",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.48550/arxiv.2510.26692",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "We": [0, 101],
+    "introduce": [1],
+    "Kimi": [2, 37, 104, 136, 174],
+    "Linear,": [3],
+    "a": [4, 51, 73, 103, 117, 142, 167, 178],
+    "hybrid": [5, 119],
+    "linear": [6, 43],
+    "attention": [7, 16, 44, 183],
+    "architecture": [8],
+    "that,": [9],
+    "for": [10, 166, 181],
+    "the": [11, 77, 88, 97, 204, 212],
+    "first": [12],
+    "time,": [13],
+    "outperforms": [14, 138],
+    "full": [15, 139, 182],
+    "under": [17],
+    "fair": [18],
+    "comparisons": [19],
+    "across": [20, 145],
+    "various": [21],
+    "scenarios": [22],
+    "--": [23],
+    "including": [24, 190],
+    "short-context,": [25],
+    "long-context,": [26],
+    "and": [27, 111, 122, 158, 188, 195, 207, 210, 214],
+    "reinforcement": [28],
+    "learning": [29],
+    "(RL)": [30],
+    "scaling": [31],
+    "regimes.": [32],
+    "At": [33],
+    "its": [34],
+    "core": [35],
+    "lies": [36],
+    "Delta": [38],
+    "Attention": [39, 125],
+    "(KDA),": [40],
+    "an": [41, 132],
+    "expressive": [42],
+    "module": [45],
+    "that": [46, 130, 173],
+    "extends": [47],
+    "Gated": [48],
+    "DeltaNet": [49],
+    "with": [50, 96, 107, 131, 141, 185, 192],
+    "finer-grained": [52],
+    "gating": [53],
+    "mechanism,": [54],
+    "enabling": [55],
+    "more": [56, 94],
+    "effective": [57],
+    "use": [58],
+    "of": [59, 76, 120],
+    "limited": [60],
+    "finite-state": [61],
+    "RNN": [62],
+    "memory.": [63],
+    "Our": [64, 127],
+    "bespoke": [65],
+    "chunkwise": [66],
+    "algorithm": [67],
+    "achieves": [68],
+    "high": [69],
+    "hardware": [70],
+    "efficiency": [71],
+    "through": [72],
+    "specialized": [74],
+    "variant": [75],
+    "Diagonal-Plus-Low-Rank": [78],
+    "(DPLR)": [79],
+    "transition": [80],
+    "matrices,": [81],
+    "which": [82],
+    "substantially": [83],
+    "reduces": [84],
+    "computation": [85],
+    "compared": [86],
+    "to": [87, 156, 161],
+    "general": [89],
+    "DPLR": [90],
+    "formulation": [91],
+    "while": [92, 149],
+    "remaining": [93],
+    "consistent": [95],
+    "classical": [98],
+    "delta": [99],
+    "rule.": [100],
+    "pretrain": [102],
+    "Linear": [105, 137, 175],
+    "model": [106, 216],
+    "3B": [108],
+    "activated": [109],
+    "parameters": [110],
+    "48B": [112],
+    "total": [113],
+    "parameters,": [114],
+    "based": [115],
+    "on": [116],
+    "layerwise": [118],
+    "KDA": [121, 205],
+    "Multi-Head": [123],
+    "Latent": [124],
+    "(MLA).": [126],
+    "experiments": [128],
+    "show": [129],
+    "identical": [133],
+    "training": [134],
+    "recipe,": [135],
+    "MLA": [140],
+    "sizeable": [143],
+    "margin": [144],
+    "all": [146],
+    "evaluated": [147],
+    "tasks,": [148],
+    "reducing": [150],
+    "KV": [151],
+    "cache": [152],
+    "usage": [153],
+    "by": [154],
+    "up": [155, 160],
+    "75%": [157],
+    "achieving": [159],
+    "6": [162],
+    "times": [163],
+    "decoding": [164],
+    "throughput": [165],
+    "1M": [168],
+    "context.": [169],
+    "These": [170],
+    "results": [171],
+    "demonstrate": [172],
+    "can": [176],
+    "be": [177],
+    "drop-in": [179],
+    "replacement": [180],
+    "architectures": [184],
+    "superior": [186],
+    "performance": [187],
+    "efficiency,": [189],
+    "tasks": [191],
+    "longer": [193],
+    "input": [194],
+    "output": [196],
+    "lengths.": [197],
+    "To": [198],
+    "support": [199],
+    "further": [200],
+    "research,": [201],
+    "we": [202],
+    "open-source": [203],
+    "kernel": [206],
+    "vLLM": [208],
+    "implementations,": [209],
+    "release": [211],
+    "pre-trained": [213],
+    "instruction-tuned": [215],
+    "checkpoints.": [217]
+  },
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T06:51:31.235846",
+  "created_date": "2025-11-01T00:00:00"
+}
