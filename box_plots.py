@@ -24,25 +24,43 @@ if not files:
 
 print(f"Found {len(files)} company tables:")
 
+# Mapping from raw filename prefix to display name with country prefix
+company_rename = {
+    "Alibaba": "cn_Alibaba",
+    "Anthropic": "us_Anthropic",
+    "DeepMind": "us_DeepMind",
+    "DeepSeek": "cn_DeepSeek",
+    "Moonshot": "cn_Moonshot",
+    "OpenAI": "us_OpenAI",
+}
+
 company_data = {}
 for f in files:
     basename = os.path.basename(f)
-    company_name = basename.replace("_descriptive_statistics.csv", "")
-    company_data[company_name] = pd.read_csv(f)
-    print(f"  {company_name}: {basename}")
+    raw_name = basename.replace("_descriptive_statistics.csv", "")
+    display_name = company_rename.get(raw_name, raw_name)
+    company_data[display_name] = pd.read_csv(f)
+    print(f"  {display_name}: {basename}")
 
-companies = list(company_data.keys())
+# Sort alphabetically so cn_ companies group together, then us_
+companies = sorted(company_data.keys())
 
-# Two-tone color pairs: (lighter left, darker right) matching the reference
-color_pairs = [
-    ("#5B9BD5", "#2E75B6"),  # blue (DeepMind-like)
-    ("#F4A942", "#E07B15"),  # orange (Anthropic-like)
-    ("#6BC76B", "#2D8E2D"),  # green (Deepseek-like)
-    ("#E06B54", "#B22222"),  # red (OpenAI-like)
-    ("#B07DDB", "#7A4DA8"),  # purple
-    ("#55C4C4", "#228E8E"),  # teal
-    ("#E0A555", "#A87222"),  # gold
-    ("#DB7DBF", "#A84D8E"),  # pink
+# Color mapping: consistent colors by display name
+company_colors = {
+    "cn_Alibaba":   ("#E06B54", "#B22222"),  # red
+    "cn_DeepSeek":  ("#6BC76B", "#2D8E2D"),  # green
+    "cn_Moonshot":  ("#E0A555", "#A87222"),  # gold
+    "us_Anthropic": ("#F4A942", "#E07B15"),  # orange
+    "us_DeepMind":  ("#5B9BD5", "#2E75B6"),  # blue
+    "us_OpenAI":    ("#B07DDB", "#7A4DA8"),  # purple
+}
+
+# Fallback palette for any unlisted company
+fallback_pairs = [
+    ("#55C4C4", "#228E8E"),
+    ("#DB7DBF", "#A84D8E"),
+    ("#8FBC8F", "#5F8F5F"),
+    ("#CD853F", "#8B5A2B"),
 ]
 
 numeric_vars = [
@@ -64,6 +82,12 @@ boolean_vars = [
 ]
 
 
+def get_colors(company_name, fallback_idx):
+    if company_name in company_colors:
+        return company_colors[company_name]
+    return fallback_pairs[fallback_idx % len(fallback_pairs)]
+
+
 def draw_horizontal_box(ax, y_pos, stats, color_light, color_dark, height=0.45):
     q1 = stats["25th_percentile"]
     median = stats["median_50th"]
@@ -80,48 +104,39 @@ def draw_horizontal_box(ax, y_pos, stats, color_light, color_dark, height=0.45):
     vmax = max(vmax, floor)
     mean = max(mean, floor)
 
-    # Left box: q1 to median
     left_box = mpatches.Rectangle(
         (q1, y_pos - height / 2), median - q1, height,
         facecolor=color_light, edgecolor="black", linewidth=0.8,
     )
     ax.add_patch(left_box)
 
-    # Right box: median to q3
     right_box = mpatches.Rectangle(
         (median, y_pos - height / 2), q3 - median, height,
         facecolor=color_dark, edgecolor="black", linewidth=0.8,
     )
     ax.add_patch(right_box)
 
-    # Median line
     ax.plot([median, median], [y_pos - height / 2, y_pos + height / 2],
             color="black", linewidth=1.8, zorder=3)
 
-    # Mean dot
     ax.plot(mean, y_pos, marker="o", color="black", markersize=4.5, zorder=4)
 
-    # Whiskers (no caps)
     ax.plot([vmin, q1], [y_pos, y_pos], color="black", linewidth=0.8)
     ax.plot([q3, vmax], [y_pos, y_pos], color="black", linewidth=0.8)
 
 
 def style_axes(ax):
-    """Apply the reference image styling."""
     ax.set_facecolor("#EAEAF2")
     ax.figure.set_facecolor("white")
 
-    # White grid lines on x only
     ax.grid(axis="x", color="white", linewidth=0.8, which="major", zorder=0)
     ax.grid(axis="x", color="white", linewidth=0.4, which="minor", zorder=0)
     ax.grid(axis="y", visible=False)
 
-    # Spines: all visible but light gray
     for spine in ax.spines.values():
         spine.set_color("#CCCCCC")
         spine.set_linewidth(0.6)
 
-    # Tick styling
     ax.tick_params(axis="both", which="both", length=0)
     ax.tick_params(axis="x", labelsize=8, labelcolor="#555555")
     ax.tick_params(axis="y", labelsize=9, labelcolor="#333333")
@@ -136,6 +151,7 @@ for var in numeric_vars:
     y_positions = []
     y_labels = []
     plotted = False
+    fallback_idx = 0
 
     for i, company in enumerate(companies):
         df = company_data[company]
@@ -148,7 +164,9 @@ for var in numeric_vars:
 
         n = int(stats["count"])
         y_pos = n_companies - i
-        cl, cd = color_pairs[i % len(color_pairs)]
+        cl, cd = get_colors(company, fallback_idx)
+        if company not in company_colors:
+            fallback_idx += 1
         draw_horizontal_box(ax, y_pos, stats, cl, cd)
         y_positions.append(y_pos)
         y_labels.append(f"{company} (n={n})")
@@ -186,6 +204,7 @@ for var in boolean_vars:
     y_labels = []
     vals = []
     bar_colors = []
+    fallback_idx = 0
 
     for i, company in enumerate(companies):
         df = company_data[company]
@@ -200,7 +219,9 @@ for var in boolean_vars:
         y_positions.append(y_pos)
         y_labels.append(f"{company} (n={n})")
         vals.append(pct)
-        cl, _ = color_pairs[i % len(color_pairs)]
+        cl, _ = get_colors(company, fallback_idx)
+        if company not in company_colors:
+            fallback_idx += 1
         bar_colors.append(cl)
 
     if not vals:

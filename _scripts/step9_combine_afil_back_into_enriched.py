@@ -73,27 +73,47 @@ country_cols = [f"affiliation_country_{y}" for y in years if f"affiliation_count
 name_cols = [f"affiliation_display_name_{y}" for y in years if f"affiliation_display_name_{y}" in df.columns]
 
 # --------------------------------------------------
+# NORMALIZE EMPTY STRINGS TO NaN
+# (step8 writes '' for missing affiliations; standardize to NaN)
+# --------------------------------------------------
+
+df[id_cols] = df[id_cols].replace('', pd.NA)
+df[country_cols] = df[country_cols].replace('', pd.NA)
+df[name_cols] = df[name_cols].replace('', pd.NA)
+
+# --------------------------------------------------
 # FAST ANALYTICS
 # --------------------------------------------------
 
 df["affiliation_data"] = df[id_cols].notna().any(axis=1)
 
-df["unique_affiliation_count"] = df[id_cols].nunique(axis=1)
+# Count unique non-NaN values only
+df["unique_affiliation_count"] = df[id_cols].apply(
+    lambda row: row.dropna().nunique(), axis=1
+)
 
-df["unique_country_count"] = df[country_cols].nunique(axis=1)
+df["unique_country_count"] = df[country_cols].apply(
+    lambda row: row.dropna().nunique(), axis=1
+)
 
 df["some_usa"] = (df[country_cols] == "United States").any(axis=1)
-df["all_usa"] = (df[country_cols] == "United States").all(axis=1) & df["affiliation_data"]
-
 df["some_china"] = (df[country_cols] == "China").any(axis=1)
-df["all_china"] = (df[country_cols] == "China").all(axis=1) & df["affiliation_data"]
+
+# FIX: check that all NON-EMPTY country entries are China/USA,
+# not that every year column (including blank years) is China/USA
+country_is_china = df[country_cols] == "China"
+country_is_usa = df[country_cols] == "United States"
+country_is_empty = df[country_cols].isna()
+
+df["all_china"] = (country_is_china | country_is_empty).all(axis=1) & df["affiliation_data"]
+df["all_usa"] = (country_is_usa | country_is_empty).all(axis=1) & df["affiliation_data"]
 
 # --------------------------------------------------
 # ALL COUNTRIES
 # --------------------------------------------------
 
 def combine_countries(row):
-    vals = sorted(set([c for c in row if pd.notna(c)]))
+    vals = sorted(set(str(c).strip() for c in row if pd.notna(c) and str(c).strip()))
     return ", ".join(vals) if vals else None
 
 df["all_countries"] = df[country_cols].apply(combine_countries, axis=1)
@@ -151,4 +171,15 @@ df = df[other_cols + ordered_aff_cols]
 
 df.to_csv(authors_file, index=False)
 
+# --------------------------------------------------
+# VERIFICATION
+# --------------------------------------------------
+
 print("Affiliations merged, analytics rebuilt, columns sorted, and year formatting fixed.")
+print(f"\nVerification:")
+print(f"  Total authors: {len(df)}")
+print(f"  Authors with affiliation data: {df['affiliation_data'].sum()}")
+print(f"  all_china=True: {df['all_china'].sum()}")
+print(f"  all_usa=True: {df['all_usa'].sum()}")
+print(f"  some_china=True: {df['some_china'].sum()}")
+print(f"  some_usa=True: {df['some_usa'].sum()}")
