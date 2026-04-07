@@ -16,12 +16,12 @@ target_vars = [
     "h_index",
     "i10_index",
     "unique_affiliation_count",
+    "unique_country_count",
     "all_china",
+    "all_usa",
     "some_china",
     "some_usa",
-    "all_usa",
     "affiliation_data",
-    "unique_country_count",
 ]
 
 # Keep only columns that actually exist in the data
@@ -38,25 +38,36 @@ boolean_cols = []
 
 for col in present:
     if df[col].dtype in ["bool", "object"]:
-        # Try converting object columns that look boolean
         unique_vals = set(df[col].dropna().unique())
         if unique_vals <= {True, False, "True", "False"}:
             df[col] = df[col].map({"True": True, "False": False, True: True, False: False}).astype(float)
             boolean_cols.append(col)
         else:
-            # Non-numeric, non-boolean — compute count/unique only
             continue
     numeric_cols.append(col)
 
 all_numeric = numeric_cols + boolean_cols
-# deduplicate while preserving order
 all_numeric = list(dict.fromkeys(all_numeric))
+
+# Columns that only make sense when affiliation data was actually present
+affiliation_filtered_cols = {"all_china", "some_china", "some_usa", "all_usa", "unique_affiliation_count", "unique_country_count"}
+
+# Build the affiliation mask once
+if "affiliation_data" in df.columns:
+    affiliation_mask = df["affiliation_data"] == 1.0  # already converted to float above
+else:
+    affiliation_mask = pd.Series(True, index=df.index)
 
 stats_rows = []
 
 for col in present:
-    series = df[col]
     row = {"variable": col}
+
+    # Use filtered series for the country flag columns
+    if col in affiliation_filtered_cols:
+        series = df.loc[affiliation_mask, col]
+    else:
+        series = df[col]
 
     if col in all_numeric:
         s = pd.to_numeric(series, errors="coerce")
@@ -78,7 +89,6 @@ for col in present:
             row["pct_false"] = (1 - s.mean()) * 100
 
     else:
-        # Categorical / string column
         row["count"] = int(series.count())
         row["missing"] = int(series.isna().sum())
         row["unique_values"] = series.nunique()
