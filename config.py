@@ -1,7 +1,7 @@
 import os
 
 # 🔹 Change this one line to set the base folder
-base_folder = "Alibaba"
+base_folder = "OpenAI"
 
 input_folder = os.path.join(base_folder, "JSONs")
 output_folder = os.path.join(base_folder, "CSVs")

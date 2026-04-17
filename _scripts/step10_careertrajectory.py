@@ -42,6 +42,9 @@ def process_author_row(row, year_country_cols):
 
     # Years in US
     years_in_us = sum(1 for _, c in country_sequence if c == "United States")
+    
+    # Years in China
+    years_in_china = sum(1 for _, c in country_sequence if c == "China")
 
     # Simplified trajectory
     simplified = None
@@ -74,6 +77,7 @@ def process_author_row(row, year_country_cols):
         "OA_Profile" : row["OA_Profile"],
         "Geographic Trajectory": full_trajectory,
         "Years in the US": years_in_us,
+        "Years in China": years_in_china,
         "Geographic Trajectory (simplified)": simplified,
         "Geographic Trajectory (even more simplified)": even_more_simplified,
         **year_country_fields
