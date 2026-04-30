@@ -1,8 +1,7 @@
 import os
 
 # 🔹 Change this one line to set the base folder
-base_folder = "OpenAI"
-
+base_folder = "DeepSeek"
 input_folder = os.path.join(base_folder, "JSONs")
 output_folder = os.path.join(base_folder, "CSVs")
 
